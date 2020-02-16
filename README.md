@@ -6,7 +6,7 @@ very much a work in progress
 
 ### TODO:
 
-[] Alerts
+[X] Alerts
 [] Badges
 [] Breadcrumbs
 [] Buttons

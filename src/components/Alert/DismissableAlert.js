@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import cx from 'classnames';
 import styled from 'styled-components';
 import Alert, { AlertDismissIcon } from './index';
 import { tagPropType } from '../../utils/consts';

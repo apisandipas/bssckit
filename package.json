@@ -4,14 +4,27 @@
   "description": "A port of Boostrap to Styled Components 💅",
   "main": "lib/index.js",
   "license": "MIT",
-  "devDependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@storybook/addon-actions": "^5.3.13",
+    "@storybook/addon-links": "^5.3.13",
+    "@storybook/addon-storysource": "^5.3.13",
+    "@storybook/addons": "^5.3.13",
+    "@storybook/react": "^5.3.13",
+    "babel-loader": "^8.0.6"
+  },
   "peerDependencies": {
     "polished": "^3.4.4",
-    "styled-components": "^5.0.1",
-    "styled-tools": "^1.7.1"
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "styled-components": "^5.0.1"
   },
   "scripts": {
-    "build": "babel src --out-dir lib --ignore src/__tests__/"
+    "build": "babel src --out-dir lib --ignore src/**/*.test.js,src/**/*.stories.js",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook -o ./docs"
   },
   "keywords": [
     "bssckit",
@@ -22,5 +35,11 @@
     "react-component",
     "ui",
     "styled-components"
-  ]
+  ],
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react-transition-group": "^4.3.0",
+    "styled-components": "^5.0.1",
+    "styled-tools": "^1.7.1"
+  }
 }

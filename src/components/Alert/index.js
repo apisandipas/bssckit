@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled, { css } from 'styled-components/macro';
+import styled, { css } from 'styled-components';
 import { theme, ifProp } from 'styled-tools';
 import { Div } from '../base';
 export { default as DismissableAlert } from './DismissableAlert';
@@ -94,12 +94,26 @@ const Alert = styled(Div).attrs({
   role: 'alert',
 })`
   position: relative;
-  padding: ${theme('alert.paddingX', '.75rem')} ${theme('alert.paddingY', '1.25rem')};
+  padding: ${theme('alert.paddingX', '0.75rem')} ${theme('alert.paddingY', '1.25rem')};
   margin-bottom: ${theme('alert.marginBottom', '1rem')};
   border: ${theme('alert.borderWidth', theme('globals.borderWidth', '1px'))} solid transparent;
   color: ${theme('alert.text')};
   border-radius: ${theme('alert.borderRadius', theme('globals.borderRadius', '0.25rem'))};
 
+  & > a,
+  & > a:hover {
+
+    font-weight: ${theme('alerts.linkWeight', '700')};
+  }
+
+  & > h1,
+  & > h2,
+  & > h3,
+  & > h4,
+  & > h5,
+  & > h6 {
+    color: ${theme(`colorScheme.${name}Darkest`, 'inherit')};
+  }
 
   ${types.map(({ name, defaultColors: { color, backgroundColor, borderColor } }) => {
     return ifProp(
@@ -112,7 +126,19 @@ const Alert = styled(Div).attrs({
         & > a,
         & > a:hover {
           color: ${theme(`colorScheme.${name}Darkest`, color)};
-          font-weight: ${theme('alerts.linkWeight', '700')};
+        }
+
+        & > h1,
+        & > h2,
+        & > h3,
+        & > h4,
+        & > h5,
+        & > h6 {
+          color: ${theme(`colorScheme.${name}Darkest`, color)};
+        }
+
+        & > hr {
+          border-top-color: ${theme(`colorScheme.${name}Darkest`, color)};
         }
       `
     );
@@ -124,12 +150,14 @@ const Alert = styled(Div).attrs({
       border-radius: 0;
     `
   )}
+
   ${ifProp(
     'pill',
     css`
       border-radius: 10rem;
     `
   )}
+
   ${ifProp(
     'dismissible',
     css`

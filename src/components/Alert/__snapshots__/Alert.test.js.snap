@@ -1,0 +1,492 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Styles matches danger 1`] = `
+.c0 {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  color: rgb(114,28,36);
+  background-color: rgb(248,215,218);
+  border-color: rgb(245,180,187);
+}
+
+.c0 > a,
+.c0 > a:hover {
+  font-weight: 700;
+}
+
+.c0 > h1,
+.c0 > h2,
+.c0 > h3,
+.c0 > h4,
+.c0 > h5,
+.c0 > h6 {
+  color: inherit;
+}
+
+.c0 > a,
+.c0 > a:hover {
+  color: rgb(114,28,36);
+}
+
+.c0 > h1,
+.c0 > h2,
+.c0 > h3,
+.c0 > h4,
+.c0 > h5,
+.c0 > h6 {
+  color: rgb(114,28,36);
+}
+
+.c0 > hr {
+  border-top-color: rgb(114,28,36);
+}
+
+<div
+  className="sc-AxjAm c0"
+  role="alert"
+/>
+`;
+
+exports[`Styles matches dark 1`] = `
+.c0 {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  color: gb(23,26,29);
+  background-color: rgb(214,216,217);
+  border-color: rgb(171,174,177);
+}
+
+.c0 > a,
+.c0 > a:hover {
+  font-weight: 700;
+}
+
+.c0 > h1,
+.c0 > h2,
+.c0 > h3,
+.c0 > h4,
+.c0 > h5,
+.c0 > h6 {
+  color: inherit;
+}
+
+.c0 > a,
+.c0 > a:hover {
+  color: gb(23,26,29);
+}
+
+.c0 > h1,
+.c0 > h2,
+.c0 > h3,
+.c0 > h4,
+.c0 > h5,
+.c0 > h6 {
+  color: gb(23,26,29);
+}
+
+.c0 > hr {
+  border-top-color: gb(23,26,29);
+}
+
+<div
+  className="sc-AxjAm c0"
+  role="alert"
+/>
+`;
+
+exports[`Styles matches info 1`] = `
+.c0 {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  color: rgb(16,112,127);
+  background-color: rgb(209,236,241);
+  border-color: rgb(163,214,222);
+}
+
+.c0 > a,
+.c0 > a:hover {
+  font-weight: 700;
+}
+
+.c0 > h1,
+.c0 > h2,
+.c0 > h3,
+.c0 > h4,
+.c0 > h5,
+.c0 > h6 {
+  color: inherit;
+}
+
+.c0 > a,
+.c0 > a:hover {
+  color: rgb(16,112,127);
+}
+
+.c0 > h1,
+.c0 > h2,
+.c0 > h3,
+.c0 > h4,
+.c0 > h5,
+.c0 > h6 {
+  color: rgb(16,112,127);
+}
+
+.c0 > hr {
+  border-top-color: rgb(16,112,127);
+}
+
+<div
+  className="sc-AxjAm c0"
+  role="alert"
+/>
+`;
+
+exports[`Styles matches light 1`] = `
+.c0 {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  color: rgb(52,58,64);
+  background-color: rgb(254,254,254);
+  border-color: rgb(204,206,207);
+}
+
+.c0 > a,
+.c0 > a:hover {
+  font-weight: 700;
+}
+
+.c0 > h1,
+.c0 > h2,
+.c0 > h3,
+.c0 > h4,
+.c0 > h5,
+.c0 > h6 {
+  color: inherit;
+}
+
+.c0 > a,
+.c0 > a:hover {
+  color: rgb(52,58,64);
+}
+
+.c0 > h1,
+.c0 > h2,
+.c0 > h3,
+.c0 > h4,
+.c0 > h5,
+.c0 > h6 {
+  color: rgb(52,58,64);
+}
+
+.c0 > hr {
+  border-top-color: rgb(52,58,64);
+}
+
+<div
+  className="sc-AxjAm c0"
+  role="alert"
+/>
+`;
+
+exports[`Styles matches noRadius 1`] = `
+.c0 {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  border-radius: 0;
+}
+
+.c0 > a,
+.c0 > a:hover {
+  font-weight: 700;
+}
+
+.c0 > h1,
+.c0 > h2,
+.c0 > h3,
+.c0 > h4,
+.c0 > h5,
+.c0 > h6 {
+  color: inherit;
+}
+
+<div
+  className="sc-AxjAm c0"
+  role="alert"
+/>
+`;
+
+exports[`Styles matches pill 1`] = `
+.c0 {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  border-radius: 10rem;
+}
+
+.c0 > a,
+.c0 > a:hover {
+  font-weight: 700;
+}
+
+.c0 > h1,
+.c0 > h2,
+.c0 > h3,
+.c0 > h4,
+.c0 > h5,
+.c0 > h6 {
+  color: inherit;
+}
+
+<div
+  className="sc-AxjAm c0"
+  role="alert"
+/>
+`;
+
+exports[`Styles matches plain 1`] = `
+.c0 {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+.c0 > a,
+.c0 > a:hover {
+  font-weight: 700;
+}
+
+.c0 > h1,
+.c0 > h2,
+.c0 > h3,
+.c0 > h4,
+.c0 > h5,
+.c0 > h6 {
+  color: inherit;
+}
+
+<div
+  className="sc-AxjAm c0"
+  role="alert"
+>
+  Hello World
+</div>
+`;
+
+exports[`Styles matches primary 1`] = `
+.c0 {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  color: rgb(0,64,133);
+  background-color: rgb(204,229,255);
+  border-color: rgb(156,201,251);
+}
+
+.c0 > a,
+.c0 > a:hover {
+  font-weight: 700;
+}
+
+.c0 > h1,
+.c0 > h2,
+.c0 > h3,
+.c0 > h4,
+.c0 > h5,
+.c0 > h6 {
+  color: inherit;
+}
+
+.c0 > a,
+.c0 > a:hover {
+  color: rgb(0,64,133);
+}
+
+.c0 > h1,
+.c0 > h2,
+.c0 > h3,
+.c0 > h4,
+.c0 > h5,
+.c0 > h6 {
+  color: rgb(0,64,133);
+}
+
+.c0 > hr {
+  border-top-color: rgb(0,64,133);
+}
+
+<div
+  className="sc-AxjAm c0"
+  role="alert"
+/>
+`;
+
+exports[`Styles matches secondary 1`] = `
+.c0 {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  color: rgb(56,61,65);
+  background-color: rgb(226,227,229);
+  border-color: rgb(180,181,183);
+}
+
+.c0 > a,
+.c0 > a:hover {
+  font-weight: 700;
+}
+
+.c0 > h1,
+.c0 > h2,
+.c0 > h3,
+.c0 > h4,
+.c0 > h5,
+.c0 > h6 {
+  color: inherit;
+}
+
+.c0 > a,
+.c0 > a:hover {
+  color: rgb(56,61,65);
+}
+
+.c0 > h1,
+.c0 > h2,
+.c0 > h3,
+.c0 > h4,
+.c0 > h5,
+.c0 > h6 {
+  color: rgb(56,61,65);
+}
+
+.c0 > hr {
+  border-top-color: rgb(56,61,65);
+}
+
+<div
+  className="sc-AxjAm c0"
+  role="alert"
+/>
+`;
+
+exports[`Styles matches success 1`] = `
+.c0 {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  color: rgb(21,87,36);
+  background-color: rgb(212,237,218);
+  border-color: rgb(114,216,137);
+}
+
+.c0 > a,
+.c0 > a:hover {
+  font-weight: 700;
+}
+
+.c0 > h1,
+.c0 > h2,
+.c0 > h3,
+.c0 > h4,
+.c0 > h5,
+.c0 > h6 {
+  color: inherit;
+}
+
+.c0 > a,
+.c0 > a:hover {
+  color: rgb(21,87,36);
+}
+
+.c0 > h1,
+.c0 > h2,
+.c0 > h3,
+.c0 > h4,
+.c0 > h5,
+.c0 > h6 {
+  color: rgb(21,87,36);
+}
+
+.c0 > hr {
+  border-top-color: rgb(21,87,36);
+}
+
+<div
+  className="sc-AxjAm c0"
+  role="alert"
+/>
+`;
+
+exports[`Styles matches warning 1`] = `
+.c0 {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  color: rgb(133,100,4);
+  background-color: rgb(255,243,205);
+  border-color: rgb(243,218,141);
+}
+
+.c0 > a,
+.c0 > a:hover {
+  font-weight: 700;
+}
+
+.c0 > h1,
+.c0 > h2,
+.c0 > h3,
+.c0 > h4,
+.c0 > h5,
+.c0 > h6 {
+  color: inherit;
+}
+
+.c0 > a,
+.c0 > a:hover {
+  color: rgb(133,100,4);
+}
+
+.c0 > h1,
+.c0 > h2,
+.c0 > h3,
+.c0 > h4,
+.c0 > h5,
+.c0 > h6 {
+  color: rgb(133,100,4);
+}
+
+.c0 > hr {
+  border-top-color: rgb(133,100,4);
+}
+
+<div
+  className="sc-AxjAm c0"
+  role="alert"
+/>
+`;

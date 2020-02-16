@@ -1,0 +1,26 @@
+{
+  "name": "bssckit",
+  "version": "0.0.1",
+  "description": "A port of Boostrap to Styled Components 💅",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "devDependencies": {},
+  "peerDependencies": {
+    "polished": "^3.4.4",
+    "styled-components": "^5.0.1",
+    "styled-tools": "^1.7.1"
+  },
+  "scripts": {
+    "build": "babel src --out-dir lib --ignore src/__tests__/"
+  },
+  "keywords": [
+    "bssckit",
+    "bootstrap",
+    "react",
+    "component",
+    "components",
+    "react-component",
+    "ui",
+    "styled-components"
+  ]
+}

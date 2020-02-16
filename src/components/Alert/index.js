@@ -5,6 +5,7 @@ import { theme, ifProp } from 'styled-tools';
 import { Div } from '../base';
 export { default as DismissableAlert } from './DismissableAlert';
 
+//  TODO: refactor this to a common theme file
 const types = [
   {
     name: 'primary',

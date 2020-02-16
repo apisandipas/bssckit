@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Styles matches danger 1`] = `
+exports[`Styles match danger 1`] = `
 .c0 {
   position: relative;
   padding: 0.75rem 1.25rem;
@@ -50,7 +50,7 @@ exports[`Styles matches danger 1`] = `
 />
 `;
 
-exports[`Styles matches dark 1`] = `
+exports[`Styles match dark 1`] = `
 .c0 {
   position: relative;
   padding: 0.75rem 1.25rem;
@@ -100,7 +100,7 @@ exports[`Styles matches dark 1`] = `
 />
 `;
 
-exports[`Styles matches info 1`] = `
+exports[`Styles match info 1`] = `
 .c0 {
   position: relative;
   padding: 0.75rem 1.25rem;
@@ -150,7 +150,7 @@ exports[`Styles matches info 1`] = `
 />
 `;
 
-exports[`Styles matches light 1`] = `
+exports[`Styles match light 1`] = `
 .c0 {
   position: relative;
   padding: 0.75rem 1.25rem;
@@ -200,7 +200,7 @@ exports[`Styles matches light 1`] = `
 />
 `;
 
-exports[`Styles matches noRadius 1`] = `
+exports[`Styles match noRadius 1`] = `
 .c0 {
   position: relative;
   padding: 0.75rem 1.25rem;
@@ -230,7 +230,7 @@ exports[`Styles matches noRadius 1`] = `
 />
 `;
 
-exports[`Styles matches pill 1`] = `
+exports[`Styles match pill 1`] = `
 .c0 {
   position: relative;
   padding: 0.75rem 1.25rem;
@@ -260,7 +260,7 @@ exports[`Styles matches pill 1`] = `
 />
 `;
 
-exports[`Styles matches plain 1`] = `
+exports[`Styles match plain 1`] = `
 .c0 {
   position: relative;
   padding: 0.75rem 1.25rem;
@@ -291,7 +291,7 @@ exports[`Styles matches plain 1`] = `
 </div>
 `;
 
-exports[`Styles matches primary 1`] = `
+exports[`Styles match primary 1`] = `
 .c0 {
   position: relative;
   padding: 0.75rem 1.25rem;
@@ -341,7 +341,7 @@ exports[`Styles matches primary 1`] = `
 />
 `;
 
-exports[`Styles matches secondary 1`] = `
+exports[`Styles match secondary 1`] = `
 .c0 {
   position: relative;
   padding: 0.75rem 1.25rem;
@@ -391,7 +391,7 @@ exports[`Styles matches secondary 1`] = `
 />
 `;
 
-exports[`Styles matches success 1`] = `
+exports[`Styles match success 1`] = `
 .c0 {
   position: relative;
   padding: 0.75rem 1.25rem;
@@ -441,7 +441,7 @@ exports[`Styles matches success 1`] = `
 />
 `;
 
-exports[`Styles matches warning 1`] = `
+exports[`Styles match warning 1`] = `
 .c0 {
   position: relative;
   padding: 0.75rem 1.25rem;

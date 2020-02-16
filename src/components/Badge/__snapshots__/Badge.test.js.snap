@@ -1,0 +1,280 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Styles match plain 1`] = `
+.c0 {
+  display: inline-block;
+  padding: 0.25rem 0.4rem;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+}
+
+.c0 > a {
+  color: white;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.c0:empty {
+  display: none;
+}
+
+<span
+  className="sc-AxirZ c0"
+/>
+`;
+
+exports[`Styles matches danger 1`] = `
+.c0 {
+  display: inline-block;
+  padding: 0.25rem 0.4rem;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  background-color: #dc3545;
+}
+
+.c0 > a {
+  color: white;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.c0:empty {
+  display: none;
+}
+
+<span
+  className="sc-AxirZ c0"
+/>
+`;
+
+exports[`Styles matches dark 1`] = `
+.c0 {
+  display: inline-block;
+  padding: 0.25rem 0.4rem;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  background-color: #343a40;
+}
+
+.c0 > a {
+  color: white;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.c0:empty {
+  display: none;
+}
+
+<span
+  className="sc-AxirZ c0"
+/>
+`;
+
+exports[`Styles matches info 1`] = `
+.c0 {
+  display: inline-block;
+  padding: 0.25rem 0.4rem;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  background-color: #17a2b8;
+}
+
+.c0 > a {
+  color: white;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.c0:empty {
+  display: none;
+}
+
+<span
+  className="sc-AxirZ c0"
+/>
+`;
+
+exports[`Styles matches light 1`] = `
+.c0 {
+  display: inline-block;
+  padding: 0.25rem 0.4rem;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  color: rgb(45,47,49);
+  background-color: #f8f9fa;
+}
+
+.c0 > a {
+  color: white;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.c0:empty {
+  display: none;
+}
+
+<span
+  className="sc-AxirZ c0"
+/>
+`;
+
+exports[`Styles matches primary 1`] = `
+.c0 {
+  display: inline-block;
+  padding: 0.25rem 0.4rem;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  background-color: #007bff;
+}
+
+.c0 > a {
+  color: white;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.c0:empty {
+  display: none;
+}
+
+<span
+  className="sc-AxirZ c0"
+/>
+`;
+
+exports[`Styles matches secondary 1`] = `
+.c0 {
+  display: inline-block;
+  padding: 0.25rem 0.4rem;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  background-color: #6c757d;
+}
+
+.c0 > a {
+  color: white;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.c0:empty {
+  display: none;
+}
+
+<span
+  className="sc-AxirZ c0"
+/>
+`;
+
+exports[`Styles matches success 1`] = `
+.c0 {
+  display: inline-block;
+  padding: 0.25rem 0.4rem;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  background-color: #28a745;
+}
+
+.c0 > a {
+  color: white;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.c0:empty {
+  display: none;
+}
+
+<span
+  className="sc-AxirZ c0"
+/>
+`;
+
+exports[`Styles matches warning 1`] = `
+.c0 {
+  display: inline-block;
+  padding: 0.25rem 0.4rem;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  background-color: #ffc107;
+}
+
+.c0 > a {
+  color: white;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.c0:empty {
+  display: none;
+}
+
+<span
+  className="sc-AxirZ c0"
+/>
+`;

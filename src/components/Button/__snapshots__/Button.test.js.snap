@@ -35,7 +35,7 @@ exports[`Styles match Button active 1`] = `
 }
 
 <button
-  className="sc-AxiKw c0"
+  class="sc-AxiKw c0"
 />
 `;
 
@@ -78,7 +78,7 @@ exports[`Styles match Button block 1`] = `
 }
 
 <button
-  className="sc-AxiKw c0 c1"
+  class="sc-AxiKw c0 c1"
 />
 `;
 
@@ -118,8 +118,8 @@ exports[`Styles match Button disabled 1`] = `
 }
 
 <button
-  className="sc-AxiKw c0"
-  disabled={true}
+  class="sc-AxiKw c0"
+  disabled=""
 />
 `;
 
@@ -198,7 +198,7 @@ exports[`Styles match Button primary 1`] = `
 }
 
 <button
-  className="sc-AxiKw c0"
+  class="sc-AxiKw c0"
 />
 `;
 
@@ -256,7 +256,7 @@ exports[`Styles match Button primary active 1`] = `
 }
 
 <button
-  className="sc-AxiKw c0"
+  class="sc-AxiKw c0"
 />
 `;
 
@@ -331,7 +331,7 @@ exports[`Styles match Button primary outline 1`] = `
 }
 
 <button
-  className="sc-AxiKw c0"
+  class="sc-AxiKw c0"
 />
 `;
 
@@ -400,8 +400,8 @@ exports[`Styles match Button primary outline disabled 1`] = `
 }
 
 <button
-  className="sc-AxiKw c0"
-  disabled={true}
+  class="sc-AxiKw c0"
+  disabled=""
 />
 `;
 
@@ -441,7 +441,7 @@ exports[`Styles match LinkButton 1`] = `
 }
 
 <a
-  className="sc-AxhCb c0"
+  class="sc-AxhCb c0"
 />
 `;
 
@@ -479,7 +479,7 @@ exports[`Styles matches Button 1`] = `
 }
 
 <button
-  className="sc-AxiKw c0"
+  class="sc-AxiKw c0"
 />
 `;
 
@@ -539,7 +539,7 @@ exports[`Styles matches Button primary disabled 1`] = `
 }
 
 <button
-  className="sc-AxiKw c0"
-  disabled={true}
+  class="sc-AxiKw c0"
+  disabled=""
 />
 `;

@@ -1,78 +1,78 @@
 import React from 'react';
-import renderer from 'react-test-renderer';
+import { render } from '@testing-library/react';
 import 'jest-styled-components';
 
 import Badge from './index';
 
 test('Styles match plain', () => {
-  const tree = renderer.create(<Badge />).toJSON();
-  expect(tree).toMatchSnapshot();
-  expect(tree).toHaveStyleRule('display', 'inline-block');
-  expect(tree).toHaveStyleRule('padding', '0.25rem 0.4rem');
-  expect(tree).toHaveStyleRule('font-size', '75%');
-  expect(tree).toHaveStyleRule('font-weight', '700');
-  expect(tree).toHaveStyleRule('line-height', '1');
-  expect(tree).toHaveStyleRule('text-align', 'center');
-  expect(tree).toHaveStyleRule('white-space', 'nowrap');
-  expect(tree).toHaveStyleRule('vertical-align', 'baseline');
-  expect(tree).toHaveStyleRule('border-radius', '0.25rem');
-  expect(tree).toHaveStyleRule('display', 'none', {
+  const { container } = render(<Badge />);
+  expect(container.firstChild).toMatchSnapshot();
+  expect(container.firstChild).toHaveStyleRule('display', 'inline-block');
+  expect(container.firstChild).toHaveStyleRule('padding', '0.25rem 0.4rem');
+  expect(container.firstChild).toHaveStyleRule('font-size', '75%');
+  expect(container.firstChild).toHaveStyleRule('font-weight', '700');
+  expect(container.firstChild).toHaveStyleRule('line-height', '1');
+  expect(container.firstChild).toHaveStyleRule('text-align', 'center');
+  expect(container.firstChild).toHaveStyleRule('white-space', 'nowrap');
+  expect(container.firstChild).toHaveStyleRule('vertical-align', 'baseline');
+  expect(container.firstChild).toHaveStyleRule('border-radius', '0.25rem');
+  expect(container.firstChild).toHaveStyleRule('display', 'none', {
     modifier: '&:empty',
   });
 });
 
 test('Styles matches primary', () => {
-  const tree = renderer.create(<Badge primary />).toJSON();
-  expect(tree).toMatchSnapshot();
-  expect(tree).toHaveStyleRule('color', '#fff');
-  expect(tree).toHaveStyleRule('background-color', '#007bff');
+  const { container } = render(<Badge primary />);
+  expect(container.firstChild).toMatchSnapshot();
+  expect(container.firstChild).toHaveStyleRule('color', '#fff');
+  expect(container.firstChild).toHaveStyleRule('background-color', '#007bff');
 });
 
 test('Styles matches secondary', () => {
-  const tree = renderer.create(<Badge secondary />).toJSON();
-  expect(tree).toMatchSnapshot();
-  expect(tree).toHaveStyleRule('color', '#fff');
-  expect(tree).toHaveStyleRule('background-color', '#6c757d');
+  const { container } = render(<Badge secondary />);
+  expect(container.firstChild).toMatchSnapshot();
+  expect(container.firstChild).toHaveStyleRule('color', '#fff');
+  expect(container.firstChild).toHaveStyleRule('background-color', '#6c757d');
 });
 
 test('Styles matches success', () => {
-  const tree = renderer.create(<Badge success />).toJSON();
-  expect(tree).toMatchSnapshot();
-  expect(tree).toHaveStyleRule('color', '#fff');
-  expect(tree).toHaveStyleRule('background-color', '#28a745');
+  const { container } = render(<Badge success />);
+  expect(container.firstChild).toMatchSnapshot();
+  expect(container.firstChild).toHaveStyleRule('color', '#fff');
+  expect(container.firstChild).toHaveStyleRule('background-color', '#28a745');
 });
 
 test('Styles matches danger', () => {
-  const tree = renderer.create(<Badge danger />).toJSON();
-  expect(tree).toMatchSnapshot();
-  expect(tree).toHaveStyleRule('color', '#fff');
-  expect(tree).toHaveStyleRule('background-color', '#dc3545');
+  const { container } = render(<Badge danger />);
+  expect(container.firstChild).toMatchSnapshot();
+  expect(container.firstChild).toHaveStyleRule('color', '#fff');
+  expect(container.firstChild).toHaveStyleRule('background-color', '#dc3545');
 });
 
 test('Styles matches warning', () => {
-  const tree = renderer.create(<Badge warning />).toJSON();
-  expect(tree).toMatchSnapshot();
-  expect(tree).toHaveStyleRule('color', '#2d2f31');
-  expect(tree).toHaveStyleRule('background-color', '#ffc107');
+  const { container } = render(<Badge warning />);
+  expect(container.firstChild).toMatchSnapshot();
+  expect(container.firstChild).toHaveStyleRule('color', '#2d2f31');
+  expect(container.firstChild).toHaveStyleRule('background-color', '#ffc107');
 });
 
 test('Styles matches info', () => {
-  const tree = renderer.create(<Badge info />).toJSON();
-  expect(tree).toMatchSnapshot();
-  expect(tree).toHaveStyleRule('color', '#fff');
-  expect(tree).toHaveStyleRule('background-color', '#17a2b8');
+  const { container } = render(<Badge info />);
+  expect(container.firstChild).toMatchSnapshot();
+  expect(container.firstChild).toHaveStyleRule('color', '#fff');
+  expect(container.firstChild).toHaveStyleRule('background-color', '#17a2b8');
 });
 
 test('Styles matches light', () => {
-  const tree = renderer.create(<Badge light />).toJSON();
-  expect(tree).toMatchSnapshot();
-  expect(tree).toHaveStyleRule('color', '#2d2f31');
-  expect(tree).toHaveStyleRule('background-color', '#f0f0f0');
+  const { container } = render(<Badge light />);
+  expect(container.firstChild).toMatchSnapshot();
+  expect(container.firstChild).toHaveStyleRule('color', '#2d2f31');
+  expect(container.firstChild).toHaveStyleRule('background-color', '#f0f0f0');
 });
 
 test('Styles matches dark', () => {
-  const tree = renderer.create(<Badge dark />).toJSON();
-  expect(tree).toMatchSnapshot();
-  expect(tree).toHaveStyleRule('color', '#fff');
-  expect(tree).toHaveStyleRule('background-color', '#343a40');
+  const { container } = render(<Badge dark />);
+  expect(container.firstChild).toMatchSnapshot();
+  expect(container.firstChild).toHaveStyleRule('color', '#fff');
+  expect(container.firstChild).toHaveStyleRule('background-color', '#343a40');
 });

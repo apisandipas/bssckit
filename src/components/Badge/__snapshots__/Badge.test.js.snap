@@ -18,7 +18,7 @@ exports[`Styles match plain 1`] = `
 }
 
 <span
-  className="sc-AxirZ c0"
+  class="sc-AxirZ c0"
 />
 `;
 
@@ -49,7 +49,7 @@ exports[`Styles matches danger 1`] = `
 }
 
 <span
-  className="sc-AxirZ c0"
+  class="sc-AxirZ c0"
 />
 `;
 
@@ -80,7 +80,7 @@ exports[`Styles matches dark 1`] = `
 }
 
 <span
-  className="sc-AxirZ c0"
+  class="sc-AxirZ c0"
 />
 `;
 
@@ -111,7 +111,7 @@ exports[`Styles matches info 1`] = `
 }
 
 <span
-  className="sc-AxirZ c0"
+  class="sc-AxirZ c0"
 />
 `;
 
@@ -142,7 +142,7 @@ exports[`Styles matches light 1`] = `
 }
 
 <span
-  className="sc-AxirZ c0"
+  class="sc-AxirZ c0"
 />
 `;
 
@@ -173,7 +173,7 @@ exports[`Styles matches primary 1`] = `
 }
 
 <span
-  className="sc-AxirZ c0"
+  class="sc-AxirZ c0"
 />
 `;
 
@@ -204,7 +204,7 @@ exports[`Styles matches secondary 1`] = `
 }
 
 <span
-  className="sc-AxirZ c0"
+  class="sc-AxirZ c0"
 />
 `;
 
@@ -235,7 +235,7 @@ exports[`Styles matches success 1`] = `
 }
 
 <span
-  className="sc-AxirZ c0"
+  class="sc-AxirZ c0"
 />
 `;
 
@@ -266,6 +266,6 @@ exports[`Styles matches warning 1`] = `
 }
 
 <span
-  className="sc-AxirZ c0"
+  class="sc-AxirZ c0"
 />
 `;

@@ -23,13 +23,13 @@
     "@storybook/addon-storysource": "^5.3.13",
     "@storybook/addons": "^5.3.13",
     "@storybook/react": "^5.3.13",
+    "@testing-library/react": "^9.4.0",
     "babel-jest": "^25.1.0",
     "babel-loader": "^8.0.6",
     "husky": "^4.2.3",
     "jest": "^25.1.0",
     "jest-styled-components": "^7.0.0",
-    "lint-staged": "^10.0.7",
-    "react-test-renderer": "^16.12.0"
+    "lint-staged": "^10.0.7"
   },
   "peerDependencies": {
     "polished": "^3.4.4",
@@ -66,7 +66,7 @@
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
-      "prettier --single-quote --jsx-single-quote --write --print-width=100"
+      "prettier --single-quote --jsx-single-quote --write --print-width=110"
     ]
   }
 }

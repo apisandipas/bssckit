@@ -95,10 +95,7 @@ const getColor = (props, context) => {
   if (props.outline) {
     if (props.disabled) {
       return css`
-        color: ${theme(
-          `button.colors.${context}.colorOutline`,
-          button.colors[context].colorOutline
-        )};
+        color: ${theme(`button.colors.${context}.colorOutline`, button.colors[context].colorOutline)};
       `;
     }
 
@@ -122,24 +119,17 @@ const getBorder = (props, context) => {
   if (props.active) {
     return css`
       border: ${theme('button.border.default', button.border.default)}
-        ${theme(
-          `button.colors.${context}.borderColorActive`,
-          button.colors[context].borderColorActive
-        )};
+        ${theme(`button.colors.${context}.borderColorActive`, button.colors[context].borderColorActive)};
     `;
   } else if (props.disabled) {
     return css`
       border: ${theme('button.border.default', button.border.default)}
-        ${theme(
-          `button.colors.${context}.borderColorDisabled`,
-          button.colors[context].borderColorDisabled
-        )};
+        ${theme(`button.colors.${context}.borderColorDisabled`, button.colors[context].borderColorDisabled)};
     `;
   }
 
   return css`
-    border: 1px solid
-      ${theme(`button.colors.${context}.borderColor`, button.colors[context].borderColor)};
+    border: 1px solid ${theme(`button.colors.${context}.borderColor`, button.colors[context].borderColor)};
 
     ${!props.outline &&
       css`
@@ -171,10 +161,7 @@ const getBackgroundColor = (props, context) => {
       &:hover {
         background-color: ${props.disabled
           ? 'transparent'
-          : theme(
-              `button.colors.${context}.backgroundColor`,
-              button.colors[context].backgroundColor
-            )};
+          : theme(`button.colors.${context}.backgroundColor`, button.colors[context].backgroundColor)};
       }
     `;
   } else if (props.disabled) {
@@ -211,10 +198,7 @@ const buttonStyles = props => css`
   user-select: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  border: 1px solid ${theme(
-    'button.colors.default.borderColor',
-    button.colors.default.borderColor
-  )};
+  border: 1px solid ${theme('button.colors.default.borderColor', button.colors.default.borderColor)};
 
   &:hover {
     text-decoration: none;
@@ -223,10 +207,7 @@ const buttonStyles = props => css`
   &:focus {
     text-decoration: none;
     outline: 0;
-    box-shadow: 0 0 0 0.2rem  ${theme(
-      'button.colors.default.boxShadow',
-      button.colors.default.boxShadow
-    )};
+    box-shadow: 0 0 0 0.2rem  ${theme('button.colors.default.boxShadow', button.colors.default.boxShadow)};
   }
 
 

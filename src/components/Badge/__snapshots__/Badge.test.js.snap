@@ -7,18 +7,10 @@ exports[`Styles match plain 1`] = `
   font-size: 75%;
   font-weight: 700;
   line-height: 1;
-  color: #fff;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: 0.25rem;
-}
-
-.c0 > a {
-  color: white;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  background-color: transparent;
 }
 
 .c0:empty {
@@ -37,19 +29,19 @@ exports[`Styles matches danger 1`] = `
   font-size: 75%;
   font-weight: 700;
   line-height: 1;
-  color: #fff;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: 0.25rem;
+  color: #fff;
   background-color: #dc3545;
 }
 
 .c0 > a {
-  color: white;
+  color: #fff;
   -webkit-text-decoration: none;
   text-decoration: none;
-  background-color: transparent;
+  background-color: #dc3545;
 }
 
 .c0:empty {
@@ -68,19 +60,19 @@ exports[`Styles matches dark 1`] = `
   font-size: 75%;
   font-weight: 700;
   line-height: 1;
-  color: #fff;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: 0.25rem;
+  color: #fff;
   background-color: #343a40;
 }
 
 .c0 > a {
-  color: white;
+  color: #fff;
   -webkit-text-decoration: none;
   text-decoration: none;
-  background-color: transparent;
+  background-color: #343a40;
 }
 
 .c0:empty {
@@ -99,19 +91,19 @@ exports[`Styles matches info 1`] = `
   font-size: 75%;
   font-weight: 700;
   line-height: 1;
-  color: #fff;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: 0.25rem;
+  color: #fff;
   background-color: #17a2b8;
 }
 
 .c0 > a {
-  color: white;
+  color: #fff;
   -webkit-text-decoration: none;
   text-decoration: none;
-  background-color: transparent;
+  background-color: #17a2b8;
 }
 
 .c0:empty {
@@ -130,20 +122,19 @@ exports[`Styles matches light 1`] = `
   font-size: 75%;
   font-weight: 700;
   line-height: 1;
-  color: #fff;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: 0.25rem;
-  color: rgb(45,47,49);
-  background-color: #f8f9fa;
+  color: #2d2f31;
+  background-color: #f0f0f0;
 }
 
 .c0 > a {
-  color: white;
+  color: #2d2f31;
   -webkit-text-decoration: none;
   text-decoration: none;
-  background-color: transparent;
+  background-color: #f0f0f0;
 }
 
 .c0:empty {
@@ -162,19 +153,19 @@ exports[`Styles matches primary 1`] = `
   font-size: 75%;
   font-weight: 700;
   line-height: 1;
-  color: #fff;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: 0.25rem;
+  color: #fff;
   background-color: #007bff;
 }
 
 .c0 > a {
-  color: white;
+  color: #fff;
   -webkit-text-decoration: none;
   text-decoration: none;
-  background-color: transparent;
+  background-color: #007bff;
 }
 
 .c0:empty {
@@ -193,19 +184,19 @@ exports[`Styles matches secondary 1`] = `
   font-size: 75%;
   font-weight: 700;
   line-height: 1;
-  color: #fff;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: 0.25rem;
+  color: #fff;
   background-color: #6c757d;
 }
 
 .c0 > a {
-  color: white;
+  color: #fff;
   -webkit-text-decoration: none;
   text-decoration: none;
-  background-color: transparent;
+  background-color: #6c757d;
 }
 
 .c0:empty {
@@ -224,19 +215,19 @@ exports[`Styles matches success 1`] = `
   font-size: 75%;
   font-weight: 700;
   line-height: 1;
-  color: #fff;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: 0.25rem;
+  color: #fff;
   background-color: #28a745;
 }
 
 .c0 > a {
-  color: white;
+  color: #fff;
   -webkit-text-decoration: none;
   text-decoration: none;
-  background-color: transparent;
+  background-color: #28a745;
 }
 
 .c0:empty {
@@ -255,19 +246,19 @@ exports[`Styles matches warning 1`] = `
   font-size: 75%;
   font-weight: 700;
   line-height: 1;
-  color: #fff;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: 0.25rem;
+  color: #2d2f31;
   background-color: #ffc107;
 }
 
 .c0 > a {
-  color: white;
+  color: #2d2f31;
   -webkit-text-decoration: none;
   text-decoration: none;
-  background-color: transparent;
+  background-color: #ffc107;
 }
 
 .c0:empty {

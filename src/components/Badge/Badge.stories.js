@@ -1,12 +1,12 @@
 import React from 'react';
 import Badge from './index';
-import styled from 'styled-components';
+import { Button } from '../Button';
 
 export default {
   title: 'Badge',
 };
 
-export const InHeadings = () => (
+export const inHeadings = () => (
   <>
     <h1>
       Example heading <Badge primary>New</Badge>
@@ -84,8 +84,6 @@ export const pills = () => (
     </Badge>
   </>
 );
-
-const Button = styled.button``; // temp until we implement button
 
 export const inButtons = () => (
   <>

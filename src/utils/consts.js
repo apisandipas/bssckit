@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-export const colorTypes = [
+export const themeContexts = [
   'primary',
   'secondary',
   'success',

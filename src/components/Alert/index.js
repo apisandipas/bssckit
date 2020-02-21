@@ -4,74 +4,10 @@ import styled, { css } from 'styled-components';
 import { theme, ifProp } from 'styled-tools';
 import { Div } from '../base';
 export { default as DismissableAlert } from './DismissableAlert';
+import defaultTheme from '../../utils/defaultTheme';
+import { themeContexts } from '../../utils/consts';
 
-//  TODO: refactor this to a common theme file
-const types = [
-  {
-    name: 'primary',
-    defaultColors: {
-      color: 'rgb(0, 64, 133)',
-      backgroundColor: 'rgb(204, 229, 255)',
-      borderColor: 'rgb(156, 201, 251)',
-    },
-  },
-  {
-    name: 'secondary',
-    defaultColors: {
-      color: 'rgb(56, 61, 65)',
-      backgroundColor: 'rgb(226, 227, 229)',
-      borderColor: ' rgb(180, 181, 183)',
-    },
-  },
-  {
-    name: 'success',
-    defaultColors: {
-      color: 'rgb(21, 87, 36)',
-      backgroundColor: 'rgb(212, 237, 218)',
-      borderColor: 'rgb(114, 216, 137)',
-    },
-  },
-  {
-    name: 'danger',
-    defaultColors: {
-      color: 'rgb(114, 28, 36)',
-      backgroundColor: 'rgb(248, 215, 218)',
-      borderColor: 'rgb(245, 180, 187)',
-    },
-  },
-  {
-    name: 'warning',
-    defaultColors: {
-      color: 'rgb(133, 100, 4)',
-      backgroundColor: 'rgb(255, 243, 205)',
-      borderColor: 'rgb(243, 218, 141)',
-    },
-  },
-  {
-    name: 'info',
-    defaultColors: {
-      color: 'rgb(16, 112, 127)',
-      backgroundColor: 'rgb(209, 236, 241)',
-      borderColor: 'rgb(163, 214, 222)',
-    },
-  },
-  {
-    name: 'light',
-    defaultColors: {
-      color: 'rgb(52, 58, 64);',
-      backgroundColor: 'rgb(254, 254, 254)',
-      borderColor: 'rgb(204, 206, 207)',
-    },
-  },
-  {
-    name: 'dark',
-    defaultColors: {
-      color: 'gb(23, 26, 29)',
-      backgroundColor: 'rgb(214, 216, 217)',
-      borderColor: 'rgb(171, 174, 177)',
-    },
-  },
-];
+const { alert } = defaultTheme;
 
 export const AlertDismissIcon = styled.span.attrs({
   ariaHidden: 'true',
@@ -95,16 +31,14 @@ const Alert = styled(Div).attrs({
   role: 'alert',
 })`
   position: relative;
-  padding: ${theme('alert.paddingX', '0.75rem')} ${theme('alert.paddingY', '1.25rem')};
-  margin-bottom: ${theme('alert.marginBottom', '1rem')};
-  border: ${theme('alert.borderWidth', theme('globals.borderWidth', '1px'))} solid transparent;
-  color: ${theme('alert.text')};
-  border-radius: ${theme('alert.borderRadius', theme('globals.borderRadius', '0.25rem'))};
+  padding: ${theme('alert.padding.default', alert.padding.default)};
+  margin-bottom: ${theme('alert.margin.bottom', alert.margin.bottom)};
+  border: ${theme('alert.border', alert.border.default)};
+  border-radius: ${theme('alert.borderRadius.default', alert.borderRadius.default)};
 
   & > a,
   & > a:hover {
-
-    font-weight: ${theme('alerts.linkWeight', '700')};
+    font-weight: ${theme('alert.fontWeight.default', alert.fontWeight.default)};
   }
 
   & > h1,
@@ -113,20 +47,22 @@ const Alert = styled(Div).attrs({
   & > h4,
   & > h5,
   & > h6 {
-    color: ${theme(`colorScheme.${name}Darkest`, 'inherit')};
+    color: inherit;
   }
 
-  ${types.map(({ name, defaultColors: { color, backgroundColor, borderColor } }) => {
+  ${themeContexts.map(context => {
+    const { text, background, border } = defaultTheme.alert.colors[context];
+
     return ifProp(
-      name,
+      context,
       css`
-        color: ${theme(`colorScheme.${name}Darkest`, color)};
-        background-color: ${theme(`colorScheme.${name}Light`, backgroundColor)};
-        border-color: ${theme(`colorScheme.${name}Lighter`, borderColor)};
+        color: ${theme(`colorScheme.${context}Darkest`, text)};
+        background-color: ${theme(`colorScheme.${context}Light`, background)};
+        border-color: ${theme(`colorScheme.${context}Lighter`, border)};
 
         & > a,
         & > a:hover {
-          color: ${theme(`colorScheme.${name}Darkest`, color)};
+          color: ${theme(`colorScheme.${context}Darkest`, text)};
         }
 
         & > h1,
@@ -135,11 +71,11 @@ const Alert = styled(Div).attrs({
         & > h4,
         & > h5,
         & > h6 {
-          color: ${theme(`colorScheme.${name}Darkest`, color)};
+          color: ${theme(`colorScheme.${context}Darkest`, text)};
         }
 
         & > hr {
-          border-top-color: ${theme(`colorScheme.${name}Darkest`, color)};
+          border-top-color: ${theme(`colorScheme.${context}Darkest`, text)};
         }
       `
     );
@@ -162,7 +98,7 @@ const Alert = styled(Div).attrs({
   ${ifProp(
     'dismissible',
     css`
-      padding-right: ${theme('alert.paddingRight', '4rem')};
+      padding-right: ${theme('alert.padding.dismissibleRight', alert.padding.dismissibleRight)};
     `
   )};
 `;

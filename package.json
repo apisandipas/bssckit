@@ -39,9 +39,9 @@
   },
   "scripts": {
     "build": "babel src --out-dir lib --ignore src/**/*.test.js,src/**/*.stories.js",
-    "test": "jest",
+    "test": "jest --coverage",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook -o ./docs"
+    "build_storybook": "build-storybook -o ./docs"
   },
   "keywords": [
     "bssckit",

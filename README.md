@@ -4,12 +4,16 @@ a styled-components based implementation of Bootstrap 4
 
 very much a work in progress
 
+
+
 ### TODO:
 
+- Switch to @testing-library/react
+
     [X] Alerts
-    [] Badges
+    [X] Badges
     [] Breadcrumbs
-    [] Buttons
+    [X] Buttons
     [] Button Group
     [] Card
     [] Carousel

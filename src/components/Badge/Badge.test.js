@@ -52,7 +52,7 @@ test('Styles matches danger', () => {
 test('Styles matches warning', () => {
   const tree = renderer.create(<Badge warning />).toJSON();
   expect(tree).toMatchSnapshot();
-  expect(tree).toHaveStyleRule('color', '#fff');
+  expect(tree).toHaveStyleRule('color', '#2d2f31');
   expect(tree).toHaveStyleRule('background-color', '#ffc107');
 });
 
@@ -66,8 +66,8 @@ test('Styles matches info', () => {
 test('Styles matches light', () => {
   const tree = renderer.create(<Badge light />).toJSON();
   expect(tree).toMatchSnapshot();
-  expect(tree).toHaveStyleRule('color', 'rgb(45,47,49)');
-  expect(tree).toHaveStyleRule('background-color', '#f8f9fa');
+  expect(tree).toHaveStyleRule('color', '#2d2f31');
+  expect(tree).toHaveStyleRule('background-color', '#f0f0f0');
 });
 
 test('Styles matches dark', () => {

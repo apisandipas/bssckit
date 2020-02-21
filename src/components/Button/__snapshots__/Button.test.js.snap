@@ -1,0 +1,545 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Styles match Button active 1`] = `
+.c0 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid #6c757d;
+  background-image: none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+}
+
+.c0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+<button
+  className="sc-AxiKw c0"
+/>
+`;
+
+exports[`Styles match Button block 1`] = `
+.c1 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid #6c757d;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+}
+
+.c1:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c1:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c1 + .c0 {
+  margin-top: 0.5rem;
+}
+
+<button
+  className="sc-AxiKw c0 c1"
+/>
+`;
+
+exports[`Styles match Button disabled 1`] = `
+.c0 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid #6c757d;
+  opacity: 0.65;
+  background-image: none;
+  cursor: not-allowed;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+}
+
+.c0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+<button
+  className="sc-AxiKw c0"
+  disabled={true}
+/>
+`;
+
+exports[`Styles match Button primary 1`] = `
+.c0 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid #6c757d;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  color: #fff;
+  border: 1px solid #007bff;
+  background-color: #007bff;
+}
+
+.c0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #007bff;
+  background-color: #007bff;
+}
+
+.c0:hover:focus,
+.c0:focus:focus,
+.c0:hover:hover,
+.c0:focus:hover {
+  border: 1px solid #005cbf;
+}
+
+.c0:hover:focus,
+.c0:focus:focus,
+.c0:hover:hover,
+.c0:focus:hover {
+  background-color: #0069d9;
+}
+
+.c0:focus,
+.c0:hover {
+  border: 1px solid #005cbf;
+}
+
+.c0:focus,
+.c0:hover {
+  background-color: #0069d9;
+}
+
+<button
+  className="sc-AxiKw c0"
+/>
+`;
+
+exports[`Styles match Button primary active 1`] = `
+.c0 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid #6c757d;
+  background-image: none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  color: #fff;
+  border: 1px solid #005cbf;
+  background-image: none;
+  background-color: #005cbf;
+}
+
+.c0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #005cbf;
+  background-image: none;
+  background-color: #005cbf;
+}
+
+<button
+  className="sc-AxiKw c0"
+/>
+`;
+
+exports[`Styles match Button primary outline 1`] = `
+.c0 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid #6c757d;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  color: #007bff;
+  border: 1px solid #007bff;
+  background-image: none;
+  background-color: transparent;
+}
+
+.c0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #007bff;
+  border: 1px solid #007bff;
+  background-image: none;
+  background-color: transparent;
+}
+
+.c0:hover:hover,
+.c0:focus:hover {
+  color: #fff;
+}
+
+.c0:hover:hover,
+.c0:focus:hover {
+  background-color: #007bff;
+}
+
+.c0:hover {
+  color: #fff;
+}
+
+.c0:hover {
+  background-color: #007bff;
+}
+
+<button
+  className="sc-AxiKw c0"
+/>
+`;
+
+exports[`Styles match Button primary outline disabled 1`] = `
+.c0 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid #6c757d;
+  opacity: 0.65;
+  background-image: none;
+  cursor: not-allowed;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  border: 1px solid #007bff;
+  color: #007bff;
+  border: 1px solid #007bff;
+  background-image: none;
+  background-color: transparent;
+}
+
+.c0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #007bff;
+  border: 1px solid #007bff;
+  background-image: none;
+  background-color: transparent;
+}
+
+.c0:hover:hover,
+.c0:focus:hover {
+  background-color: transparent;
+}
+
+.c0:hover {
+  background-color: transparent;
+}
+
+<button
+  className="sc-AxiKw c0"
+  disabled={true}
+/>
+`;
+
+exports[`Styles match LinkButton 1`] = `
+.c0 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid #6c757d;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+}
+
+.c0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+<a
+  className="sc-AxhCb c0"
+/>
+`;
+
+exports[`Styles matches Button 1`] = `
+.c0 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid #6c757d;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+}
+
+.c0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+<button
+  className="sc-AxiKw c0"
+/>
+`;
+
+exports[`Styles matches Button primary disabled 1`] = `
+.c0 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid #6c757d;
+  opacity: 0.65;
+  background-image: none;
+  cursor: not-allowed;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  border: 1px solid #007bff;
+  color: #fff;
+  border: 1px solid #007bff;
+  background-image: none;
+  background-color: #007bff;
+}
+
+.c0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #007bff;
+  background-image: none;
+  background-color: #007bff;
+}
+
+<button
+  className="sc-AxiKw c0"
+  disabled={true}
+/>
+`;

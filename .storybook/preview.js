@@ -1,9 +1,9 @@
 import React from 'react';
+import styled from 'styled-components';
 import { addDecorator } from '@storybook/react';
 import { withA11y } from '@storybook/addon-a11y';
-
+import BSThemeProvider from '../src/utils/BSThemeProvider';
 import BaseCss from '../src/utils/BaseCss';
-import styled from 'styled-components';
 
 const PreviewContainer = styled.div`
   max-width: 80%;

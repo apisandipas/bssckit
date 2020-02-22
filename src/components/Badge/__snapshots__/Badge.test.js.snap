@@ -1,28 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Styles match plain 1`] = `
-.c0 {
-  display: inline-block;
-  padding: 0.25rem 0.4rem;
-  font-size: 75%;
-  font-weight: 700;
-  line-height: 1;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: baseline;
-  border-radius: 0.25rem;
-}
-
-.c0:empty {
-  display: none;
-}
-
-<span
-  class="sc-AxirZ c0"
-/>
-`;
-
-exports[`Styles matches danger 1`] = `
+exports[`Badge Component Styles match danger 1`] = `
 .c0 {
   display: inline-block;
   padding: 0.25rem 0.4rem;
@@ -53,7 +31,7 @@ exports[`Styles matches danger 1`] = `
 />
 `;
 
-exports[`Styles matches dark 1`] = `
+exports[`Badge Component Styles match dark 1`] = `
 .c0 {
   display: inline-block;
   padding: 0.25rem 0.4rem;
@@ -84,7 +62,7 @@ exports[`Styles matches dark 1`] = `
 />
 `;
 
-exports[`Styles matches info 1`] = `
+exports[`Badge Component Styles match info 1`] = `
 .c0 {
   display: inline-block;
   padding: 0.25rem 0.4rem;
@@ -115,7 +93,7 @@ exports[`Styles matches info 1`] = `
 />
 `;
 
-exports[`Styles matches light 1`] = `
+exports[`Badge Component Styles match light 1`] = `
 .c0 {
   display: inline-block;
   padding: 0.25rem 0.4rem;
@@ -146,7 +124,29 @@ exports[`Styles matches light 1`] = `
 />
 `;
 
-exports[`Styles matches primary 1`] = `
+exports[`Badge Component Styles match plain 1`] = `
+.c0 {
+  display: inline-block;
+  padding: 0.25rem 0.4rem;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+}
+
+.c0:empty {
+  display: none;
+}
+
+<span
+  class="sc-AxirZ c0"
+/>
+`;
+
+exports[`Badge Component Styles match primary 1`] = `
 .c0 {
   display: inline-block;
   padding: 0.25rem 0.4rem;
@@ -177,7 +177,7 @@ exports[`Styles matches primary 1`] = `
 />
 `;
 
-exports[`Styles matches secondary 1`] = `
+exports[`Badge Component Styles match secondary 1`] = `
 .c0 {
   display: inline-block;
   padding: 0.25rem 0.4rem;
@@ -208,7 +208,7 @@ exports[`Styles matches secondary 1`] = `
 />
 `;
 
-exports[`Styles matches success 1`] = `
+exports[`Badge Component Styles match success 1`] = `
 .c0 {
   display: inline-block;
   padding: 0.25rem 0.4rem;
@@ -239,7 +239,7 @@ exports[`Styles matches success 1`] = `
 />
 `;
 
-exports[`Styles matches warning 1`] = `
+exports[`Badge Component Styles match warning 1`] = `
 .c0 {
   display: inline-block;
   padding: 0.25rem 0.4rem;

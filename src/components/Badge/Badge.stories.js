@@ -1,5 +1,5 @@
 import React from 'react';
-import Badge from './index';
+import { Badge } from './index';
 import { Button } from '../Button';
 
 export default {

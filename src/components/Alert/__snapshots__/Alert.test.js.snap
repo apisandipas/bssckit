@@ -1,13 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Styles match danger 1`] = `
+exports[`Alert Component Styles match danger 1`] = `
 .c0 {
   position: relative;
   padding: 0.75rem 1.25rem;
   margin-bottom: 1rem;
   border: 1px solid transparent;
   border-radius: 0.25rem;
-  color: #721c24;
+  background-color: #e2e3e5;
+  border-color: #b4b5b7;
   background-color: #f8d7da;
   border-color: #f5b4bb;
 }
@@ -50,14 +51,15 @@ exports[`Styles match danger 1`] = `
 />
 `;
 
-exports[`Styles match dark 1`] = `
+exports[`Alert Component Styles match dark 1`] = `
 .c0 {
   position: relative;
   padding: 0.75rem 1.25rem;
   margin-bottom: 1rem;
   border: 1px solid transparent;
   border-radius: 0.25rem;
-  color: #171a1d;
+  background-color: #e2e3e5;
+  border-color: #b4b5b7;
   background-color: #d6d8d9;
   border-color: #abaeb1;
 }
@@ -100,14 +102,15 @@ exports[`Styles match dark 1`] = `
 />
 `;
 
-exports[`Styles match info 1`] = `
+exports[`Alert Component Styles match info 1`] = `
 .c0 {
   position: relative;
   padding: 0.75rem 1.25rem;
   margin-bottom: 1rem;
   border: 1px solid transparent;
   border-radius: 0.25rem;
-  color: #10707f;
+  background-color: #e2e3e5;
+  border-color: #b4b5b7;
   background-color: #d1ecf1;
   border-color: #a3d6de;
 }
@@ -150,14 +153,15 @@ exports[`Styles match info 1`] = `
 />
 `;
 
-exports[`Styles match light 1`] = `
+exports[`Alert Component Styles match light 1`] = `
 .c0 {
   position: relative;
   padding: 0.75rem 1.25rem;
   margin-bottom: 1rem;
   border: 1px solid transparent;
   border-radius: 0.25rem;
-  color: #343a40;
+  background-color: #e2e3e5;
+  border-color: #b4b5b7;
   background-color: #fefefe;
   border-color: #cccecf;
 }
@@ -200,13 +204,15 @@ exports[`Styles match light 1`] = `
 />
 `;
 
-exports[`Styles match noRadius 1`] = `
+exports[`Alert Component Styles match noRadius 1`] = `
 .c0 {
   position: relative;
   padding: 0.75rem 1.25rem;
   margin-bottom: 1rem;
   border: 1px solid transparent;
   border-radius: 0.25rem;
+  background-color: #e2e3e5;
+  border-color: #b4b5b7;
   border-radius: 0;
 }
 
@@ -230,13 +236,15 @@ exports[`Styles match noRadius 1`] = `
 />
 `;
 
-exports[`Styles match pill 1`] = `
+exports[`Alert Component Styles match pill 1`] = `
 .c0 {
   position: relative;
   padding: 0.75rem 1.25rem;
   margin-bottom: 1rem;
   border: 1px solid transparent;
   border-radius: 0.25rem;
+  background-color: #e2e3e5;
+  border-color: #b4b5b7;
   border-radius: 10rem;
 }
 
@@ -260,13 +268,15 @@ exports[`Styles match pill 1`] = `
 />
 `;
 
-exports[`Styles match plain 1`] = `
+exports[`Alert Component Styles match plain 1`] = `
 .c0 {
   position: relative;
   padding: 0.75rem 1.25rem;
   margin-bottom: 1rem;
   border: 1px solid transparent;
   border-radius: 0.25rem;
+  background-color: #e2e3e5;
+  border-color: #b4b5b7;
 }
 
 .c0 > a,
@@ -291,14 +301,15 @@ exports[`Styles match plain 1`] = `
 </div>
 `;
 
-exports[`Styles match primary 1`] = `
+exports[`Alert Component Styles match primary 1`] = `
 .c0 {
   position: relative;
   padding: 0.75rem 1.25rem;
   margin-bottom: 1rem;
   border: 1px solid transparent;
   border-radius: 0.25rem;
-  color: #004085;
+  background-color: #e2e3e5;
+  border-color: #b4b5b7;
   background-color: #cce5ff;
   border-color: #9cc9fb;
 }
@@ -341,14 +352,15 @@ exports[`Styles match primary 1`] = `
 />
 `;
 
-exports[`Styles match secondary 1`] = `
+exports[`Alert Component Styles match secondary 1`] = `
 .c0 {
   position: relative;
   padding: 0.75rem 1.25rem;
   margin-bottom: 1rem;
   border: 1px solid transparent;
   border-radius: 0.25rem;
-  color: #383d41;
+  background-color: #e2e3e5;
+  border-color: #b4b5b7;
   background-color: #e2e3e5;
   border-color: #b4b5b7;
 }
@@ -391,14 +403,15 @@ exports[`Styles match secondary 1`] = `
 />
 `;
 
-exports[`Styles match success 1`] = `
+exports[`Alert Component Styles match success 1`] = `
 .c0 {
   position: relative;
   padding: 0.75rem 1.25rem;
   margin-bottom: 1rem;
   border: 1px solid transparent;
   border-radius: 0.25rem;
-  color: #155724;
+  background-color: #e2e3e5;
+  border-color: #b4b5b7;
   background-color: #d4edda;
   border-color: #72d889;
 }
@@ -441,14 +454,15 @@ exports[`Styles match success 1`] = `
 />
 `;
 
-exports[`Styles match warning 1`] = `
+exports[`Alert Component Styles match warning 1`] = `
 .c0 {
   position: relative;
   padding: 0.75rem 1.25rem;
   margin-bottom: 1rem;
   border: 1px solid transparent;
   border-radius: 0.25rem;
-  color: #856404;
+  background-color: #e2e3e5;
+  border-color: #b4b5b7;
   background-color: #fff3cd;
   border-color: #f3da8d;
 }

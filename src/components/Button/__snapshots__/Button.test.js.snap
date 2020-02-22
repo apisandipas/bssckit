@@ -1,6 +1,44 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Styles match Button active 1`] = `
+exports[`Button Component Styles match Button 1`] = `
+.c0 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid #6c757d;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+}
+
+.c0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+<button
+  class="sc-AxiKw c0"
+/>
+`;
+
+exports[`Button Component Styles match Button active 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -39,7 +77,7 @@ exports[`Styles match Button active 1`] = `
 />
 `;
 
-exports[`Styles match Button block 1`] = `
+exports[`Button Component Styles match Button block 1`] = `
 .c1 {
   font-weight: 400;
   line-height: 1.5;
@@ -82,7 +120,637 @@ exports[`Styles match Button block 1`] = `
 />
 `;
 
-exports[`Styles match Button disabled 1`] = `
+exports[`Button Component Styles match Button danger 1`] = `
+.c0 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid #6c757d;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  color: #fff;
+  border: 1px solid #dc3545;
+  background-color: #dc3545;
+}
+
+.c0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(220,53,69,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #dc3545;
+  background-color: #dc3545;
+}
+
+.c0:hover:focus,
+.c0:focus:focus,
+.c0:hover:hover,
+.c0:focus:hover {
+  border: 1px solid #b21f2d;
+}
+
+.c0:hover:focus,
+.c0:focus:focus,
+.c0:hover:hover,
+.c0:focus:hover {
+  background-color: #c82333;
+}
+
+.c0:focus,
+.c0:hover {
+  border: 1px solid #b21f2d;
+}
+
+.c0:focus,
+.c0:hover {
+  background-color: #c82333;
+}
+
+<button
+  class="sc-AxiKw c0"
+/>
+`;
+
+exports[`Button Component Styles match Button danger active 1`] = `
+.c0 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid #6c757d;
+  background-image: none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  color: #fff;
+  border: 1px solid #b21f2d;
+  background-image: none;
+  background-color: #b21f2d;
+}
+
+.c0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(220,53,69,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #b21f2d;
+  background-image: none;
+  background-color: #b21f2d;
+}
+
+<button
+  class="sc-AxiKw c0"
+/>
+`;
+
+exports[`Button Component Styles match Button danger disabled 1`] = `
+.c0 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid #6c757d;
+  opacity: 0.65;
+  background-image: none;
+  cursor: not-allowed;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  border: 1px solid #dc3545;
+  color: #fff;
+  border: 1px solid #dc3545;
+  background-image: none;
+  background-color: #dc3545;
+}
+
+.c0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(220,53,69,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #dc3545;
+  background-image: none;
+  background-color: #dc3545;
+}
+
+<button
+  class="sc-AxiKw c0"
+  disabled=""
+/>
+`;
+
+exports[`Button Component Styles match Button danger outline 1`] = `
+.c0 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid #6c757d;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  color: #dc3545;
+  border: 1px solid #dc3545;
+  background-image: none;
+  background-color: transparent;
+}
+
+.c0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(220,53,69,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #dc3545;
+  border: 1px solid #dc3545;
+  background-image: none;
+  background-color: transparent;
+}
+
+.c0:hover:hover,
+.c0:focus:hover {
+  color: #fff;
+}
+
+.c0:hover:hover,
+.c0:focus:hover {
+  background-color: #dc3545;
+}
+
+.c0:hover {
+  color: #fff;
+}
+
+.c0:hover {
+  background-color: #dc3545;
+}
+
+<button
+  class="sc-AxiKw c0"
+/>
+`;
+
+exports[`Button Component Styles match Button danger outline disabled 1`] = `
+.c0 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid #6c757d;
+  opacity: 0.65;
+  background-image: none;
+  cursor: not-allowed;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  border: 1px solid #dc3545;
+  color: #dc3545;
+  border: 1px solid #dc3545;
+  background-image: none;
+  background-color: transparent;
+}
+
+.c0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(220,53,69,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #dc3545;
+  border: 1px solid #dc3545;
+  background-image: none;
+  background-color: transparent;
+}
+
+.c0:hover:hover,
+.c0:focus:hover {
+  background-color: transparent;
+}
+
+.c0:hover {
+  background-color: transparent;
+}
+
+<button
+  class="sc-AxiKw c0"
+  disabled=""
+/>
+`;
+
+exports[`Button Component Styles match Button dark 1`] = `
+.c0 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid #6c757d;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  color: #fff;
+  border: 1px solid #343a40;
+  background-color: #343a40;
+}
+
+.c0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(52,58,64,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #343a40;
+  background-color: #343a40;
+}
+
+.c0:hover:focus,
+.c0:focus:focus,
+.c0:hover:hover,
+.c0:focus:hover {
+  border: 1px solid #201a1d;
+}
+
+.c0:hover:focus,
+.c0:focus:focus,
+.c0:hover:hover,
+.c0:focus:hover {
+  background-color: #23272b;
+}
+
+.c0:focus,
+.c0:hover {
+  border: 1px solid #201a1d;
+}
+
+.c0:focus,
+.c0:hover {
+  background-color: #23272b;
+}
+
+<button
+  class="sc-AxiKw c0"
+/>
+`;
+
+exports[`Button Component Styles match Button dark active 1`] = `undefined`;
+
+exports[`Button Component Styles match Button dark disabled 1`] = `
+.c0 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid #6c757d;
+  opacity: 0.65;
+  background-image: none;
+  cursor: not-allowed;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  border: 1px solid #343a40;
+  color: #fff;
+  border: 1px solid #343a40;
+  background-image: none;
+  background-color: #343a40;
+}
+
+.c0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(52,58,64,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #343a40;
+  background-image: none;
+  background-color: #343a40;
+}
+
+<button
+  class="sc-AxiKw c0"
+  disabled=""
+/>
+`;
+
+exports[`Button Component Styles match Button dark outline 1`] = `
+.c0 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid #6c757d;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  color: #343a40;
+  border: 1px solid #343a40;
+  background-image: none;
+  background-color: transparent;
+}
+
+.c0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(52,58,64,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #343a40;
+  border: 1px solid #343a40;
+  background-image: none;
+  background-color: transparent;
+}
+
+.c0:hover:hover,
+.c0:focus:hover {
+  color: #fff;
+}
+
+.c0:hover:hover,
+.c0:focus:hover {
+  background-color: #343a40;
+}
+
+.c0:hover {
+  color: #fff;
+}
+
+.c0:hover {
+  background-color: #343a40;
+}
+
+<button
+  class="sc-AxiKw c0"
+/>
+`;
+
+exports[`Button Component Styles match Button dark outline disabled 1`] = `
+.c0 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid #6c757d;
+  opacity: 0.65;
+  background-image: none;
+  cursor: not-allowed;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  border: 1px solid #343a40;
+  color: #343a40;
+  border: 1px solid #343a40;
+  background-image: none;
+  background-color: transparent;
+}
+
+.c0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(52,58,64,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #343a40;
+  border: 1px solid #343a40;
+  background-image: none;
+  background-color: transparent;
+}
+
+.c0:hover:hover,
+.c0:focus:hover {
+  background-color: transparent;
+}
+
+.c0:hover {
+  background-color: transparent;
+}
+
+<button
+  class="sc-AxiKw c0"
+  disabled=""
+/>
+`;
+
+exports[`Button Component Styles match Button disabled 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -123,7 +791,725 @@ exports[`Styles match Button disabled 1`] = `
 />
 `;
 
-exports[`Styles match Button primary 1`] = `
+exports[`Button Component Styles match Button dropdownToggle 1`] = `
+.c0 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid #6c757d;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+}
+
+.c0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0::after {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  vertical-align: 0.255em;
+  content: '';
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+}
+
+.c0:empty::after {
+  margin-left: 0;
+}
+
+.c0::after {
+  margin-left: 0.255em;
+}
+
+<button
+  class="sc-AxiKw c0"
+/>
+`;
+
+exports[`Button Component Styles match Button info active 1`] = `
+.c0 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid #6c757d;
+  background-image: none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  color: #fff;
+  border: 1px solid #12707f;
+  background-image: none;
+  background-color: #12707f;
+}
+
+.c0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(23,162,184,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #12707f;
+  background-image: none;
+  background-color: #12707f;
+}
+
+<button
+  class="sc-AxiKw c0"
+/>
+`;
+
+exports[`Button Component Styles match Button info outline 1`] = `
+.c0 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid #6c757d;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  color: #17a2b8;
+  border: 1px solid #17a2b8;
+  background-image: none;
+  background-color: transparent;
+}
+
+.c0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(23,162,184,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #17a2b8;
+  border: 1px solid #17a2b8;
+  background-image: none;
+  background-color: transparent;
+}
+
+.c0:hover:hover,
+.c0:focus:hover {
+  color: #fff;
+}
+
+.c0:hover:hover,
+.c0:focus:hover {
+  background-color: #17a2b8;
+}
+
+.c0:hover {
+  color: #fff;
+}
+
+.c0:hover {
+  background-color: #17a2b8;
+}
+
+<button
+  class="sc-AxiKw c0"
+/>
+`;
+
+exports[`Button Component Styles match Button info outline disabled 1`] = `
+.c0 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid #6c757d;
+  opacity: 0.65;
+  background-image: none;
+  cursor: not-allowed;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  border: 1px solid #17a2b8;
+  color: #17a2b8;
+  border: 1px solid #17a2b8;
+  background-image: none;
+  background-color: transparent;
+}
+
+.c0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(23,162,184,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #17a2b8;
+  border: 1px solid #17a2b8;
+  background-image: none;
+  background-color: transparent;
+}
+
+.c0:hover:hover,
+.c0:focus:hover {
+  background-color: transparent;
+}
+
+.c0:hover {
+  background-color: transparent;
+}
+
+<button
+  class="sc-AxiKw c0"
+  disabled=""
+/>
+`;
+
+exports[`Button Component Styles match Button large 1`] = `
+.c0 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid #6c757d;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.25rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+}
+
+.c0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+<button
+  class="sc-AxiKw c0"
+/>
+`;
+
+exports[`Button Component Styles match Button light 1`] = `
+.c0 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid #6c757d;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  color: #212529;
+  border: 1px solid #f0f0f0;
+  background-color: #f0f0f0;
+}
+
+.c0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(248,249,250,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #212529;
+  border: 1px solid #f0f0f0;
+  background-color: #f0f0f0;
+}
+
+.c0:hover:focus,
+.c0:focus:focus,
+.c0:hover:hover,
+.c0:focus:hover {
+  border: 1px solid #cccecf;
+}
+
+.c0:hover:focus,
+.c0:focus:focus,
+.c0:hover:hover,
+.c0:focus:hover {
+  background-color: #e2e6ea;
+}
+
+.c0:focus,
+.c0:hover {
+  border: 1px solid #cccecf;
+}
+
+.c0:focus,
+.c0:hover {
+  background-color: #e2e6ea;
+}
+
+<button
+  class="sc-AxiKw c0"
+/>
+`;
+
+exports[`Button Component Styles match Button light active 1`] = `
+.c0 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid #6c757d;
+  background-image: none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  color: #212529;
+  border: 1px solid #cccecf;
+  background-image: none;
+  background-color: #cccecf;
+}
+
+.c0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(248,249,250,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #212529;
+  border: 1px solid #cccecf;
+  background-image: none;
+  background-color: #cccecf;
+}
+
+<button
+  class="sc-AxiKw c0"
+/>
+`;
+
+exports[`Button Component Styles match Button light disabled 1`] = `
+.c0 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid #6c757d;
+  opacity: 0.65;
+  background-image: none;
+  cursor: not-allowed;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  border: 1px solid #f0f0f0;
+  color: #212529;
+  border: 1px solid #f0f0f0;
+  background-image: none;
+  background-color: #f0f0f0;
+}
+
+.c0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(248,249,250,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #212529;
+  border: 1px solid #f0f0f0;
+  background-image: none;
+  background-color: #f0f0f0;
+}
+
+<button
+  class="sc-AxiKw c0"
+  disabled=""
+/>
+`;
+
+exports[`Button Component Styles match Button light outline 1`] = `
+.c0 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid #6c757d;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  color: #f0f0f0;
+  border: 1px solid #f0f0f0;
+  background-image: none;
+  background-color: transparent;
+}
+
+.c0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(248,249,250,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #f0f0f0;
+  border: 1px solid #f0f0f0;
+  background-image: none;
+  background-color: transparent;
+}
+
+.c0:hover:hover,
+.c0:focus:hover {
+  color: #212529;
+}
+
+.c0:hover:hover,
+.c0:focus:hover {
+  background-color: #f0f0f0;
+}
+
+.c0:hover {
+  color: #212529;
+}
+
+.c0:hover {
+  background-color: #f0f0f0;
+}
+
+<button
+  class="sc-AxiKw c0"
+/>
+`;
+
+exports[`Button Component Styles match Button light outline disabled 1`] = `
+.c0 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid #6c757d;
+  opacity: 0.65;
+  background-image: none;
+  cursor: not-allowed;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  border: 1px solid #f0f0f0;
+  color: #f0f0f0;
+  border: 1px solid #f0f0f0;
+  background-image: none;
+  background-color: transparent;
+}
+
+.c0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(248,249,250,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #f0f0f0;
+  border: 1px solid #f0f0f0;
+  background-image: none;
+  background-color: transparent;
+}
+
+.c0:hover:hover,
+.c0:focus:hover {
+  background-color: transparent;
+}
+
+.c0:hover {
+  background-color: transparent;
+}
+
+<button
+  class="sc-AxiKw c0"
+  disabled=""
+/>
+`;
+
+exports[`Button Component Styles match Button noRadius 1`] = `
+.c0 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid #6c757d;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0;
+}
+
+.c0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+<button
+  class="sc-AxiKw c0"
+/>
+`;
+
+exports[`Button Component Styles match Button pill 1`] = `
+.c0 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid #6c757d;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 10rem;
+}
+
+.c0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+<button
+  class="sc-AxiKw c0"
+/>
+`;
+
+exports[`Button Component Styles match Button primary 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -202,7 +1588,7 @@ exports[`Styles match Button primary 1`] = `
 />
 `;
 
-exports[`Styles match Button primary active 1`] = `
+exports[`Button Component Styles match Button primary active 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -260,7 +1646,68 @@ exports[`Styles match Button primary active 1`] = `
 />
 `;
 
-exports[`Styles match Button primary outline 1`] = `
+exports[`Button Component Styles match Button primary disabled 1`] = `
+.c0 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid #6c757d;
+  opacity: 0.65;
+  background-image: none;
+  cursor: not-allowed;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  border: 1px solid #007bff;
+  color: #fff;
+  border: 1px solid #007bff;
+  background-image: none;
+  background-color: #007bff;
+}
+
+.c0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #007bff;
+  background-image: none;
+  background-color: #007bff;
+}
+
+<button
+  class="sc-AxiKw c0"
+  disabled=""
+/>
+`;
+
+exports[`Button Component Styles match Button primary outline 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -335,7 +1782,7 @@ exports[`Styles match Button primary outline 1`] = `
 />
 `;
 
-exports[`Styles match Button primary outline disabled 1`] = `
+exports[`Button Component Styles match Button primary outline disabled 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -405,7 +1852,1074 @@ exports[`Styles match Button primary outline disabled 1`] = `
 />
 `;
 
-exports[`Styles match LinkButton 1`] = `
+exports[`Button Component Styles match Button secondary 1`] = `
+.c0 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid #6c757d;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  color: #fff;
+  border: 1px solid #6c757d;
+  background-color: #6c757d;
+}
+
+.c0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #6c757d;
+  background-color: #6c757d;
+}
+
+.c0:hover:focus,
+.c0:focus:focus,
+.c0:hover:hover,
+.c0:focus:hover {
+  border: 1px solid #4e555b;
+}
+
+.c0:hover:focus,
+.c0:focus:focus,
+.c0:hover:hover,
+.c0:focus:hover {
+  background-color: #5a6268;
+}
+
+.c0:focus,
+.c0:hover {
+  border: 1px solid #4e555b;
+}
+
+.c0:focus,
+.c0:hover {
+  background-color: #5a6268;
+}
+
+<button
+  class="sc-AxiKw c0"
+/>
+`;
+
+exports[`Button Component Styles match Button secondary active 1`] = `
+.c0 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid #6c757d;
+  background-image: none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  color: #fff;
+  border: 1px solid #4e555b;
+  background-image: none;
+  background-color: #6c757d;
+}
+
+.c0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #4e555b;
+  background-image: none;
+  background-color: #6c757d;
+}
+
+<button
+  class="sc-AxiKw c0"
+/>
+`;
+
+exports[`Button Component Styles match Button secondary disabled 1`] = `
+.c0 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid #6c757d;
+  opacity: 0.65;
+  background-image: none;
+  cursor: not-allowed;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  border: 1px solid #6c757d;
+  color: #fff;
+  border: 1px solid #6c757d;
+  background-image: none;
+  background-color: #6c757d;
+}
+
+.c0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #6c757d;
+  background-image: none;
+  background-color: #6c757d;
+}
+
+<button
+  class="sc-AxiKw c0"
+  disabled=""
+/>
+`;
+
+exports[`Button Component Styles match Button secondary outline 1`] = `
+.c0 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid #6c757d;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  color: #6c757d;
+  border: 1px solid #6c757d;
+  background-image: none;
+  background-color: transparent;
+}
+
+.c0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #6c757d;
+  border: 1px solid #6c757d;
+  background-image: none;
+  background-color: transparent;
+}
+
+.c0:hover:hover,
+.c0:focus:hover {
+  color: #fff;
+}
+
+.c0:hover:hover,
+.c0:focus:hover {
+  background-color: #6c757d;
+}
+
+.c0:hover {
+  color: #fff;
+}
+
+.c0:hover {
+  background-color: #6c757d;
+}
+
+<button
+  class="sc-AxiKw c0"
+/>
+`;
+
+exports[`Button Component Styles match Button secondary outline disabled 1`] = `
+.c0 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid #6c757d;
+  opacity: 0.65;
+  background-image: none;
+  cursor: not-allowed;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  border: 1px solid #6c757d;
+  color: #6c757d;
+  border: 1px solid #6c757d;
+  background-image: none;
+  background-color: transparent;
+}
+
+.c0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #6c757d;
+  border: 1px solid #6c757d;
+  background-image: none;
+  background-color: transparent;
+}
+
+.c0:hover:hover,
+.c0:focus:hover {
+  background-color: transparent;
+}
+
+.c0:hover {
+  background-color: transparent;
+}
+
+<button
+  class="sc-AxiKw c0"
+  disabled=""
+/>
+`;
+
+exports[`Button Component Styles match Button small 1`] = `
+.c0 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid #6c757d;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.875rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.2rem;
+}
+
+.c0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+<button
+  class="sc-AxiKw c0"
+/>
+`;
+
+exports[`Button Component Styles match Button success 1`] = `
+.c0 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid #6c757d;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  color: #fff;
+  border: 1px solid #28a745;
+  background-color: #28a745;
+}
+
+.c0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(40,167,69,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #28a745;
+  background-color: #28a745;
+}
+
+.c0:hover:focus,
+.c0:focus:focus,
+.c0:hover:hover,
+.c0:focus:hover {
+  border: 1px solid #1c7430;
+}
+
+.c0:hover:focus,
+.c0:focus:focus,
+.c0:hover:hover,
+.c0:focus:hover {
+  background-color: #218838;
+}
+
+.c0:focus,
+.c0:hover {
+  border: 1px solid #1c7430;
+}
+
+.c0:focus,
+.c0:hover {
+  background-color: #218838;
+}
+
+<button
+  class="sc-AxiKw c0"
+/>
+`;
+
+exports[`Button Component Styles match Button success active 1`] = `
+.c0 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid #6c757d;
+  background-image: none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  color: #fff;
+  border: 1px solid #1c7430;
+  background-image: none;
+  background-color: #1c7430;
+}
+
+.c0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(40,167,69,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #1c7430;
+  background-image: none;
+  background-color: #1c7430;
+}
+
+<button
+  class="sc-AxiKw c0"
+/>
+`;
+
+exports[`Button Component Styles match Button success disabled 1`] = `
+.c0 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid #6c757d;
+  opacity: 0.65;
+  background-image: none;
+  cursor: not-allowed;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  border: 1px solid #28a745;
+  color: #fff;
+  border: 1px solid #28a745;
+  background-image: none;
+  background-color: #28a745;
+}
+
+.c0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(40,167,69,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #28a745;
+  background-image: none;
+  background-color: #28a745;
+}
+
+<button
+  class="sc-AxiKw c0"
+  disabled=""
+/>
+`;
+
+exports[`Button Component Styles match Button success outline 1`] = `
+.c0 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid #6c757d;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  color: #28a745;
+  border: 1px solid #28a745;
+  background-image: none;
+  background-color: transparent;
+}
+
+.c0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(40,167,69,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #28a745;
+  border: 1px solid #28a745;
+  background-image: none;
+  background-color: transparent;
+}
+
+.c0:hover:hover,
+.c0:focus:hover {
+  color: #fff;
+}
+
+.c0:hover:hover,
+.c0:focus:hover {
+  background-color: #28a745;
+}
+
+.c0:hover {
+  color: #fff;
+}
+
+.c0:hover {
+  background-color: #28a745;
+}
+
+<button
+  class="sc-AxiKw c0"
+/>
+`;
+
+exports[`Button Component Styles match Button success outline disabled 1`] = `
+.c0 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid #6c757d;
+  opacity: 0.65;
+  background-image: none;
+  cursor: not-allowed;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  border: 1px solid #28a745;
+  color: #28a745;
+  border: 1px solid #28a745;
+  background-image: none;
+  background-color: transparent;
+}
+
+.c0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(40,167,69,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #28a745;
+  border: 1px solid #28a745;
+  background-image: none;
+  background-color: transparent;
+}
+
+.c0:hover:hover,
+.c0:focus:hover {
+  background-color: transparent;
+}
+
+.c0:hover {
+  background-color: transparent;
+}
+
+<button
+  class="sc-AxiKw c0"
+  disabled=""
+/>
+`;
+
+exports[`Button Component Styles match Button warning 1`] = `
+.c0 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid #6c757d;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  color: #212529;
+  border: 1px solid #ffc107;
+  background-color: #ffc107;
+}
+
+.c0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(255,193,7,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #212529;
+  border: 1px solid #ffc107;
+  background-color: #ffc107;
+}
+
+.c0:hover:focus,
+.c0:focus:focus,
+.c0:hover:hover,
+.c0:focus:hover {
+  border: 1px solid #c69500;
+}
+
+.c0:hover:focus,
+.c0:focus:focus,
+.c0:hover:hover,
+.c0:focus:hover {
+  background-color: #e0a800;
+}
+
+.c0:focus,
+.c0:hover {
+  border: 1px solid #c69500;
+}
+
+.c0:focus,
+.c0:hover {
+  background-color: #e0a800;
+}
+
+<button
+  class="sc-AxiKw c0"
+/>
+`;
+
+exports[`Button Component Styles match Button warning active 1`] = `
+.c0 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid #6c757d;
+  background-image: none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  color: #212529;
+  border: 1px solid #c69500;
+  background-image: none;
+  background-color: #c69500;
+}
+
+.c0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(255,193,7,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #212529;
+  border: 1px solid #c69500;
+  background-image: none;
+  background-color: #c69500;
+}
+
+<button
+  class="sc-AxiKw c0"
+/>
+`;
+
+exports[`Button Component Styles match Button warning disabled 1`] = `
+.c0 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid #6c757d;
+  opacity: 0.65;
+  background-image: none;
+  cursor: not-allowed;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  border: 1px solid #ffc107;
+  color: #212529;
+  border: 1px solid #ffc107;
+  background-image: none;
+  background-color: #ffc107;
+}
+
+.c0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(255,193,7,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #212529;
+  border: 1px solid #ffc107;
+  background-image: none;
+  background-color: #ffc107;
+}
+
+<button
+  class="sc-AxiKw c0"
+  disabled=""
+/>
+`;
+
+exports[`Button Component Styles match Button warning outline 1`] = `
+.c0 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid #6c757d;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  color: #ffc107;
+  border: 1px solid #ffc107;
+  background-image: none;
+  background-color: transparent;
+}
+
+.c0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(255,193,7,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #ffc107;
+  border: 1px solid #ffc107;
+  background-image: none;
+  background-color: transparent;
+}
+
+.c0:hover:hover,
+.c0:focus:hover {
+  color: #212529;
+}
+
+.c0:hover:hover,
+.c0:focus:hover {
+  background-color: #ffc107;
+}
+
+.c0:hover {
+  color: #212529;
+}
+
+.c0:hover {
+  background-color: #ffc107;
+}
+
+<button
+  class="sc-AxiKw c0"
+/>
+`;
+
+exports[`Button Component Styles match Button warning outline disabled 1`] = `
+.c0 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid #6c757d;
+  opacity: 0.65;
+  background-image: none;
+  cursor: not-allowed;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  border: 1px solid #ffc107;
+  color: #ffc107;
+  border: 1px solid #ffc107;
+  background-image: none;
+  background-color: transparent;
+}
+
+.c0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(255,193,7,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #ffc107;
+  border: 1px solid #ffc107;
+  background-image: none;
+  background-color: transparent;
+}
+
+.c0:hover:hover,
+.c0:focus:hover {
+  background-color: transparent;
+}
+
+.c0:hover {
+  background-color: transparent;
+}
+
+<button
+  class="sc-AxiKw c0"
+  disabled=""
+/>
+`;
+
+exports[`Button Component Styles match LinkButton 1`] = `
 .c0 {
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -445,7 +2959,7 @@ exports[`Styles match LinkButton 1`] = `
 />
 `;
 
-exports[`Styles matches Button 1`] = `
+exports[`Button Component Styles matches Button split 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -462,7 +2976,9 @@ exports[`Styles matches Button 1`] = `
   cursor: pointer;
   display: inline-block;
   font-size: 1rem;
-  padding: 0.375rem 0.75rem;
+  padding: 0;
+  padding-right: 0.5625rem;
+  padding-left: 0.5625rem;
   border-radius: 0.25rem;
 }
 
@@ -478,12 +2994,16 @@ exports[`Styles matches Button 1`] = `
   box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
 }
 
+.c0::after {
+  margin-left: 0;
+}
+
 <button
   class="sc-AxiKw c0"
 />
 `;
 
-exports[`Styles matches Button primary disabled 1`] = `
+exports[`Button Component Styles matches Button split lg 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -497,18 +3017,13 @@ exports[`Styles matches Button primary disabled 1`] = `
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
-  opacity: 0.65;
-  background-image: none;
-  cursor: not-allowed;
+  cursor: pointer;
   display: inline-block;
-  font-size: 1rem;
-  padding: 0.375rem 0.75rem;
-  border-radius: 0.25rem;
-  border: 1px solid #007bff;
-  color: #fff;
-  border: 1px solid #007bff;
-  background-image: none;
-  background-color: #007bff;
+  font-size: 1.25rem;
+  padding: 0;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  border-radius: 0.3rem;
 }
 
 .c0:hover {
@@ -523,23 +3038,55 @@ exports[`Styles matches Button primary disabled 1`] = `
   box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
 }
 
-.c0:focus {
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.5);
-}
-
-.c0:hover,
-.c0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  color: #fff;
-  border: 1px solid #007bff;
-  background-image: none;
-  background-color: #007bff;
+.c0::after {
+  margin-left: 0;
 }
 
 <button
   class="sc-AxiKw c0"
-  disabled=""
+/>
+`;
+
+exports[`Button Component Styles matches Button split sm 1`] = `
+.c0 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid #6c757d;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.875rem;
+  padding: 0;
+  padding-right: 0.375rem;
+  padding-left: 0.375rem;
+  border-radius: 0.2rem;
+}
+
+.c0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0::after {
+  margin-left: 0;
+}
+
+<button
+  class="sc-AxiKw c0"
 />
 `;

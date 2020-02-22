@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import Alert, { AlertDismissIcon } from './index';
+import { Alert, AlertDismissIcon } from './index';
 import { tagPropType } from '../../utils/consts';
 import Fade from '../../utils/Fade';
 
@@ -35,14 +35,7 @@ const DismissableAlert = props => {
   };
 
   return (
-    <Fade
-      {...attributes}
-      {...alertTransition}
-      tag={Alert}
-      in={isOpen}
-      role='alert'
-      innerRef={innerRef}
-    >
+    <Fade {...attributes} {...alertTransition} tag={Alert} in={isOpen} role='alert' innerRef={innerRef}>
       {children}
       {toggle ? (
         <DismissButton type='button' aria-label={closeAriaLabel} onClick={toggle}>

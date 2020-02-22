@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import Alert, { AlertDismissIcon } from './index';
-import DismissableAlert from './DismissableAlert';
+import { Alert, AlertDismissIcon, DismissableAlert } from './index';
 import { Story } from '../../utils/functions';
+import BSThemeProvider from '../../utils/BSThemeProvider';
 
 export default {
   title: 'Alert',
@@ -48,9 +48,9 @@ export const withALink = () => (
 export const staticDismissible = () => (
   <>
     <Alert primary dismissible>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste tempore ea distinctio iure quas
-      quibusdam dolorem inventore dolorum explicabo a aspernatur quisquam tempora, sapiente sed
-      repudiandae, iusto architecto ipsum blanditiis.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste tempore ea distinctio iure quas quibusdam
+      dolorem inventore dolorum explicabo a aspernatur quisquam tempora, sapiente sed repudiandae, iusto
+      architecto ipsum blanditiis.
       <AlertDismissIcon>&times;</AlertDismissIcon>
     </Alert>
   </>
@@ -60,9 +60,26 @@ export const dismissible = Story(() => {
   const [hidden, setHidden] = useState(false);
   return (
     <DismissableAlert danger toggle={() => setHidden(!hidden)} isOpen={!hidden}>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste tempore ea distinctio iure quas
-      quibusdam dolorem inventore dolorum explicabo a aspernatur quisquam tempora, sapiente sed
-      repudiandae, iusto architecto ipsum blanditiis.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste tempore ea distinctio iure quas quibusdam
+      dolorem inventore dolorum explicabo a aspernatur quisquam tempora, sapiente sed repudiandae, iusto
+      architecto ipsum blanditiis.
     </DismissableAlert>
   );
 });
+
+const theme = {
+  alert: {
+    colors: {
+      default: {
+        color: 'white',
+        background: 'cornflowerblue',
+      },
+    },
+  },
+};
+
+export const withTheme = () => (
+  <BSThemeProvider theme={theme}>
+    <Alert>Always blue! Always blue!</Alert>
+  </BSThemeProvider>
+);

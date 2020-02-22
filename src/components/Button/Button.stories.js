@@ -1,6 +1,5 @@
 import React from 'react';
 import { Button, LinkButton } from './index';
-import styled from 'styled-components';
 
 export default {
   title: 'Button',

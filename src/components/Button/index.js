@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components';
 import { theme, ifProp, ifNotProp } from 'styled-tools';
 import { Button as BaseButton, A } from '../base';
-import defaultTheme from '../../utils/defaultTheme';
+import defaultTheme from '../../theme';
 import { themeContexts } from '../../utils/consts';
 
 const getFontSize = props => {

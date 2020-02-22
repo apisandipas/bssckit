@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components';
 import { theme, ifProp } from 'styled-tools';
 import { Span } from '../base';
-import defaultTheme from '../../utils/defaultTheme';
+import defaultTheme from '../../theme';
 import { themeContexts } from '../../utils/consts';
 
 const Badge = styled(Span)`

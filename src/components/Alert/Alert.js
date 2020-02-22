@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components';
 import { theme, ifProp } from 'styled-tools';
 import { Div } from '../base';
-import defaultTheme from '../../utils/defaultTheme';
+import defaultTheme from '../../theme';
 import { themeContexts } from '../../utils/consts';
 
 export const AlertDismissIcon = styled.span.attrs({
@@ -99,6 +99,7 @@ const Alert = styled(Div).attrs({
   )};
 `;
 
+console.log('Alert defaultTheme', defaultTheme);
 Alert.defaultProps = {
   theme: defaultTheme,
 };

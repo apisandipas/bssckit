@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Button Component Styles match Button 1`] = `
+exports[`Button Component matches Button 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -14,6 +14,8 @@ exports[`Button Component Styles match Button 1`] = `
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
+  background: #6c757d;
+  color: #fff;
   cursor: pointer;
   display: inline-block;
   font-size: 1rem;
@@ -33,12 +35,28 @@ exports[`Button Component Styles match Button 1`] = `
   box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <button
-  class="sc-AxiKw c0"
+  class="sc-fzoXzr c0"
 />
 `;
 
-exports[`Button Component Styles match Button active 1`] = `
+exports[`Button Component matches Button active 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -52,6 +70,8 @@ exports[`Button Component Styles match Button active 1`] = `
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
+  background: #6c757d;
+  color: #fff;
   background-image: none;
   cursor: pointer;
   display: inline-block;
@@ -72,12 +92,28 @@ exports[`Button Component Styles match Button active 1`] = `
   box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <button
-  class="sc-AxiKw c0"
+  class="sc-fzoXzr c0"
 />
 `;
 
-exports[`Button Component Styles match Button block 1`] = `
+exports[`Button Component matches Button block 1`] = `
 .c1 {
   font-weight: 400;
   line-height: 1.5;
@@ -91,6 +127,8 @@ exports[`Button Component Styles match Button block 1`] = `
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
+  background: #6c757d;
+  color: #fff;
   cursor: pointer;
   display: block;
   width: 100%;
@@ -115,12 +153,28 @@ exports[`Button Component Styles match Button block 1`] = `
   margin-top: 0.5rem;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <button
-  class="sc-AxiKw c0 c1"
+  class="sc-fzoXzr c0 c1"
 />
 `;
 
-exports[`Button Component Styles match Button danger 1`] = `
+exports[`Button Component matches Button danger 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -134,6 +188,8 @@ exports[`Button Component Styles match Button danger 1`] = `
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
+  background: #6c757d;
+  color: #fff;
   cursor: pointer;
   display: inline-block;
   font-size: 1rem;
@@ -194,12 +250,28 @@ exports[`Button Component Styles match Button danger 1`] = `
   background-color: #c82333;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <button
-  class="sc-AxiKw c0"
+  class="sc-fzoXzr c0"
 />
 `;
 
-exports[`Button Component Styles match Button danger active 1`] = `
+exports[`Button Component matches Button danger active 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -213,6 +285,8 @@ exports[`Button Component Styles match Button danger active 1`] = `
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
+  background: #6c757d;
+  color: #fff;
   background-image: none;
   cursor: pointer;
   display: inline-block;
@@ -252,12 +326,28 @@ exports[`Button Component Styles match Button danger active 1`] = `
   background-color: #b21f2d;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <button
-  class="sc-AxiKw c0"
+  class="sc-fzoXzr c0"
 />
 `;
 
-exports[`Button Component Styles match Button danger disabled 1`] = `
+exports[`Button Component matches Button danger disabled 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -271,6 +361,8 @@ exports[`Button Component Styles match Button danger disabled 1`] = `
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
+  background: #6c757d;
+  color: #fff;
   opacity: 0.65;
   background-image: none;
   cursor: not-allowed;
@@ -312,13 +404,29 @@ exports[`Button Component Styles match Button danger disabled 1`] = `
   background-color: #dc3545;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <button
-  class="sc-AxiKw c0"
+  class="sc-fzoXzr c0"
   disabled=""
 />
 `;
 
-exports[`Button Component Styles match Button danger outline 1`] = `
+exports[`Button Component matches Button danger outline 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -332,6 +440,8 @@ exports[`Button Component Styles match Button danger outline 1`] = `
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
+  background: #6c757d;
+  color: #fff;
   cursor: pointer;
   display: inline-block;
   font-size: 1rem;
@@ -388,12 +498,28 @@ exports[`Button Component Styles match Button danger outline 1`] = `
   background-color: #dc3545;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <button
-  class="sc-AxiKw c0"
+  class="sc-fzoXzr c0"
 />
 `;
 
-exports[`Button Component Styles match Button danger outline disabled 1`] = `
+exports[`Button Component matches Button danger outline disabled 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -407,6 +533,8 @@ exports[`Button Component Styles match Button danger outline disabled 1`] = `
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
+  background: #6c757d;
+  color: #fff;
   opacity: 0.65;
   background-image: none;
   cursor: not-allowed;
@@ -457,13 +585,29 @@ exports[`Button Component Styles match Button danger outline disabled 1`] = `
   background-color: transparent;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <button
-  class="sc-AxiKw c0"
+  class="sc-fzoXzr c0"
   disabled=""
 />
 `;
 
-exports[`Button Component Styles match Button dark 1`] = `
+exports[`Button Component matches Button dark 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -477,6 +621,8 @@ exports[`Button Component Styles match Button dark 1`] = `
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
+  background: #6c757d;
+  color: #fff;
   cursor: pointer;
   display: inline-block;
   font-size: 1rem;
@@ -537,14 +683,30 @@ exports[`Button Component Styles match Button dark 1`] = `
   background-color: #23272b;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <button
-  class="sc-AxiKw c0"
+  class="sc-fzoXzr c0"
 />
 `;
 
-exports[`Button Component Styles match Button dark active 1`] = `undefined`;
+exports[`Button Component matches Button dark active 1`] = `undefined`;
 
-exports[`Button Component Styles match Button dark disabled 1`] = `
+exports[`Button Component matches Button dark disabled 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -558,6 +720,8 @@ exports[`Button Component Styles match Button dark disabled 1`] = `
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
+  background: #6c757d;
+  color: #fff;
   opacity: 0.65;
   background-image: none;
   cursor: not-allowed;
@@ -599,13 +763,29 @@ exports[`Button Component Styles match Button dark disabled 1`] = `
   background-color: #343a40;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <button
-  class="sc-AxiKw c0"
+  class="sc-fzoXzr c0"
   disabled=""
 />
 `;
 
-exports[`Button Component Styles match Button dark outline 1`] = `
+exports[`Button Component matches Button dark outline 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -619,6 +799,8 @@ exports[`Button Component Styles match Button dark outline 1`] = `
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
+  background: #6c757d;
+  color: #fff;
   cursor: pointer;
   display: inline-block;
   font-size: 1rem;
@@ -675,12 +857,28 @@ exports[`Button Component Styles match Button dark outline 1`] = `
   background-color: #343a40;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <button
-  class="sc-AxiKw c0"
+  class="sc-fzoXzr c0"
 />
 `;
 
-exports[`Button Component Styles match Button dark outline disabled 1`] = `
+exports[`Button Component matches Button dark outline disabled 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -694,6 +892,8 @@ exports[`Button Component Styles match Button dark outline disabled 1`] = `
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
+  background: #6c757d;
+  color: #fff;
   opacity: 0.65;
   background-image: none;
   cursor: not-allowed;
@@ -744,13 +944,29 @@ exports[`Button Component Styles match Button dark outline disabled 1`] = `
   background-color: transparent;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <button
-  class="sc-AxiKw c0"
+  class="sc-fzoXzr c0"
   disabled=""
 />
 `;
 
-exports[`Button Component Styles match Button disabled 1`] = `
+exports[`Button Component matches Button disabled 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -764,6 +980,8 @@ exports[`Button Component Styles match Button disabled 1`] = `
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
+  background: #6c757d;
+  color: #fff;
   opacity: 0.65;
   background-image: none;
   cursor: not-allowed;
@@ -785,13 +1003,29 @@ exports[`Button Component Styles match Button disabled 1`] = `
   box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <button
-  class="sc-AxiKw c0"
+  class="sc-fzoXzr c0"
   disabled=""
 />
 `;
 
-exports[`Button Component Styles match Button dropdownToggle 1`] = `
+exports[`Button Component matches Button dropdownToggle 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -805,6 +1039,8 @@ exports[`Button Component Styles match Button dropdownToggle 1`] = `
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
+  background: #6c757d;
+  color: #fff;
   cursor: pointer;
   display: inline-block;
   font-size: 1rem;
@@ -844,12 +1080,28 @@ exports[`Button Component Styles match Button dropdownToggle 1`] = `
   margin-left: 0.255em;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <button
-  class="sc-AxiKw c0"
+  class="sc-fzoXzr c0"
 />
 `;
 
-exports[`Button Component Styles match Button info active 1`] = `
+exports[`Button Component matches Button info active 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -863,6 +1115,8 @@ exports[`Button Component Styles match Button info active 1`] = `
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
+  background: #6c757d;
+  color: #fff;
   background-image: none;
   cursor: pointer;
   display: inline-block;
@@ -902,12 +1156,28 @@ exports[`Button Component Styles match Button info active 1`] = `
   background-color: #12707f;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <button
-  class="sc-AxiKw c0"
+  class="sc-fzoXzr c0"
 />
 `;
 
-exports[`Button Component Styles match Button info outline 1`] = `
+exports[`Button Component matches Button info outline 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -921,6 +1191,8 @@ exports[`Button Component Styles match Button info outline 1`] = `
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
+  background: #6c757d;
+  color: #fff;
   cursor: pointer;
   display: inline-block;
   font-size: 1rem;
@@ -977,12 +1249,28 @@ exports[`Button Component Styles match Button info outline 1`] = `
   background-color: #17a2b8;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <button
-  class="sc-AxiKw c0"
+  class="sc-fzoXzr c0"
 />
 `;
 
-exports[`Button Component Styles match Button info outline disabled 1`] = `
+exports[`Button Component matches Button info outline disabled 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -996,6 +1284,8 @@ exports[`Button Component Styles match Button info outline disabled 1`] = `
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
+  background: #6c757d;
+  color: #fff;
   opacity: 0.65;
   background-image: none;
   cursor: not-allowed;
@@ -1046,13 +1336,29 @@ exports[`Button Component Styles match Button info outline disabled 1`] = `
   background-color: transparent;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <button
-  class="sc-AxiKw c0"
+  class="sc-fzoXzr c0"
   disabled=""
 />
 `;
 
-exports[`Button Component Styles match Button large 1`] = `
+exports[`Button Component matches Button large 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -1066,6 +1372,8 @@ exports[`Button Component Styles match Button large 1`] = `
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
+  background: #6c757d;
+  color: #fff;
   cursor: pointer;
   display: inline-block;
   font-size: 1.25rem;
@@ -1085,12 +1393,28 @@ exports[`Button Component Styles match Button large 1`] = `
   box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <button
-  class="sc-AxiKw c0"
+  class="sc-fzoXzr c0"
 />
 `;
 
-exports[`Button Component Styles match Button light 1`] = `
+exports[`Button Component matches Button light 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -1104,6 +1428,8 @@ exports[`Button Component Styles match Button light 1`] = `
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
+  background: #6c757d;
+  color: #fff;
   cursor: pointer;
   display: inline-block;
   font-size: 1rem;
@@ -1164,12 +1490,28 @@ exports[`Button Component Styles match Button light 1`] = `
   background-color: #e2e6ea;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <button
-  class="sc-AxiKw c0"
+  class="sc-fzoXzr c0"
 />
 `;
 
-exports[`Button Component Styles match Button light active 1`] = `
+exports[`Button Component matches Button light active 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -1183,6 +1525,8 @@ exports[`Button Component Styles match Button light active 1`] = `
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
+  background: #6c757d;
+  color: #fff;
   background-image: none;
   cursor: pointer;
   display: inline-block;
@@ -1222,12 +1566,28 @@ exports[`Button Component Styles match Button light active 1`] = `
   background-color: #cccecf;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <button
-  class="sc-AxiKw c0"
+  class="sc-fzoXzr c0"
 />
 `;
 
-exports[`Button Component Styles match Button light disabled 1`] = `
+exports[`Button Component matches Button light disabled 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -1241,6 +1601,8 @@ exports[`Button Component Styles match Button light disabled 1`] = `
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
+  background: #6c757d;
+  color: #fff;
   opacity: 0.65;
   background-image: none;
   cursor: not-allowed;
@@ -1282,13 +1644,29 @@ exports[`Button Component Styles match Button light disabled 1`] = `
   background-color: #f0f0f0;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <button
-  class="sc-AxiKw c0"
+  class="sc-fzoXzr c0"
   disabled=""
 />
 `;
 
-exports[`Button Component Styles match Button light outline 1`] = `
+exports[`Button Component matches Button light outline 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -1302,6 +1680,8 @@ exports[`Button Component Styles match Button light outline 1`] = `
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
+  background: #6c757d;
+  color: #fff;
   cursor: pointer;
   display: inline-block;
   font-size: 1rem;
@@ -1358,12 +1738,28 @@ exports[`Button Component Styles match Button light outline 1`] = `
   background-color: #f0f0f0;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <button
-  class="sc-AxiKw c0"
+  class="sc-fzoXzr c0"
 />
 `;
 
-exports[`Button Component Styles match Button light outline disabled 1`] = `
+exports[`Button Component matches Button light outline disabled 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -1377,6 +1773,8 @@ exports[`Button Component Styles match Button light outline disabled 1`] = `
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
+  background: #6c757d;
+  color: #fff;
   opacity: 0.65;
   background-image: none;
   cursor: not-allowed;
@@ -1427,13 +1825,29 @@ exports[`Button Component Styles match Button light outline disabled 1`] = `
   background-color: transparent;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <button
-  class="sc-AxiKw c0"
+  class="sc-fzoXzr c0"
   disabled=""
 />
 `;
 
-exports[`Button Component Styles match Button noRadius 1`] = `
+exports[`Button Component matches Button noRadius 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -1447,6 +1861,8 @@ exports[`Button Component Styles match Button noRadius 1`] = `
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
+  background: #6c757d;
+  color: #fff;
   cursor: pointer;
   display: inline-block;
   font-size: 1rem;
@@ -1466,12 +1882,28 @@ exports[`Button Component Styles match Button noRadius 1`] = `
   box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <button
-  class="sc-AxiKw c0"
+  class="sc-fzoXzr c0"
 />
 `;
 
-exports[`Button Component Styles match Button pill 1`] = `
+exports[`Button Component matches Button pill 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -1485,6 +1917,8 @@ exports[`Button Component Styles match Button pill 1`] = `
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
+  background: #6c757d;
+  color: #fff;
   cursor: pointer;
   display: inline-block;
   font-size: 1rem;
@@ -1504,12 +1938,28 @@ exports[`Button Component Styles match Button pill 1`] = `
   box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <button
-  class="sc-AxiKw c0"
+  class="sc-fzoXzr c0"
 />
 `;
 
-exports[`Button Component Styles match Button primary 1`] = `
+exports[`Button Component matches Button primary 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -1523,6 +1973,8 @@ exports[`Button Component Styles match Button primary 1`] = `
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
+  background: #6c757d;
+  color: #fff;
   cursor: pointer;
   display: inline-block;
   font-size: 1rem;
@@ -1583,12 +2035,28 @@ exports[`Button Component Styles match Button primary 1`] = `
   background-color: #0069d9;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <button
-  class="sc-AxiKw c0"
+  class="sc-fzoXzr c0"
 />
 `;
 
-exports[`Button Component Styles match Button primary active 1`] = `
+exports[`Button Component matches Button primary active 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -1602,6 +2070,8 @@ exports[`Button Component Styles match Button primary active 1`] = `
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
+  background: #6c757d;
+  color: #fff;
   background-image: none;
   cursor: pointer;
   display: inline-block;
@@ -1641,12 +2111,28 @@ exports[`Button Component Styles match Button primary active 1`] = `
   background-color: #005cbf;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <button
-  class="sc-AxiKw c0"
+  class="sc-fzoXzr c0"
 />
 `;
 
-exports[`Button Component Styles match Button primary disabled 1`] = `
+exports[`Button Component matches Button primary disabled 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -1660,6 +2146,8 @@ exports[`Button Component Styles match Button primary disabled 1`] = `
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
+  background: #6c757d;
+  color: #fff;
   opacity: 0.65;
   background-image: none;
   cursor: not-allowed;
@@ -1701,13 +2189,29 @@ exports[`Button Component Styles match Button primary disabled 1`] = `
   background-color: #007bff;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <button
-  class="sc-AxiKw c0"
+  class="sc-fzoXzr c0"
   disabled=""
 />
 `;
 
-exports[`Button Component Styles match Button primary outline 1`] = `
+exports[`Button Component matches Button primary outline 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -1721,6 +2225,8 @@ exports[`Button Component Styles match Button primary outline 1`] = `
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
+  background: #6c757d;
+  color: #fff;
   cursor: pointer;
   display: inline-block;
   font-size: 1rem;
@@ -1777,12 +2283,28 @@ exports[`Button Component Styles match Button primary outline 1`] = `
   background-color: #007bff;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <button
-  class="sc-AxiKw c0"
+  class="sc-fzoXzr c0"
 />
 `;
 
-exports[`Button Component Styles match Button primary outline disabled 1`] = `
+exports[`Button Component matches Button primary outline disabled 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -1796,6 +2318,8 @@ exports[`Button Component Styles match Button primary outline disabled 1`] = `
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
+  background: #6c757d;
+  color: #fff;
   opacity: 0.65;
   background-image: none;
   cursor: not-allowed;
@@ -1846,13 +2370,29 @@ exports[`Button Component Styles match Button primary outline disabled 1`] = `
   background-color: transparent;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <button
-  class="sc-AxiKw c0"
+  class="sc-fzoXzr c0"
   disabled=""
 />
 `;
 
-exports[`Button Component Styles match Button secondary 1`] = `
+exports[`Button Component matches Button secondary 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -1866,6 +2406,8 @@ exports[`Button Component Styles match Button secondary 1`] = `
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
+  background: #6c757d;
+  color: #fff;
   cursor: pointer;
   display: inline-block;
   font-size: 1rem;
@@ -1926,12 +2468,28 @@ exports[`Button Component Styles match Button secondary 1`] = `
   background-color: #5a6268;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <button
-  class="sc-AxiKw c0"
+  class="sc-fzoXzr c0"
 />
 `;
 
-exports[`Button Component Styles match Button secondary active 1`] = `
+exports[`Button Component matches Button secondary active 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -1945,6 +2503,8 @@ exports[`Button Component Styles match Button secondary active 1`] = `
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
+  background: #6c757d;
+  color: #fff;
   background-image: none;
   cursor: pointer;
   display: inline-block;
@@ -1984,12 +2544,28 @@ exports[`Button Component Styles match Button secondary active 1`] = `
   background-color: #6c757d;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <button
-  class="sc-AxiKw c0"
+  class="sc-fzoXzr c0"
 />
 `;
 
-exports[`Button Component Styles match Button secondary disabled 1`] = `
+exports[`Button Component matches Button secondary disabled 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -2003,6 +2579,8 @@ exports[`Button Component Styles match Button secondary disabled 1`] = `
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
+  background: #6c757d;
+  color: #fff;
   opacity: 0.65;
   background-image: none;
   cursor: not-allowed;
@@ -2044,13 +2622,29 @@ exports[`Button Component Styles match Button secondary disabled 1`] = `
   background-color: #6c757d;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <button
-  class="sc-AxiKw c0"
+  class="sc-fzoXzr c0"
   disabled=""
 />
 `;
 
-exports[`Button Component Styles match Button secondary outline 1`] = `
+exports[`Button Component matches Button secondary outline 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -2064,6 +2658,8 @@ exports[`Button Component Styles match Button secondary outline 1`] = `
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
+  background: #6c757d;
+  color: #fff;
   cursor: pointer;
   display: inline-block;
   font-size: 1rem;
@@ -2120,12 +2716,28 @@ exports[`Button Component Styles match Button secondary outline 1`] = `
   background-color: #6c757d;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <button
-  class="sc-AxiKw c0"
+  class="sc-fzoXzr c0"
 />
 `;
 
-exports[`Button Component Styles match Button secondary outline disabled 1`] = `
+exports[`Button Component matches Button secondary outline disabled 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -2139,6 +2751,8 @@ exports[`Button Component Styles match Button secondary outline disabled 1`] = `
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
+  background: #6c757d;
+  color: #fff;
   opacity: 0.65;
   background-image: none;
   cursor: not-allowed;
@@ -2189,13 +2803,29 @@ exports[`Button Component Styles match Button secondary outline disabled 1`] = `
   background-color: transparent;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <button
-  class="sc-AxiKw c0"
+  class="sc-fzoXzr c0"
   disabled=""
 />
 `;
 
-exports[`Button Component Styles match Button small 1`] = `
+exports[`Button Component matches Button small 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -2209,6 +2839,8 @@ exports[`Button Component Styles match Button small 1`] = `
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
+  background: #6c757d;
+  color: #fff;
   cursor: pointer;
   display: inline-block;
   font-size: 0.875rem;
@@ -2228,12 +2860,28 @@ exports[`Button Component Styles match Button small 1`] = `
   box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <button
-  class="sc-AxiKw c0"
+  class="sc-fzoXzr c0"
 />
 `;
 
-exports[`Button Component Styles match Button success 1`] = `
+exports[`Button Component matches Button success 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -2247,6 +2895,8 @@ exports[`Button Component Styles match Button success 1`] = `
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
+  background: #6c757d;
+  color: #fff;
   cursor: pointer;
   display: inline-block;
   font-size: 1rem;
@@ -2307,12 +2957,28 @@ exports[`Button Component Styles match Button success 1`] = `
   background-color: #218838;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <button
-  class="sc-AxiKw c0"
+  class="sc-fzoXzr c0"
 />
 `;
 
-exports[`Button Component Styles match Button success active 1`] = `
+exports[`Button Component matches Button success active 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -2326,6 +2992,8 @@ exports[`Button Component Styles match Button success active 1`] = `
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
+  background: #6c757d;
+  color: #fff;
   background-image: none;
   cursor: pointer;
   display: inline-block;
@@ -2365,12 +3033,28 @@ exports[`Button Component Styles match Button success active 1`] = `
   background-color: #1c7430;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <button
-  class="sc-AxiKw c0"
+  class="sc-fzoXzr c0"
 />
 `;
 
-exports[`Button Component Styles match Button success disabled 1`] = `
+exports[`Button Component matches Button success disabled 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -2384,6 +3068,8 @@ exports[`Button Component Styles match Button success disabled 1`] = `
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
+  background: #6c757d;
+  color: #fff;
   opacity: 0.65;
   background-image: none;
   cursor: not-allowed;
@@ -2425,13 +3111,29 @@ exports[`Button Component Styles match Button success disabled 1`] = `
   background-color: #28a745;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <button
-  class="sc-AxiKw c0"
+  class="sc-fzoXzr c0"
   disabled=""
 />
 `;
 
-exports[`Button Component Styles match Button success outline 1`] = `
+exports[`Button Component matches Button success outline 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -2445,6 +3147,8 @@ exports[`Button Component Styles match Button success outline 1`] = `
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
+  background: #6c757d;
+  color: #fff;
   cursor: pointer;
   display: inline-block;
   font-size: 1rem;
@@ -2501,12 +3205,28 @@ exports[`Button Component Styles match Button success outline 1`] = `
   background-color: #28a745;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <button
-  class="sc-AxiKw c0"
+  class="sc-fzoXzr c0"
 />
 `;
 
-exports[`Button Component Styles match Button success outline disabled 1`] = `
+exports[`Button Component matches Button success outline disabled 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -2520,6 +3240,8 @@ exports[`Button Component Styles match Button success outline disabled 1`] = `
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
+  background: #6c757d;
+  color: #fff;
   opacity: 0.65;
   background-image: none;
   cursor: not-allowed;
@@ -2570,13 +3292,29 @@ exports[`Button Component Styles match Button success outline disabled 1`] = `
   background-color: transparent;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <button
-  class="sc-AxiKw c0"
+  class="sc-fzoXzr c0"
   disabled=""
 />
 `;
 
-exports[`Button Component Styles match Button warning 1`] = `
+exports[`Button Component matches Button warning 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -2590,6 +3328,8 @@ exports[`Button Component Styles match Button warning 1`] = `
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
+  background: #6c757d;
+  color: #fff;
   cursor: pointer;
   display: inline-block;
   font-size: 1rem;
@@ -2650,12 +3390,28 @@ exports[`Button Component Styles match Button warning 1`] = `
   background-color: #e0a800;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <button
-  class="sc-AxiKw c0"
+  class="sc-fzoXzr c0"
 />
 `;
 
-exports[`Button Component Styles match Button warning active 1`] = `
+exports[`Button Component matches Button warning active 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -2669,6 +3425,8 @@ exports[`Button Component Styles match Button warning active 1`] = `
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
+  background: #6c757d;
+  color: #fff;
   background-image: none;
   cursor: pointer;
   display: inline-block;
@@ -2708,12 +3466,28 @@ exports[`Button Component Styles match Button warning active 1`] = `
   background-color: #c69500;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <button
-  class="sc-AxiKw c0"
+  class="sc-fzoXzr c0"
 />
 `;
 
-exports[`Button Component Styles match Button warning disabled 1`] = `
+exports[`Button Component matches Button warning disabled 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -2727,6 +3501,8 @@ exports[`Button Component Styles match Button warning disabled 1`] = `
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
+  background: #6c757d;
+  color: #fff;
   opacity: 0.65;
   background-image: none;
   cursor: not-allowed;
@@ -2768,13 +3544,29 @@ exports[`Button Component Styles match Button warning disabled 1`] = `
   background-color: #ffc107;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <button
-  class="sc-AxiKw c0"
+  class="sc-fzoXzr c0"
   disabled=""
 />
 `;
 
-exports[`Button Component Styles match Button warning outline 1`] = `
+exports[`Button Component matches Button warning outline 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -2788,6 +3580,8 @@ exports[`Button Component Styles match Button warning outline 1`] = `
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
+  background: #6c757d;
+  color: #fff;
   cursor: pointer;
   display: inline-block;
   font-size: 1rem;
@@ -2844,12 +3638,28 @@ exports[`Button Component Styles match Button warning outline 1`] = `
   background-color: #ffc107;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <button
-  class="sc-AxiKw c0"
+  class="sc-fzoXzr c0"
 />
 `;
 
-exports[`Button Component Styles match Button warning outline disabled 1`] = `
+exports[`Button Component matches Button warning outline disabled 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -2863,6 +3673,8 @@ exports[`Button Component Styles match Button warning outline disabled 1`] = `
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
+  background: #6c757d;
+  color: #fff;
   opacity: 0.65;
   background-image: none;
   cursor: not-allowed;
@@ -2913,13 +3725,29 @@ exports[`Button Component Styles match Button warning outline disabled 1`] = `
   background-color: transparent;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <button
-  class="sc-AxiKw c0"
+  class="sc-fzoXzr c0"
   disabled=""
 />
 `;
 
-exports[`Button Component Styles match LinkButton 1`] = `
+exports[`Button Component matches LinkButton 1`] = `
 .c0 {
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -2935,6 +3763,8 @@ exports[`Button Component Styles match LinkButton 1`] = `
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
+  background: #6c757d;
+  color: #fff;
   cursor: pointer;
   display: inline-block;
   font-size: 1rem;
@@ -2952,14 +3782,30 @@ exports[`Button Component Styles match LinkButton 1`] = `
   text-decoration: none;
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
 }
 
 <a
-  class="sc-AxhCb c0"
+  class="sc-AxirZ c0"
 />
 `;
 
-exports[`Button Component Styles matches Button split 1`] = `
+exports[`Button Component matcheses Button split 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -2973,6 +3819,8 @@ exports[`Button Component Styles matches Button split 1`] = `
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
+  background: #6c757d;
+  color: #fff;
   cursor: pointer;
   display: inline-block;
   font-size: 1rem;
@@ -2998,12 +3846,28 @@ exports[`Button Component Styles matches Button split 1`] = `
   margin-left: 0;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <button
-  class="sc-AxiKw c0"
+  class="sc-fzoXzr c0"
 />
 `;
 
-exports[`Button Component Styles matches Button split lg 1`] = `
+exports[`Button Component matcheses Button split lg 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -3017,6 +3881,8 @@ exports[`Button Component Styles matches Button split lg 1`] = `
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
+  background: #6c757d;
+  color: #fff;
   cursor: pointer;
   display: inline-block;
   font-size: 1.25rem;
@@ -3042,12 +3908,28 @@ exports[`Button Component Styles matches Button split lg 1`] = `
   margin-left: 0;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <button
-  class="sc-AxiKw c0"
+  class="sc-fzoXzr c0"
 />
 `;
 
-exports[`Button Component Styles matches Button split sm 1`] = `
+exports[`Button Component matcheses Button split sm 1`] = `
 .c0 {
   font-weight: 400;
   line-height: 1.5;
@@ -3061,6 +3943,8 @@ exports[`Button Component Styles matches Button split sm 1`] = `
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
+  background: #6c757d;
+  color: #fff;
   cursor: pointer;
   display: inline-block;
   font-size: 0.875rem;
@@ -3086,7 +3970,23 @@ exports[`Button Component Styles matches Button split sm 1`] = `
   margin-left: 0;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <button
-  class="sc-AxiKw c0"
+  class="sc-fzoXzr c0"
 />
 `;

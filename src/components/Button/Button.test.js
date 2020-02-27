@@ -2,10 +2,10 @@ import React from 'react';
 import 'jest-styled-components';
 import { render } from '@testing-library/react';
 
-import { Button, LinkButton } from './index';
+import { Button, LinkButton } from './Button';
 
 describe('Button Component', () => {
-  test('Styles match Button', () => {
+  it('matches Button', () => {
     const { container } = render(<Button />);
 
     expect(container.firstChild).toMatchSnapshot();
@@ -38,12 +38,12 @@ describe('Button Component', () => {
     });
   });
 
-  test('Styles match LinkButton', () => {
+  it('matches LinkButton', () => {
     const { container } = render(<LinkButton />);
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  test('Styles match Button dropdownToggle', () => {
+  it('matches Button dropdownToggle', () => {
     const { container } = render(<Button dropdownToggle />);
     expect(container.firstChild).toMatchSnapshot();
     expect(container.firstChild).toHaveStyleRule('display', 'inline-block', {
@@ -81,35 +81,35 @@ describe('Button Component', () => {
     });
   });
 
-  test('Styles match Button active', () => {
+  it('matches Button active', () => {
     const { container } = render(<Button active />);
     expect(container.firstChild).toMatchSnapshot();
     expect(container.firstChild).toHaveStyleRule('background-image', 'none');
   });
 
-  test('Styles match Button block', () => {
+  it('matches Button block', () => {
     const { container } = render(<Button block />);
     expect(container.firstChild).toMatchSnapshot();
     expect(container.firstChild).toHaveStyleRule('display', 'block');
     expect(container.firstChild).toHaveStyleRule('width', '100%');
   });
 
-  test('Styles match Button danger', () => {
+  it('matches Button danger', () => {
     const { container } = render(<Button danger />);
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  test('Styles match Button danger disabled', () => {
+  it('matches Button danger disabled', () => {
     const { container } = render(<Button danger disabled />);
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  test('Styles match Button danger active', () => {
+  it('matches Button danger active', () => {
     const { container } = render(<Button danger active />);
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  test('Styles match Button danger outline disabled', () => {
+  it('matches Button danger outline disabled', () => {
     const { container } = render(<Button danger outline disabled />);
     expect(container.firstChild).toMatchSnapshot();
     expect(container.firstChild).toHaveStyleRule('color', '#dc3545');
@@ -133,7 +133,7 @@ describe('Button Component', () => {
     });
   });
 
-  test('Styles match Button danger outline', () => {
+  it('matches Button danger outline', () => {
     const { container } = render(<Button danger outline />);
     expect(container.firstChild).toMatchSnapshot();
     expect(container.firstChild).toHaveStyleRule('color', '#dc3545');
@@ -154,7 +154,7 @@ describe('Button Component', () => {
     });
   });
 
-  test('Styles match Button dark disabled', () => {
+  it('matches Button dark disabled', () => {
     const { container } = render(<Button dark disabled />);
     expect(container.firstChild).toMatchSnapshot();
     expect(container.firstChild).toHaveStyleRule('color', '#fff');
@@ -174,17 +174,17 @@ describe('Button Component', () => {
     });
   });
 
-  test('Styles match Button dark', () => {
+  it('matches Button dark', () => {
     const { container } = render(<Button dark />);
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  test('Styles match Button dark active', () => {
+  it('matches Button dark active', () => {
     const container = render(<Button dark active />);
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  test('Styles match Button dark outline disabled', () => {
+  it('matches Button dark outline disabled', () => {
     const { container } = render(<Button dark outline disabled />);
     expect(container.firstChild).toMatchSnapshot();
     expect(container.firstChild).toHaveStyleRule('color', '#343a40');
@@ -208,7 +208,7 @@ describe('Button Component', () => {
     });
   });
 
-  test('Styles match Button dark outline', () => {
+  it('matches Button dark outline', () => {
     const { container } = render(<Button dark outline />);
     expect(container.firstChild).toMatchSnapshot();
     expect(container.firstChild).toHaveStyleRule('color', '#343a40');
@@ -229,18 +229,18 @@ describe('Button Component', () => {
     });
   });
 
-  test('Styles match Button disabled', () => {
+  it('matches Button disabled', () => {
     const { container } = render(<Button disabled />);
     expect(container.firstChild).toMatchSnapshot();
     expect(container.firstChild).toHaveStyleRule('opacity', '0.65');
   });
 
-  test('Styles match Button info active', () => {
+  it('matches Button info active', () => {
     const { container } = render(<Button info active />);
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  test('Styles match Button info outline', () => {
+  it('matches Button info outline', () => {
     const { container } = render(<Button info outline />);
     expect(container.firstChild).toMatchSnapshot();
     expect(container.firstChild).toHaveStyleRule('color', '#17a2b8');
@@ -261,7 +261,7 @@ describe('Button Component', () => {
     });
   });
 
-  test('Styles match Button info outline disabled', () => {
+  it('matches Button info outline disabled', () => {
     const { container } = render(<Button info outline disabled />);
     expect(container.firstChild).toMatchSnapshot();
     expect(container.firstChild).toHaveStyleRule('color', '#17a2b8');
@@ -285,7 +285,7 @@ describe('Button Component', () => {
     });
   });
 
-  test('Styles match Button large', () => {
+  it('matches Button large', () => {
     const { container } = render(<Button lg />);
     expect(container.firstChild).toMatchSnapshot();
     expect(container.firstChild).toHaveStyleRule('padding', '0.5rem 1rem');
@@ -294,49 +294,49 @@ describe('Button Component', () => {
     expect(container.firstChild).toHaveStyleRule('border-radius', '0.3rem');
   });
 
-  test('Styles match Button light', () => {
+  it('matches Button light', () => {
     const { container } = render(<Button light />);
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  test('Styles match Button light disabled', () => {
+  it('matches Button light disabled', () => {
     const { container } = render(<Button light disabled />);
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  test('Styles match Button light active', () => {
+  it('matches Button light active', () => {
     const { container } = render(<Button light active />);
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  test('Styles match Button light outline', () => {
+  it('matches Button light outline', () => {
     const { container } = render(<Button light outline />);
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  test('Styles match Button light outline disabled', () => {
+  it('matches Button light outline disabled', () => {
     const { container } = render(<Button light outline disabled />);
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  test('Styles match Button noRadius', () => {
+  it('matches Button noRadius', () => {
     const { container } = render(<Button noRadius />);
     expect(container.firstChild).toMatchSnapshot();
     expect(container.firstChild).toHaveStyleRule('border-radius', '0');
   });
 
-  test('Styles match Button pill', () => {
+  it('matches Button pill', () => {
     const { container } = render(<Button pill />);
     expect(container.firstChild).toMatchSnapshot();
     expect(container.firstChild).toHaveStyleRule('border-radius', '10rem');
   });
 
-  test('Styles match Button primary', () => {
+  it('matches Button primary', () => {
     const { container } = render(<Button primary />);
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  test('Styles match Button primary disabled', () => {
+  it('matches Button primary disabled', () => {
     const { container } = render(<Button primary disabled />);
     expect(container.firstChild).toMatchSnapshot();
     expect(container.firstChild).toHaveStyleRule('color', '#fff');
@@ -356,12 +356,12 @@ describe('Button Component', () => {
     });
   });
 
-  test('Styles match Button primary active', () => {
+  it('matches Button primary active', () => {
     const { container } = render(<Button primary active />);
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  test('Styles match Button primary outline', () => {
+  it('matches Button primary outline', () => {
     const { container } = render(<Button primary outline />);
     expect(container.firstChild).toMatchSnapshot();
     expect(container.firstChild).toHaveStyleRule('color', '#007bff');
@@ -382,7 +382,7 @@ describe('Button Component', () => {
     });
   });
 
-  test('Styles match Button primary outline disabled', () => {
+  it('matches Button primary outline disabled', () => {
     const { container } = render(<Button primary outline disabled />);
     expect(container.firstChild).toMatchSnapshot();
     expect(container.firstChild).toHaveStyleRule('color', '#007bff');
@@ -406,12 +406,12 @@ describe('Button Component', () => {
     });
   });
 
-  test('Styles match Button secondary', () => {
+  it('matches Button secondary', () => {
     const { container } = render(<Button secondary />);
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  test('Styles match Button secondary disabled', () => {
+  it('matches Button secondary disabled', () => {
     const { container } = render(<Button secondary disabled />);
     expect(container.firstChild).toMatchSnapshot();
     expect(container.firstChild).toHaveStyleRule('color', '#fff');
@@ -431,12 +431,12 @@ describe('Button Component', () => {
     });
   });
 
-  test('Styles match Button secondary active', () => {
+  it('matches Button secondary active', () => {
     const { container } = render(<Button secondary active />);
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  test('Styles match Button secondary outline', () => {
+  it('matches Button secondary outline', () => {
     const { container } = render(<Button secondary outline />);
     expect(container.firstChild).toMatchSnapshot();
     expect(container.firstChild).toHaveStyleRule('color', '#6c757d');
@@ -457,7 +457,7 @@ describe('Button Component', () => {
     });
   });
 
-  test('Styles match Button secondary outline disabled', () => {
+  it('matches Button secondary outline disabled', () => {
     const { container } = render(<Button secondary outline disabled />);
     expect(container.firstChild).toMatchSnapshot();
     expect(container.firstChild).toHaveStyleRule('color', '#6c757d');
@@ -481,7 +481,7 @@ describe('Button Component', () => {
     });
   });
 
-  test('Styles match Button small', () => {
+  it('matches Button small', () => {
     const { container } = render(<Button sm />);
     expect(container.firstChild).toMatchSnapshot();
     expect(container.firstChild).toHaveStyleRule('padding', '0.25rem 0.5rem');
@@ -490,7 +490,7 @@ describe('Button Component', () => {
     expect(container.firstChild).toHaveStyleRule('border-radius', '0.2rem');
   });
 
-  test('Styles matches Button split', () => {
+  it('matcheses Button split', () => {
     const { container } = render(<Button split />);
     expect(container.firstChild).toMatchSnapshot();
     expect(container.firstChild).toHaveStyleRule('padding', '0');
@@ -501,7 +501,7 @@ describe('Button Component', () => {
     });
   });
 
-  test('Styles matches Button split lg', () => {
+  it('matcheses Button split lg', () => {
     const { container } = render(<Button split lg />);
     expect(container.firstChild).toMatchSnapshot();
     expect(container.firstChild).toHaveStyleRule('padding', '0');
@@ -512,7 +512,7 @@ describe('Button Component', () => {
     });
   });
 
-  test('Styles matches Button split sm', () => {
+  it('matcheses Button split sm', () => {
     const { container } = render(<Button split sm />);
     expect(container.firstChild).toMatchSnapshot();
     expect(container.firstChild).toHaveStyleRule('padding', '0');
@@ -523,22 +523,22 @@ describe('Button Component', () => {
     });
   });
 
-  test('Styles match Button success', () => {
+  it('matches Button success', () => {
     const { container } = render(<Button success />);
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  test('Styles match Button success disabled', () => {
+  it('matches Button success disabled', () => {
     const { container } = render(<Button success disabled />);
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  test('Styles match Button success active', () => {
+  it('matches Button success active', () => {
     const { container } = render(<Button success active />);
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  test('Styles match Button success outline', () => {
+  it('matches Button success outline', () => {
     const { container } = render(<Button success outline />);
     expect(container.firstChild).toMatchSnapshot();
     expect(container.firstChild).toHaveStyleRule('color', '#28a745');
@@ -559,7 +559,7 @@ describe('Button Component', () => {
     });
   });
 
-  test('Styles match Button success outline disabled', () => {
+  it('matches Button success outline disabled', () => {
     const { container } = render(<Button success outline disabled />);
     expect(container.firstChild).toMatchSnapshot();
     expect(container.firstChild).toHaveStyleRule('color', '#28a745');
@@ -583,22 +583,22 @@ describe('Button Component', () => {
     });
   });
 
-  test('Styles match Button warning', () => {
+  it('matches Button warning', () => {
     const { container } = render(<Button warning />);
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  test('Styles match Button warning disabled', () => {
+  it('matches Button warning disabled', () => {
     const { container } = render(<Button warning disabled />);
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  test('Styles match Button warning active', () => {
+  it('matches Button warning active', () => {
     const { container } = render(<Button warning active />);
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  test('Styles match Button warning outline', () => {
+  it('matches Button warning outline', () => {
     const { container } = render(<Button warning outline />);
     expect(container.firstChild).toMatchSnapshot();
     expect(container.firstChild).toHaveStyleRule('color', '#ffc107');
@@ -619,7 +619,7 @@ describe('Button Component', () => {
     });
   });
 
-  test('Styles match Button warning outline disabled', () => {
+  it('matches Button warning outline disabled', () => {
     const { container } = render(<Button warning outline disabled />);
     expect(container.firstChild).toMatchSnapshot();
     expect(container.firstChild).toHaveStyleRule('color', '#ffc107');

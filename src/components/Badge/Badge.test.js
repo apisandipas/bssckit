@@ -5,7 +5,7 @@ import 'jest-styled-components';
 import { Badge } from './index';
 
 describe('Badge Component', () => {
-  test('Styles match plain', () => {
+  it('matches plain', () => {
     const { container } = render(<Badge />);
     expect(container.firstChild).toMatchSnapshot();
     expect(container.firstChild).toHaveStyleRule('display', 'inline-block');
@@ -22,56 +22,56 @@ describe('Badge Component', () => {
     });
   });
 
-  test('Styles match primary', () => {
+  it('matches primary', () => {
     const { container } = render(<Badge primary />);
     expect(container.firstChild).toMatchSnapshot();
     expect(container.firstChild).toHaveStyleRule('color', '#fff');
     expect(container.firstChild).toHaveStyleRule('background-color', '#007bff');
   });
 
-  test('Styles match secondary', () => {
+  it('matches secondary', () => {
     const { container } = render(<Badge secondary />);
     expect(container.firstChild).toMatchSnapshot();
     expect(container.firstChild).toHaveStyleRule('color', '#fff');
     expect(container.firstChild).toHaveStyleRule('background-color', '#6c757d');
   });
 
-  test('Styles match success', () => {
+  it('matches success', () => {
     const { container } = render(<Badge success />);
     expect(container.firstChild).toMatchSnapshot();
     expect(container.firstChild).toHaveStyleRule('color', '#fff');
     expect(container.firstChild).toHaveStyleRule('background-color', '#28a745');
   });
 
-  test('Styles match danger', () => {
+  it('matches danger', () => {
     const { container } = render(<Badge danger />);
     expect(container.firstChild).toMatchSnapshot();
     expect(container.firstChild).toHaveStyleRule('color', '#fff');
     expect(container.firstChild).toHaveStyleRule('background-color', '#dc3545');
   });
 
-  test('Styles match warning', () => {
+  it('matches warning', () => {
     const { container } = render(<Badge warning />);
     expect(container.firstChild).toMatchSnapshot();
     expect(container.firstChild).toHaveStyleRule('color', '#2d2f31');
     expect(container.firstChild).toHaveStyleRule('background-color', '#ffc107');
   });
 
-  test('Styles match info', () => {
+  it('matches info', () => {
     const { container } = render(<Badge info />);
     expect(container.firstChild).toMatchSnapshot();
     expect(container.firstChild).toHaveStyleRule('color', '#fff');
     expect(container.firstChild).toHaveStyleRule('background-color', '#17a2b8');
   });
 
-  test('Styles match light', () => {
+  it('matches light', () => {
     const { container } = render(<Badge light />);
     expect(container.firstChild).toMatchSnapshot();
     expect(container.firstChild).toHaveStyleRule('color', '#2d2f31');
     expect(container.firstChild).toHaveStyleRule('background-color', '#f0f0f0');
   });
 
-  test('Styles match dark', () => {
+  it('matches dark', () => {
     const { container } = render(<Badge dark />);
     expect(container.firstChild).toMatchSnapshot();
     expect(container.firstChild).toHaveStyleRule('color', '#fff');

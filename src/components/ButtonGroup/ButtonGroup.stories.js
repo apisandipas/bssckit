@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from '../Button';
 import ButtonGroup from './ButtonGroup';
+import ButtonToolbar from './ButtonToolbar';
 
 export default {
   title: 'Button Group',
@@ -10,108 +11,64 @@ export const simple = () => (
   <>
     <ButtonGroup>
       <Button>Left</Button>
-      <Button>Middle</Button>
+      <Button secondary>Middle</Button>
       <Button>Right</Button>
     </ButtonGroup>
   </>
 );
 
-export const contextual = () => (
+export const sized = () => (
   <>
-    <Button primary>Click Me</Button>
-    <br />
-    <Button secondary>Click Me</Button>
-    <br />
-    <Button success>Click Me</Button>
-    <br />
-    <Button danger>Click Me</Button>
-    <br />
-    <Button warning>Click Me</Button>
-    <br />
-    <Button info>Click Me</Button>
-    <br />
-    <Button light>Click Me</Button>
-    <br />
-    <Button dark>Click Me</Button>
-    <br />
+    <div>
+      <ButtonGroup lg mb2>
+        <Button secondary>Left</Button>
+        <Button secondary>Middle</Button>
+        <Button secondary>Right</Button>
+      </ButtonGroup>
+    </div>
+    <div>
+      <ButtonGroup mb2>
+        <Button secondary>Left</Button>
+        <Button secondary>Middle</Button>
+        <Button secondary>Right</Button>
+      </ButtonGroup>
+    </div>
+    <div>
+      <ButtonGroup sm dBlock mb2>
+        <Button secondary>Left</Button>
+        <Button secondary>Middle</Button>
+        <Button secondary>Right</Button>
+      </ButtonGroup>
+    </div>
   </>
 );
 
-export const active = () => (
-  <>
-    <Button secondary active>
-      Click Me
-    </Button>
-    <Button success active>
-      Click Me
-    </Button>
-  </>
+export const vertical = () => (
+  <ButtonGroup vertical>
+    <Button secondary>Button</Button>
+    <Button secondary>Button</Button>
+    <Button secondary>Button</Button>
+    <Button secondary>Button</Button>
+    <Button secondary>Button</Button>
+    <Button secondary>Button</Button>
+  </ButtonGroup>
 );
 
-export const disabled = () => (
-  <>
-    <Button primary disabled>
-      Click Me
-    </Button>
-    <Button secondary disabled>
-      Click Me
-    </Button>
-    <Button success disabled>
-      Click Me
-    </Button>
-  </>
-);
-
-export const outlined = () => (
-  <>
-    <Button primary outline>
-      Click Me
-    </Button>
-    <br />
-    <Button secondary outline>
-      Click Me
-    </Button>
-    <br />
-    <Button success outline>
-      Click Me
-    </Button>
-    <br />
-    <Button danger outline>
-      Click Me
-    </Button>
-    <br />
-    <Button warning outline>
-      Click Me
-    </Button>
-    <br />
-    <Button info outline>
-      Click Me
-    </Button>
-    <br />
-    <Button light outline>
-      Click Me
-    </Button>
-    <br />
-    <Button dark outline>
-      Click Me
-    </Button>
-    <br />
-  </>
-);
-
-export const altStyles = () => (
-  <>
-    <Button secondary pill>
-      Click Me
-    </Button>
-    <Button success noRadius>
-      Click Me
-    </Button>
-    <Button success outline>
-      Click Me
-    </Button>
-    <Button primary pill outline>
-      primary pill outline
-    </Button>
-  </>
+export const toolbar = () => (
+  <ButtonToolbar>
+    <ButtonGroup mr2>
+      <Button>1</Button>
+      <Button>2</Button>
+      <Button>3</Button>
+      <Button>4</Button>
+    </ButtonGroup>
+    <ButtonGroup mr2>
+      <Button>5</Button>
+      <Button>6</Button>
+      <Button>7</Button>
+    </ButtonGroup>
+    <ButtonGroup>
+      <Button>8</Button>
+    </ButtonGroup>
+  </ButtonToolbar>
 );

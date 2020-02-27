@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
 import { theme } from 'styled-tools';
 import defaultTheme from '../../theme';
-import { Div } from '../base';
+import { Div } from '../Utilities/base';
 
 const getSize = props => {
   if (props.lg) {

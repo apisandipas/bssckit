@@ -4,7 +4,7 @@ import 'jest-styled-components';
 import Alert from './Alert';
 
 describe('Alert Component', () => {
-  test('Styles match plain', () => {
+  it('matches plain', () => {
     const { container } = render(<Alert>Hello World</Alert>);
 
     expect(container.firstChild).toMatchSnapshot();
@@ -35,62 +35,62 @@ describe('Alert Component', () => {
     });
   });
 
-  test('Styles match primary', () => {
+  it('matches primary', () => {
     const { container } = render(<Alert primary />);
 
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  test('Styles match secondary', () => {
+  it('matches secondary', () => {
     const { container } = render(<Alert secondary />);
 
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  test('Styles match success', () => {
+  it('matches success', () => {
     const { container } = render(<Alert success />);
 
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  test('Styles match danger', () => {
+  it('matches danger', () => {
     const { container } = render(<Alert danger />);
 
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  test('Styles match warning', () => {
+  it('matches warning', () => {
     const { container } = render(<Alert warning />);
 
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  test('Styles match info', () => {
+  it('matches info', () => {
     const { container } = render(<Alert info />);
 
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  test('Styles match light', () => {
+  it('matches light', () => {
     const { container } = render(<Alert light />);
 
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  test('Styles match dark', () => {
+  it('matches dark', () => {
     const { container } = render(<Alert dark />);
 
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  test('Styles match noRadius', () => {
+  it('matches noRadius', () => {
     const { container } = render(<Alert noRadius />);
 
     expect(container.firstChild).toMatchSnapshot();
     expect(container.firstChild).toHaveStyleRule('border-radius', '0');
   });
 
-  test('Styles match pill', () => {
+  it('matches pill', () => {
     const { container } = render(<Alert pill />);
 
     expect(container.firstChild).toMatchSnapshot();

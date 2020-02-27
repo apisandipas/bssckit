@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Alert Component Styles match danger 1`] = `
+exports[`Alert Component matches danger 1`] = `
 .c0 {
   position: relative;
   padding: 0.75rem 1.25rem;
@@ -45,13 +45,29 @@ exports[`Alert Component Styles match danger 1`] = `
   border-top-color: #721c24;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <div
-  class="sc-AxjAm c0"
+  class="sc-fznyAO c0"
   role="alert"
 />
 `;
 
-exports[`Alert Component Styles match dark 1`] = `
+exports[`Alert Component matches dark 1`] = `
 .c0 {
   position: relative;
   padding: 0.75rem 1.25rem;
@@ -96,13 +112,29 @@ exports[`Alert Component Styles match dark 1`] = `
   border-top-color: #171a1d;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <div
-  class="sc-AxjAm c0"
+  class="sc-fznyAO c0"
   role="alert"
 />
 `;
 
-exports[`Alert Component Styles match info 1`] = `
+exports[`Alert Component matches info 1`] = `
 .c0 {
   position: relative;
   padding: 0.75rem 1.25rem;
@@ -147,13 +179,29 @@ exports[`Alert Component Styles match info 1`] = `
   border-top-color: #10707f;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <div
-  class="sc-AxjAm c0"
+  class="sc-fznyAO c0"
   role="alert"
 />
 `;
 
-exports[`Alert Component Styles match light 1`] = `
+exports[`Alert Component matches light 1`] = `
 .c0 {
   position: relative;
   padding: 0.75rem 1.25rem;
@@ -198,13 +246,29 @@ exports[`Alert Component Styles match light 1`] = `
   border-top-color: #343a40;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <div
-  class="sc-AxjAm c0"
+  class="sc-fznyAO c0"
   role="alert"
 />
 `;
 
-exports[`Alert Component Styles match noRadius 1`] = `
+exports[`Alert Component matches noRadius 1`] = `
 .c0 {
   position: relative;
   padding: 0.75rem 1.25rem;
@@ -230,13 +294,29 @@ exports[`Alert Component Styles match noRadius 1`] = `
   color: inherit;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <div
-  class="sc-AxjAm c0"
+  class="sc-fznyAO c0"
   role="alert"
 />
 `;
 
-exports[`Alert Component Styles match pill 1`] = `
+exports[`Alert Component matches pill 1`] = `
 .c0 {
   position: relative;
   padding: 0.75rem 1.25rem;
@@ -262,13 +342,29 @@ exports[`Alert Component Styles match pill 1`] = `
   color: inherit;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <div
-  class="sc-AxjAm c0"
+  class="sc-fznyAO c0"
   role="alert"
 />
 `;
 
-exports[`Alert Component Styles match plain 1`] = `
+exports[`Alert Component matches plain 1`] = `
 .c0 {
   position: relative;
   padding: 0.75rem 1.25rem;
@@ -293,15 +389,31 @@ exports[`Alert Component Styles match plain 1`] = `
   color: inherit;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <div
-  class="sc-AxjAm c0"
+  class="sc-fznyAO c0"
   role="alert"
 >
   Hello World
 </div>
 `;
 
-exports[`Alert Component Styles match primary 1`] = `
+exports[`Alert Component matches primary 1`] = `
 .c0 {
   position: relative;
   padding: 0.75rem 1.25rem;
@@ -346,13 +458,29 @@ exports[`Alert Component Styles match primary 1`] = `
   border-top-color: #004085;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <div
-  class="sc-AxjAm c0"
+  class="sc-fznyAO c0"
   role="alert"
 />
 `;
 
-exports[`Alert Component Styles match secondary 1`] = `
+exports[`Alert Component matches secondary 1`] = `
 .c0 {
   position: relative;
   padding: 0.75rem 1.25rem;
@@ -397,13 +525,29 @@ exports[`Alert Component Styles match secondary 1`] = `
   border-top-color: #383d41;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <div
-  class="sc-AxjAm c0"
+  class="sc-fznyAO c0"
   role="alert"
 />
 `;
 
-exports[`Alert Component Styles match success 1`] = `
+exports[`Alert Component matches success 1`] = `
 .c0 {
   position: relative;
   padding: 0.75rem 1.25rem;
@@ -448,13 +592,29 @@ exports[`Alert Component Styles match success 1`] = `
   border-top-color: #155724;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <div
-  class="sc-AxjAm c0"
+  class="sc-fznyAO c0"
   role="alert"
 />
 `;
 
-exports[`Alert Component Styles match warning 1`] = `
+exports[`Alert Component matches warning 1`] = `
 .c0 {
   position: relative;
   padding: 0.75rem 1.25rem;
@@ -499,8 +659,24 @@ exports[`Alert Component Styles match warning 1`] = `
   border-top-color: #856404;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <div
-  class="sc-AxjAm c0"
+  class="sc-fznyAO c0"
   role="alert"
 />
 `;

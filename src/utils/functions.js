@@ -34,3 +34,15 @@ export const pick = (obj, keys) => {
  * Workaround for hooks in Storybook stories
  */
 export const Story = Component => () => <Component />;
+
+/**
+ *  Returns Capitalized string
+ */
+export const capitalize = string => string.charAt(0).toUpperCase() + string.slice(1);
+
+/**
+ * Returns the breakpoint value for the given screen size
+ */
+export const getConcreteBreakpointSize = (props, size) => {
+  return props?.theme?.screenSize[size];
+};

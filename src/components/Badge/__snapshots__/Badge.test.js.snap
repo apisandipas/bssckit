@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Badge Component Styles match danger 1`] = `
+exports[`Badge Component matches danger 1`] = `
 .c0 {
   display: inline-block;
   padding: 0.25rem 0.4rem;
@@ -26,12 +26,28 @@ exports[`Badge Component Styles match danger 1`] = `
   display: none;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <span
-  class="sc-AxirZ c0"
+  class="sc-fzokOt c0"
 />
 `;
 
-exports[`Badge Component Styles match dark 1`] = `
+exports[`Badge Component matches dark 1`] = `
 .c0 {
   display: inline-block;
   padding: 0.25rem 0.4rem;
@@ -57,12 +73,28 @@ exports[`Badge Component Styles match dark 1`] = `
   display: none;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <span
-  class="sc-AxirZ c0"
+  class="sc-fzokOt c0"
 />
 `;
 
-exports[`Badge Component Styles match info 1`] = `
+exports[`Badge Component matches info 1`] = `
 .c0 {
   display: inline-block;
   padding: 0.25rem 0.4rem;
@@ -88,12 +120,28 @@ exports[`Badge Component Styles match info 1`] = `
   display: none;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <span
-  class="sc-AxirZ c0"
+  class="sc-fzokOt c0"
 />
 `;
 
-exports[`Badge Component Styles match light 1`] = `
+exports[`Badge Component matches light 1`] = `
 .c0 {
   display: inline-block;
   padding: 0.25rem 0.4rem;
@@ -119,12 +167,28 @@ exports[`Badge Component Styles match light 1`] = `
   display: none;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <span
-  class="sc-AxirZ c0"
+  class="sc-fzokOt c0"
 />
 `;
 
-exports[`Badge Component Styles match plain 1`] = `
+exports[`Badge Component matches plain 1`] = `
 .c0 {
   display: inline-block;
   padding: 0.25rem 0.4rem;
@@ -141,12 +205,28 @@ exports[`Badge Component Styles match plain 1`] = `
   display: none;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <span
-  class="sc-AxirZ c0"
+  class="sc-fzokOt c0"
 />
 `;
 
-exports[`Badge Component Styles match primary 1`] = `
+exports[`Badge Component matches primary 1`] = `
 .c0 {
   display: inline-block;
   padding: 0.25rem 0.4rem;
@@ -172,12 +252,28 @@ exports[`Badge Component Styles match primary 1`] = `
   display: none;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <span
-  class="sc-AxirZ c0"
+  class="sc-fzokOt c0"
 />
 `;
 
-exports[`Badge Component Styles match secondary 1`] = `
+exports[`Badge Component matches secondary 1`] = `
 .c0 {
   display: inline-block;
   padding: 0.25rem 0.4rem;
@@ -203,12 +299,28 @@ exports[`Badge Component Styles match secondary 1`] = `
   display: none;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <span
-  class="sc-AxirZ c0"
+  class="sc-fzokOt c0"
 />
 `;
 
-exports[`Badge Component Styles match success 1`] = `
+exports[`Badge Component matches success 1`] = `
 .c0 {
   display: inline-block;
   padding: 0.25rem 0.4rem;
@@ -234,12 +346,28 @@ exports[`Badge Component Styles match success 1`] = `
   display: none;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <span
-  class="sc-AxirZ c0"
+  class="sc-fzokOt c0"
 />
 `;
 
-exports[`Badge Component Styles match warning 1`] = `
+exports[`Badge Component matches warning 1`] = `
 .c0 {
   display: inline-block;
   padding: 0.25rem 0.4rem;
@@ -265,7 +393,23 @@ exports[`Badge Component Styles match warning 1`] = `
   display: none;
 }
 
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
 <span
-  class="sc-AxirZ c0"
+  class="sc-fzokOt c0"
 />
 `;

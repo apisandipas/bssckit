@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components';
 import { theme, ifProp } from 'styled-tools';
-import { Span } from '../base';
+import { Span } from '../Utilities/base';
 import defaultTheme from '../../theme';
 import { themeContexts } from '../../utils/consts';
 

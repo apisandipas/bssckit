@@ -44,5 +44,5 @@ export const capitalize = string => string.charAt(0).toUpperCase() + string.slic
  * Returns the breakpoint value for the given screen size
  */
 export const getConcreteBreakpointSize = (props, size) => {
-  return props?.theme?.screenSize[size];
+  return props?.theme?.breakpoints[size];
 };

@@ -1,4 +1,4 @@
-const themeColors = {
+const palette = {
   // Grey scale
   gray100: '#f8f9fa',
   gray200: '#e9ecef',
@@ -10,7 +10,7 @@ const themeColors = {
   gray800: '#343a40',
   gray900: '#212529',
 
-  //  Named color pallete
+  //  Named color palette
   white: '#fff',
   black: '#000',
   blue: '#0d6efd',
@@ -128,4 +128,4 @@ const themeColors = {
   weakBackground: 'rgba(0, 0, 0, 0.05)',
 };
 
-export default themeColors;
+export default palette;

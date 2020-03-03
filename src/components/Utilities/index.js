@@ -277,7 +277,7 @@ const textColors = size => css`
       color =>
         props[`text${size}${capitalize(color)}`] &&
         css`
-          color: ${props.theme.themeColors[color]};
+          color: ${props.theme.palette[color]};
         `
     )};
 `;
@@ -288,7 +288,7 @@ const backgroundColors = size => css`
       color =>
         props[`bg${size}${capitalize(color)}`] &&
         css`
-          background-color: ${props.theme.themeColors[color]};
+          background-color: ${props.theme.palette[color]};
         `
     )};
 `;
@@ -318,7 +318,7 @@ const border = (size, value) => {
         color =>
           props[`border${size}${capitalize(color)}`] &&
           css`
-            border-color: ${props.theme.themeColors[color]};
+            border-color: ${props.theme.palette[color]};
           `
       )};
   `;
@@ -330,7 +330,7 @@ const borderColor = size => css`
       color =>
         props[`border${size}${capitalize(color)}`] &&
         css`
-          border-color: ${props.theme.themeColors[color]};
+          border-color: ${props.theme.palette[color]};
         `
     )};
 `;

@@ -1,9 +1,11 @@
 import globals from './globals';
-import themeColors from './themeColors';
-import screenSize from './screenSize';
+import palette from './palette';
+import breakpoints from './breakpoints';
+
 import alert from './alert';
 import badge from './badge';
 import button from './button';
 import buttonGroup from './buttonGroup';
+import container from './container';
 
-export default { globals, themeColors, screenSize, alert, badge, button, buttonGroup };
+export default { globals, palette, breakpoints, alert, badge, button, buttonGroup, container };

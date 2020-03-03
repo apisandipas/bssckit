@@ -31,7 +31,7 @@ describe('Util functions', () => {
     it('Returns the specified key from the screenSize theme object', () => {
       const props = {
         theme: {
-          screenSize: {
+          breakpoints: {
             sm: '576px',
           },
         },

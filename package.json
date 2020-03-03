@@ -1,5 +1,5 @@
 {
-  "name": "bssckit",
+  "name": "@apisandipas/bssckit",
   "version": "0.0.1",
   "description": "A port of Bootstrap to Styled Components 💅",
   "repository": {

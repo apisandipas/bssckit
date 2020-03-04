@@ -6,7 +6,13 @@ export default {
 };
 
 export const simple = () => (
-  <Container bgSecondary textSmLight p2>
+  <Container bgSecondary textLight p2>
     Simple Container
+  </Container>
+);
+
+export const fluid = () => (
+  <Container bgPrimary fluid textLight p2>
+    Fluid Container
   </Container>
 );

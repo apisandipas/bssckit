@@ -7,5 +7,6 @@ import badge from './badge';
 import button from './button';
 import buttonGroup from './buttonGroup';
 import container from './container';
+import grid from './grid';
 
-export default { globals, palette, breakpoints, alert, badge, button, buttonGroup, container };
+export default { globals, palette, breakpoints, alert, badge, button, buttonGroup, container, grid };

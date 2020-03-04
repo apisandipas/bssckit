@@ -618,7 +618,6 @@ const makeUtilitiesForScreenSize = size => css`
 
 export const Utilities = css`
   ${makeUtilitiesForScreenSize('')};
-
   ${['Sm', 'Md', 'Lg', 'Xl'].map(
     size => css`
       @media (min-width: ${props => getConcreteBreakpointSize(props, size.toLowerCase())}) {

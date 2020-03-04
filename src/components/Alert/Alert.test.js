@@ -1,12 +1,16 @@
 import React from 'react';
-import { render } from '@testing-library/react';
+import { axe } from 'jest-axe';
+import { render, cleanup } from '@testing-library/react';
 import 'jest-styled-components';
 import Alert from './Alert';
 
-describe('Alert Component', () => {
-  it('matches plain', () => {
-    const { container } = render(<Alert>Hello World</Alert>);
+afterEach(cleanup);
 
+describe('Alert Component', () => {
+  it('matches plain', async () => {
+    const { container } = render(<Alert>Hello World</Alert>);
+    const results = await axe(container);
+    expect(results).toHaveNoViolations();
     expect(container.firstChild).toMatchSnapshot();
     expect(container.firstChild).toHaveStyleRule('position', 'relative');
     expect(container.firstChild).toHaveStyleRule('padding', '0.75rem 1.25rem');
@@ -35,64 +39,74 @@ describe('Alert Component', () => {
     });
   });
 
-  it('matches primary', () => {
+  it('matches primary', async () => {
     const { container } = render(<Alert primary />);
-
+    const results = await axe(container);
+    expect(results).toHaveNoViolations();
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  it('matches secondary', () => {
+  it('matches secondary', async () => {
     const { container } = render(<Alert secondary />);
-
+    const results = await axe(container);
+    expect(results).toHaveNoViolations();
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  it('matches success', () => {
+  it('matches success', async () => {
     const { container } = render(<Alert success />);
-
+    const results = await axe(container);
+    expect(results).toHaveNoViolations();
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  it('matches danger', () => {
+  it('matches danger', async () => {
     const { container } = render(<Alert danger />);
-
+    const results = await axe(container);
+    expect(results).toHaveNoViolations();
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  it('matches warning', () => {
+  it('matches warning', async () => {
     const { container } = render(<Alert warning />);
-
+    const results = await axe(container);
+    expect(results).toHaveNoViolations();
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  it('matches info', () => {
+  it('matches info', async () => {
     const { container } = render(<Alert info />);
-
+    const results = await axe(container);
+    expect(results).toHaveNoViolations();
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  it('matches light', () => {
+  it('matches light', async () => {
     const { container } = render(<Alert light />);
-
+    const results = await axe(container);
+    expect(results).toHaveNoViolations();
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  it('matches dark', () => {
+  it('matches dark', async () => {
     const { container } = render(<Alert dark />);
-
+    const results = await axe(container);
+    expect(results).toHaveNoViolations();
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  it('matches noRadius', () => {
+  it('matches noRadius', async () => {
     const { container } = render(<Alert noRadius />);
-
+    const results = await axe(container);
+    expect(results).toHaveNoViolations();
     expect(container.firstChild).toMatchSnapshot();
     expect(container.firstChild).toHaveStyleRule('border-radius', '0');
   });
 
-  it('matches pill', () => {
+  it('matches pill', async () => {
     const { container } = render(<Alert pill />);
-
+    const results = await axe(container);
+    expect(results).toHaveNoViolations();
     expect(container.firstChild).toMatchSnapshot();
     expect(container.firstChild).toHaveStyleRule('border-radius', '10rem');
   });

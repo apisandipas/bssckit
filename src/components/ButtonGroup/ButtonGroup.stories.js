@@ -17,7 +17,7 @@ export const simple = () => (
   </>
 );
 
-export const sized = () => (
+export const sizes = () => (
   <>
     <div>
       <ButtonGroup lg mb2>

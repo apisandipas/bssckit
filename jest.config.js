@@ -6,4 +6,5 @@ module.exports = {
   testPathIgnorePatterns: ['/node_modules/'],
   reporters: ['jest-spec-reporter'],
   coverageDirectory: 'coverage',
+  setupFilesAfterEnv: ['./jest.setup.js'],
 };

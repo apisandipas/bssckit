@@ -15,6 +15,7 @@
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.8.4",
+    "@babel/polyfill": "^7.8.3",
     "@babel/preset-env": "^7.8.4",
     "@babel/preset-react": "^7.8.3",
     "@storybook/addon-a11y": "^5.3.13",
@@ -28,6 +29,7 @@
     "babel-loader": "^8.0.6",
     "husky": "^4.2.3",
     "jest": "^25.1.0",
+    "jest-axe": "^3.3.0",
     "jest-spec-reporter": "^1.0.12",
     "jest-styled-components": "^7.0.0",
     "lint-staged": "^10.0.7"
@@ -58,6 +60,7 @@
     "lodash.merge": "^4.6.2",
     "prop-types": "^15.7.2",
     "react-transition-group": "^4.3.0",
+    "styled-breakpoints": "^8.0.1",
     "styled-components": "^5.0.1",
     "styled-tools": "^1.7.1"
   },

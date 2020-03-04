@@ -1,12 +1,16 @@
 import React from 'react';
+import { axe } from 'jest-axe';
+import { render, cleanup } from '@testing-library/react';
 import 'jest-styled-components';
-import { render } from '@testing-library/react';
-
 import ButtonGroup from './ButtonGroup';
 
+afterEach(cleanup);
+
 describe('ButtonGroup Component', () => {
-  it('matches ButtonGroup', () => {
+  it('matches ButtonGroup', async () => {
     const { container } = render(<ButtonGroup />);
+    const results = await axe(container);
+    expect(results).toHaveNoViolations();
     expect(container.firstChild).toMatchSnapshot();
     expect(container.firstChild).toHaveStyleRule('position', 'relative');
     expect(container.firstChild).toHaveStyleRule('display', 'inline-flex');
@@ -22,8 +26,10 @@ describe('ButtonGroup Component', () => {
     });
   });
 
-  it('matches ButtonGroup lg', () => {
+  it('matches ButtonGroup lg', async () => {
     const { container } = render(<ButtonGroup lg />);
+    const results = await axe(container);
+    expect(results).toHaveNoViolations();
     expect(container.firstChild).toMatchSnapshot();
     expect(container.firstChild).toHaveStyleRule('padding', '0.5rem 1rem', {
       modifier: '& > button',
@@ -36,8 +42,10 @@ describe('ButtonGroup Component', () => {
     });
   });
 
-  it('matches ButtonGroup sm', () => {
+  it('matches ButtonGroup sm', async () => {
     const { container } = render(<ButtonGroup sm />);
+    const results = await axe(container);
+    expect(results).toHaveNoViolations();
     expect(container.firstChild).toMatchSnapshot();
     expect(container.firstChild).toHaveStyleRule('padding', '0.25rem 0.5rem', {
       modifier: '& > button',
@@ -50,8 +58,10 @@ describe('ButtonGroup Component', () => {
     });
   });
 
-  it('matches ButtonGroup vertical', () => {
+  it('matches ButtonGroup vertical', async () => {
     const { container } = render(<ButtonGroup vertical />);
+    const results = await axe(container);
+    expect(results).toHaveNoViolations();
     expect(container.firstChild).toMatchSnapshot();
     expect(container.firstChild).toHaveStyleRule('flex-direction', 'column');
     expect(container.firstChild).toHaveStyleRule('align-items', 'flex-start');

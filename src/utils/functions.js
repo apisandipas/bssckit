@@ -46,3 +46,22 @@ export const capitalize = string => string.charAt(0).toUpperCase() + string.slic
 export const getConcreteBreakpointSize = (props, size) => {
   return props?.theme?.breakpoints[size];
 };
+
+export const withinRange = (first, last) => {
+  first = Number(first);
+  last = Number(last);
+
+  return (props, propName, componentName) => {
+    componentName = componentName || 'ANONYMOUS';
+
+    if (props[propName]) {
+      let value = props[propName];
+      if (typeof value === 'number') {
+        return value >= first && value <= last
+          ? null
+          : new Error(`${propName}   in  ${componentName}  is not within ${first} to ${last}`);
+      }
+    }
+    return null;
+  };
+};

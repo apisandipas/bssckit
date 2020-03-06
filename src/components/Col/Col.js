@@ -1,14 +1,15 @@
+import React from 'react';
 import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
-import { ifProp, theme } from 'styled-tools';
+import { ifProp, theme, withProp } from 'styled-tools';
 import { up } from 'styled-breakpoints';
 import { Div } from '../Utilities/base';
 import defaultTheme from '../../theme';
 import { withinRange } from '../../utils/functions';
 
 const getSizeStyles = size => css`
-  flex: 0 0 ${size / (theme('grid.columns') * 100)}%;
-  max-width: ${size / (theme('grid.columns') * 100)}%;
+  flex: 0 0 ${props => (size / props.theme.grid.columns) * 100}%;
+  max-width: ${props => (size / props.theme.grid.columns) * 100}%;
 `;
 
 const getOffsetStyles = size => css`
@@ -17,13 +18,13 @@ const getOffsetStyles = size => css`
 
 const hasSize = props => props.xs || props.sm || props.md || props.lg || props.xl;
 
-const Col = styled(Div)`
+const Col = styled(({ span, ...props }) => <Div {...props} />)`
   position: relative;
   width: 100%;
-  padding-right: ${theme('grid.gutterWidth') / 2}px;
-  padding-left: ${theme('grid.gutterWidth') / 2}px;
-  max-width: ${props => 1 / props.span}%;
-  flex: 0 0 ${props => 1 / props.span}%;
+  padding-right: calc(${theme('grid.gutterWidth')}px / 2);
+  padding-left: calc(${theme('grid.gutterWidth')}px / 2);
+  flex: 0 0 ${props => (1 / props.span) * 100}%;
+  max-width: ${props => (1 / props.span) * 100}%;
 
   ${ifProp(
     'offset',
@@ -35,7 +36,6 @@ const Col = styled(Div)`
   ${props => props.xs && getSizeStyles(props.xs)}
   ${props => props.xsOffset && getOffsetStyles(props.xsOffset)}
 
-
   ${up('sm')} {
 
     ${props =>
@@ -43,6 +43,7 @@ const Col = styled(Div)`
       css`
         flex-basis: 0;
         flex-grow: 1;
+        max-width: none;
       `}
 
     ${props => props.sm && getSizeStyles(props.sm)}

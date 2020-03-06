@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components';
-import { ifProp } from 'styled-tools';
+import { ifProp, theme } from 'styled-tools';
 import defaultTheme from '../../theme';
 import { Div } from '../Utilities/base';
 import { Col } from '../Col';
@@ -7,8 +7,8 @@ import { Col } from '../Col';
 const Row = styled(Div)`
   display: flex;
   flex-wrap: wrap;
-  margin-right: -${theme('grid.gutterWidth') / 2}px;
-  margin-left: -${theme('grid.gutterWidth') / 2}px;
+  margin-right: -${props => props.theme.grid.gutterWidth / 2}px;
+  margin-left: -${props => props.theme.grid.gutterWidth / 2}px;
 
   ${ifProp(
     'noGutters',

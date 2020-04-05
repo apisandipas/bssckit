@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Breadcrumb component matches BreadcrumbItem 1`] = `
+.c1:not(:first-child)::before {
+  display: inline-block;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  color: #6c757d;
+  content: '/';
+}
+
+.c1 + .c0:hover::before {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<li
+  class="sc-AxhCb c0 c1"
+/>
+`;
+
+exports[`Breadcrumb component matches BreadcrumbItem active 1`] = `
+.c1 {
+  color: #6c757d;
+}
+
+.c1:not(:first-child)::before {
+  display: inline-block;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  color: #6c757d;
+  content: '/';
+}
+
+.c1 + .c0:hover::before {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<li
+  class="sc-AxhCb c0 c1"
+/>
+`;

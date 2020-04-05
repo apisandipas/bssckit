@@ -1,10 +1,8 @@
 import React from 'react';
 import { axe } from 'jest-axe';
-import { render, cleanup } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import 'jest-styled-components';
 import Alert from './Alert';
-
-afterEach(cleanup);
 
 describe('Alert Component', () => {
   it('matches plain', async () => {

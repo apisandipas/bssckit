@@ -16,17 +16,18 @@ This project is still very much a work in progress, but is starting to take shap
 
 - [x] Alerts
 - [x] Badges
-- [ ] Breadcrumbs
+- [x] Breadcrumbs
 - [x] Buttons
 - [x] Button Group
 - [ ] Card
 - [ ] Carousel
 - [ ] Collapse
 - [ ] Dropdowns
-- [ ] Forms
+- [x] Forms
 - [x] Grid
-- [ ] Input group
+- [x] Input group
 - [ ] Jumbotron
+- [ ] List Groups
 - [ ] Modal
 - [ ] Navs
 - [ ] Navbar

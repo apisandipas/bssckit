@@ -8,13 +8,15 @@ import breadcrumbItem from './breadcrumbItem';
 import button from './button';
 import buttonGroup from './buttonGroup';
 import container from './container';
-import grid from './grid';
 import formControl from './formControl';
 import formGroup from './formGroup';
 import formCheck from './formCheck';
 import formCheckInput from './formCheckInput';
+import grid from './grid';
 import inputGroup from './inputGroup';
 import inputGroupText from './inputGroupText';
+import listGroup from './listGroup';
+import listGroupItem from './listGroupItem';
 
 export default {
   globals,
@@ -34,4 +36,6 @@ export default {
   formCheckInput,
   inputGroup,
   inputGroupText,
+  listGroup,
+  listGroupItem,
 };

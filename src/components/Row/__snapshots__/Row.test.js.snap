@@ -33,9 +33,3 @@ exports[`Row component matched Row styled 1`] = `
   class="sc-fznyAO c0"
 />
 `;
-
-exports[`Row component matched Row styled 2`] = `
-<div
-  class="sc-fznyAO sc-fznWqX ZYGJx"
-/>
-`;

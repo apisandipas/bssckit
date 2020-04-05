@@ -7,5 +7,21 @@ import button from './button';
 import buttonGroup from './buttonGroup';
 import container from './container';
 import grid from './grid';
+import formControl from './formControl';
+import formGroup from './formGroup';
+import formCheck from './formCheck';
 
-export default { globals, palette, breakpoints, alert, badge, button, buttonGroup, container, grid };
+export default {
+  globals,
+  palette,
+  breakpoints,
+  alert,
+  badge,
+  button,
+  buttonGroup,
+  container,
+  grid,
+  formControl,
+  formGroup,
+  formCheck,
+};

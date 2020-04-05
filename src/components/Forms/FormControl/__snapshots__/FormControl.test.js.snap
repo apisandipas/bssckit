@@ -1,0 +1,1073 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormControl component matches FormControl 1`] = `
+.c0 {
+  display: block;
+  width: 100%;
+  line-height: 1.5;
+  color: #343a40;
+  background-clip: padding-box;
+  -webkit-transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 1px solid #abaeb1;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+}
+
+.c0::-ms-expand {
+  background-color: transparent;
+  border: 0;
+}
+
+.c0:focus {
+  color: #343a40;
+  outline: 0;
+}
+
+.c0::-webkit-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0::-moz-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0:-ms-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0::placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0:focus {
+  background-color: #fff;
+}
+
+.c0:focus {
+  border-color: #abaeb1;
+}
+
+.c0:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0,0,0,0.15);
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<input
+  class="sc-fzoyAV c0"
+/>
+`;
+
+exports[`FormControl component matches FormControl 2`] = `
+.c0 {
+  display: block;
+  width: 100%;
+  line-height: 1.5;
+  color: #343a40;
+  background-clip: padding-box;
+  -webkit-transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  box-sizing: border-box;
+  background-color: #ececec;
+  border: 1px solid #abaeb1;
+  opacity: 1;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+}
+
+.c0::-ms-expand {
+  background-color: transparent;
+  border: 0;
+}
+
+.c0:focus {
+  color: #343a40;
+  outline: 0;
+}
+
+.c0::-webkit-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0::-moz-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0:-ms-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0::placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0:focus {
+  background-color: #ececec;
+}
+
+.c0:focus {
+  border-color: #abaeb1;
+}
+
+.c0:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0,0,0,0.15);
+}
+
+.c0:focus {
+  opacity: 1;
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<input
+  class="sc-fzoyAV c0"
+  disabled=""
+/>
+`;
+
+exports[`FormControl component matches FormControl formInline 1`] = `
+.c0 {
+  display: block;
+  width: 100%;
+  line-height: 1.5;
+  color: #343a40;
+  background-clip: padding-box;
+  -webkit-transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 1px solid #abaeb1;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+}
+
+.c0::-ms-expand {
+  background-color: transparent;
+  border: 0;
+}
+
+.c0:focus {
+  color: #343a40;
+  outline: 0;
+}
+
+.c0::-webkit-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0::-moz-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0:-ms-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0::placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0:focus {
+  background-color: #fff;
+}
+
+.c0:focus {
+  border-color: #abaeb1;
+}
+
+.c0:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0,0,0,0.15);
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+@media (min-width:36em) {
+  .c0 {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+  }
+}
+
+<input
+  class="sc-fzoyAV c0"
+/>
+`;
+
+exports[`FormControl component matches FormControl invalid 1`] = `
+.c0 {
+  display: block;
+  width: 100%;
+  line-height: 1.5;
+  color: #343a40;
+  background-clip: padding-box;
+  -webkit-transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-color: #dc3545;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+}
+
+.c0::-ms-expand {
+  background-color: transparent;
+  border: 0;
+}
+
+.c0:focus {
+  color: #343a40;
+  outline: 0;
+}
+
+.c0::-webkit-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0::-moz-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0:-ms-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0::placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0:focus {
+  background-color: #fff;
+}
+
+.c0:focus {
+  border-color: #dc3545;
+}
+
+.c0:focus {
+  box-shadow: 0 0 0 0.2rem rgba(220,53,69,0.5);
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<input
+  class="sc-fzoyAV c0"
+/>
+`;
+
+exports[`FormControl component matches FormControl large 1`] = `
+.c0 {
+  display: block;
+  width: 100%;
+  line-height: 1.5;
+  color: #343a40;
+  background-clip: padding-box;
+  -webkit-transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 1px solid #abaeb1;
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  border-radius: 0.3rem;
+}
+
+.c0::-ms-expand {
+  background-color: transparent;
+  border: 0;
+}
+
+.c0:focus {
+  color: #343a40;
+  outline: 0;
+}
+
+.c0::-webkit-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0::-moz-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0:-ms-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0::placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0:focus {
+  background-color: #fff;
+}
+
+.c0:focus {
+  border-color: #abaeb1;
+}
+
+.c0:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0,0,0,0.15);
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<input
+  class="sc-fzoyAV c0"
+/>
+`;
+
+exports[`FormControl component matches FormControl large select 1`] = `
+.c0 {
+  display: block;
+  width: 100%;
+  line-height: 1.5;
+  color: #343a40;
+  background-clip: padding-box;
+  -webkit-transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 1px solid #abaeb1;
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  border-radius: 0.3rem;
+  height: calc(2.875rem + 2px);
+}
+
+.c0::-ms-expand {
+  background-color: transparent;
+  border: 0;
+}
+
+.c0:focus {
+  color: #343a40;
+  outline: 0;
+}
+
+.c0::-webkit-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0::-moz-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0:-ms-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0::placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0:focus {
+  background-color: #fff;
+}
+
+.c0:focus {
+  border-color: #abaeb1;
+}
+
+.c0:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0,0,0,0.15);
+}
+
+.c0:focus::-ms-value {
+  color: #343a40;
+  background-color: #fff;
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<select
+  class="sc-fzpjYC c0"
+/>
+`;
+
+exports[`FormControl component matches FormControl noRadius 1`] = `
+.c0 {
+  display: block;
+  width: 100%;
+  line-height: 1.5;
+  color: #343a40;
+  background-clip: padding-box;
+  -webkit-transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 1px solid #abaeb1;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0;
+}
+
+.c0::-ms-expand {
+  background-color: transparent;
+  border: 0;
+}
+
+.c0:focus {
+  color: #343a40;
+  outline: 0;
+}
+
+.c0::-webkit-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0::-moz-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0:-ms-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0::placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0:focus {
+  background-color: #fff;
+}
+
+.c0:focus {
+  border-color: #abaeb1;
+}
+
+.c0:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0,0,0,0.15);
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<input
+  class="sc-fzoyAV c0"
+/>
+`;
+
+exports[`FormControl component matches FormControl pill 1`] = `
+.c0 {
+  display: block;
+  width: 100%;
+  line-height: 1.5;
+  color: #343a40;
+  background-clip: padding-box;
+  -webkit-transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 1px solid #abaeb1;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 10rem;
+}
+
+.c0::-ms-expand {
+  background-color: transparent;
+  border: 0;
+}
+
+.c0:focus {
+  color: #343a40;
+  outline: 0;
+}
+
+.c0::-webkit-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0::-moz-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0:-ms-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0::placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0:focus {
+  background-color: #fff;
+}
+
+.c0:focus {
+  border-color: #abaeb1;
+}
+
+.c0:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0,0,0,0.15);
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<input
+  class="sc-fzoyAV c0"
+/>
+`;
+
+exports[`FormControl component matches FormControl select 1`] = `
+.c0 {
+  display: block;
+  width: 100%;
+  line-height: 1.5;
+  color: #343a40;
+  background-clip: padding-box;
+  -webkit-transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 1px solid #abaeb1;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  height: calc(2.25rem + 2px);
+}
+
+.c0::-ms-expand {
+  background-color: transparent;
+  border: 0;
+}
+
+.c0:focus {
+  color: #343a40;
+  outline: 0;
+}
+
+.c0::-webkit-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0::-moz-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0:-ms-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0::placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0:focus {
+  background-color: #fff;
+}
+
+.c0:focus {
+  border-color: #abaeb1;
+}
+
+.c0:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0,0,0,0.15);
+}
+
+.c0:focus::-ms-value {
+  color: #343a40;
+  background-color: #fff;
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<select
+  class="sc-fzpjYC c0"
+/>
+`;
+
+exports[`FormControl component matches FormControl small 1`] = `
+.c0 {
+  display: block;
+  width: 100%;
+  line-height: 1.5;
+  color: #343a40;
+  background-clip: padding-box;
+  -webkit-transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 1px solid #abaeb1;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  border-radius: 0.2rem;
+}
+
+.c0::-ms-expand {
+  background-color: transparent;
+  border: 0;
+}
+
+.c0:focus {
+  color: #343a40;
+  outline: 0;
+}
+
+.c0::-webkit-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0::-moz-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0:-ms-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0::placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0:focus {
+  background-color: #fff;
+}
+
+.c0:focus {
+  border-color: #abaeb1;
+}
+
+.c0:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0,0,0,0.15);
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<input
+  class="sc-fzoyAV c0"
+/>
+`;
+
+exports[`FormControl component matches FormControl small select 1`] = `
+.c0 {
+  display: block;
+  width: 100%;
+  line-height: 1.5;
+  color: #343a40;
+  background-clip: padding-box;
+  -webkit-transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 1px solid #abaeb1;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  border-radius: 0.2rem;
+  height: calc(1.8125rem + 2px);
+}
+
+.c0::-ms-expand {
+  background-color: transparent;
+  border: 0;
+}
+
+.c0:focus {
+  color: #343a40;
+  outline: 0;
+}
+
+.c0::-webkit-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0::-moz-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0:-ms-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0::placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0:focus {
+  background-color: #fff;
+}
+
+.c0:focus {
+  border-color: #abaeb1;
+}
+
+.c0:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0,0,0,0.15);
+}
+
+.c0:focus::-ms-value {
+  color: #343a40;
+  background-color: #fff;
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<select
+  class="sc-fzpjYC c0"
+/>
+`;
+
+exports[`FormControl component matches FormControl textarea 1`] = `
+.c0 {
+  display: block;
+  width: 100%;
+  line-height: 1.5;
+  color: #343a40;
+  background-clip: padding-box;
+  -webkit-transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 1px solid #abaeb1;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+}
+
+.c0::-ms-expand {
+  background-color: transparent;
+  border: 0;
+}
+
+.c0:focus {
+  color: #343a40;
+  outline: 0;
+}
+
+.c0::-webkit-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0::-moz-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0:-ms-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0::placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0:focus {
+  background-color: #fff;
+}
+
+.c0:focus {
+  border-color: #abaeb1;
+}
+
+.c0:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0,0,0,0.15);
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<textarea
+  class="sc-fznxsB c0"
+/>
+`;
+
+exports[`FormControl component matches FormControl valid 1`] = `
+.c0 {
+  display: block;
+  width: 100%;
+  line-height: 1.5;
+  color: #343a40;
+  background-clip: padding-box;
+  -webkit-transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-color: #28a745;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+}
+
+.c0::-ms-expand {
+  background-color: transparent;
+  border: 0;
+}
+
+.c0:focus {
+  color: #343a40;
+  outline: 0;
+}
+
+.c0::-webkit-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0::-moz-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0:-ms-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0::placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.c0:focus {
+  background-color: #fff;
+}
+
+.c0:focus {
+  border-color: #28a745;
+}
+
+.c0:focus {
+  box-shadow: 0 0 0 0.2rem rgba(40,167,69,0.5);
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<input
+  class="sc-fzoyAV c0"
+/>
+`;

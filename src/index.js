@@ -6,6 +6,7 @@ export { ButtonGroup } from './components/ButtonGroup';
 export { Container } from './components/Container';
 export { Col } from './components/Col';
 export { Row } from './components/Row';
+export { FormControl, FormGroup, FormInline, FormCheck } from './components/Forms';
 
 // Expose Base Components
 export { Div, Span, Button, A } from './components/base';

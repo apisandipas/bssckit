@@ -18,12 +18,13 @@ This project is still very much a work in progress, but is starting to take shap
 - [x] Badges
 - [ ] Breadcrumbs
 - [x] Buttons
-- [ ] Button Group
+- [x] Button Group
 - [ ] Card
 - [ ] Carousel
 - [ ] Collapse
 - [ ] Dropdowns
 - [ ] Forms
+- [x] Grid
 - [ ] Input group
 - [ ] Jumbotron
 - [ ] Modal

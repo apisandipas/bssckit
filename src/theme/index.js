@@ -11,6 +11,8 @@ import formControl from './formControl';
 import formGroup from './formGroup';
 import formCheck from './formCheck';
 import formCheckInput from './formCheckInput';
+import inputGroup from './inputGroup';
+import inputGroupText from './inputGroupText';
 
 export default {
   globals,
@@ -26,4 +28,6 @@ export default {
   formGroup,
   formCheck,
   formCheckInput,
+  inputGroup,
+  inputGroupText,
 };

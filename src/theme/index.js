@@ -10,6 +10,7 @@ import grid from './grid';
 import formControl from './formControl';
 import formGroup from './formGroup';
 import formCheck from './formCheck';
+import formCheckInput from './formCheckInput';
 
 export default {
   globals,
@@ -24,4 +25,5 @@ export default {
   formControl,
   formGroup,
   formCheck,
+  formCheckInput,
 };

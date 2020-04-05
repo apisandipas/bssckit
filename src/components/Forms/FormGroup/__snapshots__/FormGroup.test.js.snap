@@ -1,0 +1,611 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormGroup Component Styles matches FormGroup justify 1`] = `
+.c0 {
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 > input,
+.c0 > div > input,
+.c0 > :not(input[type='file']),
+.c0 > div > :not(input[type='file']) {
+  border-radius: 0.25rem;
+}
+
+.c0 > input,
+.c0 > div > input,
+.c0 > label,
+.c0 > div > label {
+  line-height: 1.5;
+}
+
+.c0 > input,
+.c0 > div > input,
+.c0 > label,
+.c0 > div > label {
+  font-size: 1rem;
+}
+
+.c0 > label {
+  width: 100%;
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<div
+  class="sc-fznyAO c0"
+/>
+`;
+
+exports[`FormGroup Component matches FormGroup formInline 1`] = `
+.c0 {
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+}
+
+.c0 > input,
+.c0 > div > input,
+.c0 > :not(input[type='file']),
+.c0 > div > :not(input[type='file']) {
+  border-radius: 0.25rem;
+}
+
+.c0 > input,
+.c0 > div > input,
+.c0 > label,
+.c0 > div > label {
+  line-height: 1.5;
+}
+
+.c0 > input,
+.c0 > div > input,
+.c0 > label,
+.c0 > div > label {
+  font-size: 1rem;
+}
+
+.c0 > label {
+  width: 100%;
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+@media (min-width:36em) {
+  .c0 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 0;
+  }
+}
+
+<div
+  class="sc-fznyAO c0"
+/>
+`;
+
+exports[`FormGroup Component matches FormGroup justify 1`] = `
+.c0 {
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 > input,
+.c0 > div > input,
+.c0 > :not(input[type='file']),
+.c0 > div > :not(input[type='file']) {
+  border-radius: 0.25rem;
+}
+
+.c0 > input,
+.c0 > div > input,
+.c0 > label,
+.c0 > div > label {
+  line-height: 1.5;
+}
+
+.c0 > input,
+.c0 > div > input,
+.c0 > label,
+.c0 > div > label {
+  font-size: 1rem;
+}
+
+.c0 > label {
+  width: 100%;
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<div
+  class="sc-fznyAO c0"
+/>
+`;
+
+exports[`FormGroup Component matches FormGroup large 1`] = `
+.c0 {
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+}
+
+.c0 > input,
+.c0 > div > input,
+.c0 > :not(input[type='file']),
+.c0 > div > :not(input[type='file']) {
+  border-radius: 0.3rem;
+}
+
+.c0 > input,
+.c0 > div > input,
+.c0 > label,
+.c0 > div > label {
+  line-height: 1.5;
+}
+
+.c0 > input,
+.c0 > div > input,
+.c0 > label,
+.c0 > div > label {
+  font-size: 1.25rem;
+}
+
+.c0 > label,
+.c0 > div > label {
+  padding-top: calc(0.5rem + 1px);
+  padding-bottom: calc(0.5rem + 1px);
+}
+
+.c0 > input,
+.c0 > div > input {
+  padding: 0.5rem 1rem;
+}
+
+.c0 > label {
+  width: 100%;
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<div
+  class="sc-fznyAO c0"
+/>
+`;
+
+exports[`FormGroup Component matches FormGroup noRadius 1`] = `
+.c0 {
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+}
+
+.c0 > input,
+.c0 > div > input,
+.c0 > :not(input[type='file']),
+.c0 > div > :not(input[type='file']) {
+  border-radius: 0;
+}
+
+.c0 > input,
+.c0 > div > input,
+.c0 > label,
+.c0 > div > label {
+  line-height: 1.5;
+}
+
+.c0 > input,
+.c0 > div > input,
+.c0 > label,
+.c0 > div > label {
+  font-size: 1rem;
+}
+
+.c0 > label {
+  width: 100%;
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<div
+  class="sc-fznyAO c0"
+/>
+`;
+
+exports[`FormGroup Component matches FormGroup nomb 1`] = `
+.c0 {
+  box-sizing: border-box;
+  margin-bottom: 0;
+}
+
+.c0 > input,
+.c0 > div > input,
+.c0 > :not(input[type='file']),
+.c0 > div > :not(input[type='file']) {
+  border-radius: 0.25rem;
+}
+
+.c0 > input,
+.c0 > div > input,
+.c0 > label,
+.c0 > div > label {
+  line-height: 1.5;
+}
+
+.c0 > input,
+.c0 > div > input,
+.c0 > label,
+.c0 > div > label {
+  font-size: 1rem;
+}
+
+.c0 > label {
+  width: 100%;
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<div
+  class="sc-fznyAO c0"
+/>
+`;
+
+exports[`FormGroup Component matches FormGroup nomb row 1`] = `
+.c0 {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -5px;
+  margin-left: -5px;
+  margin-bottom: 0;
+}
+
+.c0 > div > label {
+  margin-bottom: 0;
+}
+
+.c0 > input,
+.c0 > div > input,
+.c0 > :not(input[type='file']),
+.c0 > div > :not(input[type='file']) {
+  border-radius: 0.25rem;
+}
+
+.c0 > input,
+.c0 > div > input,
+.c0 > label,
+.c0 > div > label {
+  line-height: 1.5;
+}
+
+.c0 > input,
+.c0 > div > input,
+.c0 > label,
+.c0 > div > label {
+  font-size: 1rem;
+}
+
+.c0 > label {
+  width: 100%;
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<div
+  class="sc-fznyAO c0"
+/>
+`;
+
+exports[`FormGroup Component matches FormGroup row 1`] = `
+.c0 {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -5px;
+  margin-left: -5px;
+  margin-bottom: 1rem;
+}
+
+.c0 > div > label {
+  margin-bottom: 0;
+}
+
+.c0 > input,
+.c0 > div > input,
+.c0 > :not(input[type='file']),
+.c0 > div > :not(input[type='file']) {
+  border-radius: 0.25rem;
+}
+
+.c0 > input,
+.c0 > div > input,
+.c0 > label,
+.c0 > div > label {
+  line-height: 1.5;
+}
+
+.c0 > input,
+.c0 > div > input,
+.c0 > label,
+.c0 > div > label {
+  font-size: 1rem;
+}
+
+.c0 > label {
+  width: 100%;
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<div
+  class="sc-fznyAO c0"
+/>
+`;
+
+exports[`FormGroup Component matches FormGroup small 1`] = `
+.c0 {
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+}
+
+.c0 > input,
+.c0 > div > input,
+.c0 > :not(input[type='file']),
+.c0 > div > :not(input[type='file']) {
+  border-radius: 0.2rem;
+}
+
+.c0 > input,
+.c0 > div > input,
+.c0 > label,
+.c0 > div > label {
+  line-height: 1.5;
+}
+
+.c0 > input,
+.c0 > div > input,
+.c0 > label,
+.c0 > div > label {
+  font-size: 0.875rem;
+}
+
+.c0 > label,
+.c0 > div > label {
+  padding-top: calc(0.25rem + 1px);
+  padding-bottom: calc(0.25rem + 1px);
+}
+
+.c0 > input,
+.c0 > div > input {
+  padding: 0.25rem 0.5rem;
+}
+
+.c0 > label {
+  width: 100%;
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<div
+  class="sc-fznyAO c0"
+/>
+`;
+
+exports[`FormGroup Component matches normal FormGroup 1`] = `
+.c0 {
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+}
+
+.c0 > input,
+.c0 > div > input,
+.c0 > :not(input[type='file']),
+.c0 > div > :not(input[type='file']) {
+  border-radius: 0.25rem;
+}
+
+.c0 > input,
+.c0 > div > input,
+.c0 > label,
+.c0 > div > label {
+  line-height: 1.5;
+}
+
+.c0 > input,
+.c0 > div > input,
+.c0 > label,
+.c0 > div > label {
+  font-size: 1rem;
+}
+
+.c0 > label {
+  width: 100%;
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<div
+  class="sc-fznyAO c0"
+/>
+`;
+
+exports[`FormGroup Component matches normal FormGroup 2`] = `
+<div
+  class="sc-fznyAO sc-fznJRM kthamo"
+/>
+`;

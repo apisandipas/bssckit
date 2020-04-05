@@ -4,6 +4,7 @@ import { FormControl } from './FormControl';
 import { FormGroup } from './FormGroup';
 import { FormInline } from './FormInline';
 import { FormCheck } from './FormCheck';
+import { FormCheckInput } from './FormCheckInput';
 
 export default {
   title: 'Forms',
@@ -85,7 +86,7 @@ export const inlineForm = () => (
   </FormInline>
 );
 
-const checkboxesAndRadio = () => (
+export const checkboxesAndRadio = () => (
   <form>
     <FormCheck>
       <label>

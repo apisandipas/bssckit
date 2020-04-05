@@ -9,4 +9,4 @@ const FormInline = styled(Form)`
   box-sizing: border-box;
 `;
 
-export { FormInline };
+export default FormInline;

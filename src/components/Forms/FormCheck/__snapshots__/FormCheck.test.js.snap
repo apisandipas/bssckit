@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormInline Component matches FormCheck inline 1`] = `
+.c0 {
+  position: relative;
+  box-sizing: border-box;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 0;
+  margin-right: 0.75rem;
+}
+
+.c0 > label {
+  margin-bottom: 0;
+}
+
+.c0 > input {
+  position: static;
+  margin-top: 0;
+  margin-right: 0.3125rem;
+  margin-left: 0;
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<div
+  class="sc-fznyAO c0"
+/>
+`;
+
+exports[`FormInline Component matches normal FormCheck 1`] = `
+.c0 {
+  position: relative;
+  box-sizing: border-box;
+  display: block;
+}
+
+.c0 > label {
+  margin-bottom: 0;
+}
+
+.c0 > input {
+  position: static;
+  margin-top: 0;
+  margin-right: 0.3125rem;
+  margin-left: 0;
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<div
+  class="sc-fznyAO c0"
+/>
+`;
+
+exports[`FormInline Component matches normal FormInline 1`] = `
+.c0 {
+  position: relative;
+  box-sizing: border-box;
+  display: block;
+}
+
+.c0 > label {
+  margin-bottom: 0;
+}
+
+.c0 > input {
+  position: static;
+  margin-top: 0;
+  margin-right: 0.3125rem;
+  margin-left: 0;
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<div
+  class="sc-fznyAO c0"
+/>
+`;

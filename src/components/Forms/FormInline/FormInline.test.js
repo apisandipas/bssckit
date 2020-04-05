@@ -2,7 +2,7 @@ import React from 'react';
 import 'jest-styled-components';
 import { render } from '@testing-library/react';
 
-import { FormInline } from './FormInline';
+import FormInline from './FormInline';
 
 describe('FormInline Component', () => {
   it('matches normal FormInline', () => {

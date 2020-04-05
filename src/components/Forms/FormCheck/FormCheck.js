@@ -30,7 +30,7 @@ const getPaddingLeft = props =>
 const getMarginRight = props =>
   props.inline &&
   css`
-    margin-right: ${them('formCheck.margin.inlineRight')};
+    margin-right: ${theme('formCheck.margin.inlineRight')};
   `;
 
 const FormCheck = styled(Div)`
@@ -50,5 +50,9 @@ const FormCheck = styled(Div)`
   ${props => getPaddingLeft(props)}
   ${props => getMarginRight(props)}
 `;
+
+FormCheck.defaultProps = {
+  props: defaultTheme,
+};
 
 export default FormCheck;

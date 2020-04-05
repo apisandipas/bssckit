@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormInline Component matches FormCheckInput disabled 1`] = `
+.c0 {
+  margin-top: 0.3rem;
+  margin-left: 0rem;
+  color: #abaeb1;
+}
+
+.c0 + label {
+  color: #abaeb1;
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<input
+  class="sc-fzoyAV c0"
+  disabled=""
+/>
+`;
+
+exports[`FormInline Component matches normal FormCheckInput 1`] = `
+.c0 {
+  margin-top: 0.3rem;
+  margin-left: 0rem;
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<input
+  class="sc-fzoyAV c0"
+/>
+`;

@@ -233,11 +233,3 @@ exports[`InputGroup Component matches normal InputGroup 1`] = `
   <input />
 </div>
 `;
-
-exports[`InputGroup Component matches normal InputGroup 2`] = `
-<div
-  class="sc-fznyAO sc-fznJRM cXyawQ"
->
-  <input />
-</div>
-`;

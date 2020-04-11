@@ -13,7 +13,7 @@ const getColor = (props, context) => {
           & > a,
           & > a:hover,
           & > a:focus {
-            color: ${theme(`listGroupItem.color.${context}.colorDisabled`)};
+            color: ${theme(`listGroupItem.colors.${context}.colorDisabled`)};
           }
         `}
     `;
@@ -84,13 +84,13 @@ const getBorderColor = (props, context) => {
   return theme(`listGroupItem.colors.${context}.borderColor`);
 };
 
-const zIndex = props =>
+const getZIndex = props =>
   props.active &&
   css`
     z-index: 2;
   `;
 
-const cursor = props =>
+const getCursor = props =>
   !props.disabled && props.action
     ? css`
         &:hover,
@@ -113,39 +113,39 @@ const ListGroupItem = styled(Li)`
   position: relative;
   display: block;
   padding: ${theme('listGroupItem.padding.default')};
-  border: ${theme('listGroupItem.border.default')} ${props => getBorderColor(props, 'default')}
+  border: ${theme('listGroupItem.border.default')} ${props => getBorderColor(props, 'default')};
   border-bottom: none;
   margin-bottom: -1px;
   &:first-child {
     border-top-left-radius: ${theme('listGroupItem.borderRadius.default')};
     border-top-right-radius: ${theme('listGroupItem.borderRadius.default')};
-  };
+  }
   &:last-child {
-    border-bottom: ${theme('listGroupItem.border.default')} ${props => getBorderColor(props, 'default')}
+    border-bottom: ${theme('listGroupItem.border.default')} ${props => getBorderColor(props, 'default')};
     margin-bottom: 0;
     border-bottom-right-radius: ${theme('listGroupItem.borderRadius.default')};
     border-bottom-left-radius: ${theme('listGroupItem.borderRadius.default')};
-  };
+  }
   & > a,
   & > a:hover,
   & > a:focus {
     z-index: 1;
     text-decoration: none;
-  };
-  ${props => getColor(props, 'default')}
-  ${props => getBackgroundBorderColor(props, 'default')}
-  ${props => zIndex(props)}
-  ${props => cursor(props)}
+  }
+  ${props => getColor(props, 'default')};
+  ${props => getBackgroundBorderColor(props, 'default')};
+  ${props => getZIndex(props)};
+  ${props => getCursor(props)};
 
   ${themeContexts.map(context => {
     return ifProp(
       context,
       css`
-        ${props => getColor(props, context)}
-        ${props => getBackgroundBorderColor(props, context)}
-        border: ${theme('listGroupItem.border.default')} ${props => getBorderColor(props, context)}
+        ${props => getColor(props, context)};
+        ${props => getBackgroundBorderColor(props, context)};
+        border: ${theme('listGroupItem.border.default')} ${props => getBorderColor(props, context)};
         &:last-child {
-          border-bottom: ${theme('listGroupItem.border.default')} ${props => getBorderColor(props, context)}
+          border-bottom: ${theme('listGroupItem.border.default')} ${props => getBorderColor(props, context)};
         }
       `
     );

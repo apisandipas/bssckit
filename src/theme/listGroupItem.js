@@ -120,4 +120,4 @@ const listGroupItem = {
   borderRadius: globals.borderRadius,
 };
 
-export { listGroupItem };
+export default listGroupItem;

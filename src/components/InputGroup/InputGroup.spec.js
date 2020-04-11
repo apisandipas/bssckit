@@ -12,7 +12,6 @@ describe('InputGroup Component', () => {
       </InputGroup>
     );
     expect(container.firstChild).toMatchSnapshot();
-    expect(container.firstChild).toMatchSnapshot();
     expect(container.firstChild).toHaveStyleRule('position', 'relative');
     expect(container.firstChild).toHaveStyleRule('display', 'flex');
     expect(container.firstChild).toHaveStyleRule('flex-wrap', 'wrap');

@@ -27,7 +27,7 @@ This project is still very much a work in progress, but is starting to take shap
 - [x] Grid
 - [x] Input group
 - [ ] Jumbotron
-- [ ] List Groups
+- [x] List Groups
 - [ ] Modal
 - [ ] Navs
 - [ ] Navbar

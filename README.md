@@ -19,7 +19,7 @@ This project is still very much a work in progress, but is starting to take shap
 - [x] Breadcrumbs
 - [x] Buttons
 - [x] Button Group
-- [ ] Card
+- [x] Card
 - [ ] Carousel
 - [ ] Collapse
 - [ ] Dropdowns

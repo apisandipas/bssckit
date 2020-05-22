@@ -1,10 +1,9 @@
 import React from 'react';
 import { Badge } from '../Badge';
-import ListGroup from './ListGroup';
-import ListGroupItem from './ListGroupItem';
+import { ListGroup, ListGroupItem } from './index';
 
 export default {
-  title: 'ListGroup',
+  title: 'List Group',
 };
 
 export const simple = () => (

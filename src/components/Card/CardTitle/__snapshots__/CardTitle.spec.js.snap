@@ -1,0 +1,199 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardTitle Component matches CardTitle h1 1`] = `
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<h1
+  class="sc-AxgMl "
+/>
+`;
+
+exports[`CardTitle Component matches CardTitle h1 2`] = `
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<h1
+  class="sc-AxgMl "
+/>
+`;
+
+exports[`CardTitle Component matches CardTitle h2 1`] = `
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<h2
+  class="sc-AxheI "
+/>
+`;
+
+exports[`CardTitle Component matches CardTitle h3 1`] = `
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<h3
+  class="sc-Axmtr "
+/>
+`;
+
+exports[`CardTitle Component matches CardTitle h4 1`] = `
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<h4
+  class="sc-AxmLO "
+/>
+`;
+
+exports[`CardTitle Component matches CardTitle h5 1`] = `
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<h5
+  class="sc-fzozJi "
+/>
+`;
+
+exports[`CardTitle Component matches CardTitle h6 1`] = `
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<h6
+  class="sc-fzoLsD "
+/>
+`;
+
+exports[`CardTitle Component matches CardTitle muted 1`] = `
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<h6
+  class="sc-fzoLsD "
+/>
+`;
+
+exports[`CardTitle Component matches CardTitle subtitle 1`] = `
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<h4
+  class="sc-AxmLO "
+/>
+`;

@@ -7,6 +7,12 @@ import breadcrumb from './breadcrumb';
 import breadcrumbItem from './breadcrumbItem';
 import button from './button';
 import buttonGroup from './buttonGroup';
+import card from './card';
+import cardBody from './cardBody';
+import cardFooter from './cardFooter';
+import cardHeader from './cardHeader';
+import cardImageHeader from './cardImageHeader';
+import cardText from './cardText';
 import container from './container';
 import formControl from './formControl';
 import formGroup from './formGroup';
@@ -28,6 +34,12 @@ export default {
   breadcrumbItem,
   button,
   buttonGroup,
+  card,
+  cardBody,
+  cardFooter,
+  cardHeader,
+  cardImageHeader,
+  cardText,
   container,
   grid,
   formControl,

@@ -36,7 +36,7 @@ describe('ListGroupItem component', () => {
     });
   });
 
-  it(' matches ListGroupItem action', () => {
+  it('matches ListGroupItem action', () => {
     const { container } = render(<ListGroupItem action />);
     expect(container.firstChild).toMatchSnapshot();
   });

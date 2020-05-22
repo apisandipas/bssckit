@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardText Component matches CardText 1`] = `
+.c0 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.c0:last-child {
+  margin-bottom: 0;
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<p
+  class="sc-AxjAm c0"
+/>
+`;

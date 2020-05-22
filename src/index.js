@@ -3,6 +3,7 @@ export { Alert, AlertDismissIcon, DismissableAlert } from './components/Alert';
 export { Badge } from './components/Badge';
 export { Button, LinkButton } from './components/Button';
 export { ButtonGroup } from './components/ButtonGroup';
+export { Card, CardBody, CardFooter, CardHeader, CardImageHeader, CardText } from './components/Card';
 export { Container } from './components/Container';
 export { Col } from './components/Col';
 export { Row } from './components/Row';

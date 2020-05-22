@@ -4,8 +4,6 @@ import { render, cleanup } from '@testing-library/react';
 import 'jest-styled-components';
 import ButtonGroup from './ButtonGroup';
 
-afterEach(cleanup);
-
 describe('ButtonGroup Component', () => {
   it('matches ButtonGroup', async () => {
     const { container } = render(<ButtonGroup />);

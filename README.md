@@ -28,6 +28,7 @@ This project is still very much a work in progress, but is starting to take shap
 - [x] Input group
 - [ ] Jumbotron
 - [x] List Groups
+- [ ] Media Object
 - [ ] Modal
 - [ ] Navs
 - [ ] Navbar
@@ -35,6 +36,8 @@ This project is still very much a work in progress, but is starting to take shap
 - [ ] Popovers
 - [ ] Progress
 - [ ] Scrollspy
+- [ ] Spinners
+- [ ] Toasts
 - [ ] Tooltips
 - [ ] Portal
 - [x] Utilities

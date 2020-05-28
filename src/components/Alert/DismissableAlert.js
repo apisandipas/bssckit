@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import { Alert, AlertDismissIcon } from './index';
+import { Alert, AlertDismissIcon } from './Alert';
 import { tagPropType } from '../../utils/consts';
 import Fade from '../../utils/Fade';
 

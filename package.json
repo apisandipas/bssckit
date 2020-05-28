@@ -38,12 +38,12 @@
     "lint-staged": "^10.0.7"
   },
   "peerDependencies": {
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "styled-components": "^5.0.1"
   },
   "scripts": {
-    "build": "babel src --out-dir lib --ignore src/**/*.test.js,src/**/*.stories.js",
+    "build": "rm -rf ./lib && babel src --out-dir lib --ignore src/**/*.spec.js,src/**/*.stories.js",
     "test": "jest --coverage",
     "storybook": "start-storybook -p 6006",
     "build_storybook": "build-storybook -o ./docs"
@@ -64,7 +64,6 @@
     "prop-types": "^15.7.2",
     "react-transition-group": "^4.3.0",
     "styled-breakpoints": "^8.0.1",
-    "styled-components": "^5.0.1",
     "styled-tools": "^1.7.1"
   },
   "husky": {

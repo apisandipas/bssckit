@@ -1,6 +1,6 @@
 {
   "name": "@apisandipas/bssckit",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A port of Bootstrap to Styled Components 💅",
   "repository": {
     "type": "git",
@@ -59,6 +59,7 @@
     "styled-components"
   ],
   "dependencies": {
+    "classnames": "^2.2.6",
     "lodash.merge": "^4.6.2",
     "prop-types": "^15.7.2",
     "react-transition-group": "^4.3.0",

@@ -11,7 +11,7 @@ export { FormControl, FormGroup, FormInline, FormCheck, FormCheckInput } from '.
 export { ListGroup, ListGroupItem } from './components/ListGroup';
 
 // Expose Base Components
-export { Div, Span, BaseButton, A } from './components/base';
+export { Div, Span, BaseButton, A } from './components/Utilities/base';
 
 //  Expose  Utilities
 export { default as BaseCss } from './utils/BaseCss';

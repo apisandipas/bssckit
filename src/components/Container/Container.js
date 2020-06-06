@@ -38,14 +38,18 @@ const Container = styled(Div)`
     `
   )}
 
+
 ${ifNotProp(
   'fluid',
   css`
-    ${up('xl')} {
-      max-width: ${theme('container.width.sizes.xl')};
-    }
-  `
+        @media (min-width: 1200px) {
+    max-width: 1140px;
+    /* max-width: ${theme('container.width.sizes.xl')}; */
+  }
+    `
 )}
+ 
+ 
 
 
   ${ifProp(

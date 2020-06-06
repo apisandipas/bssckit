@@ -38,6 +38,16 @@ const Container = styled(Div)`
     `
   )}
 
+${ifNotProp(
+  'fluid',
+  css`
+    ${up('xl')} {
+      max-width: ${theme('container.width.sizes.xl')};
+    }
+  `
+)}
+
+
   ${ifProp(
     'fluid',
     css`

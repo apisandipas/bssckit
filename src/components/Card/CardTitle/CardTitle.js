@@ -1,26 +1,25 @@
 import React from 'react';
 import styled, { css } from 'styled-components';
-import { theme } from 'styled-tools';
-import defaultTheme from '../../../theme';
 import { H1, H2, H3, H4, H5, H6 } from '../../Utilities/base';
+import { getColor, getMargin } from '../../../utils/themeFunctions';
 
-const getMargin = props =>
+const margin = props =>
   props.subtitle &&
   css`
-    margin-top: ${theme('cardTitle.margin.subtitleTop')};
-    margin-bottom: ${theme('cardTitle.margin.subtitleBottom')};
+    margin-top: ${getMargin(props, 'cardTitle', 'subtitleTop')};
+    margin-bottom: ${getMargin(props, 'cardTitle', 'subtitleBottom')};
   `;
 
-const getColor = props =>
+const color = props =>
   props.muted &&
   css`
-    color: ${theme('cardTitle.colors.default.colorMuted')};
+    color: ${getColor(props, 'cardTitle', 'colorMuted')};
   `;
 
 const cardTitleStyle = () => css`
-  margin-bottom: ${theme('cardTitle.margin.bottom')};
-  ${props => getMargin(props)};
-  ${props => getColor(props)};
+  margin-bottom: ${props => getMargin(props, 'cardTitle', 'bottom')};
+  ${props => margin(props)};
+  ${props => color(props)};
 `;
 
 const CardTitleH1 = styled(H1)`
@@ -63,10 +62,6 @@ const CardTitle = props => {
   }
 
   return <CardTitleH4 {...props} />;
-};
-
-CardTitle.defaultProps = {
-  theme: defaultTheme,
 };
 
 export default CardTitle;

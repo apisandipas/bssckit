@@ -1,28 +1,23 @@
 import styled, { css } from 'styled-components';
-import { theme } from 'styled-tools';
-import defaultTheme from '../../../theme';
 import { Img } from '../../Utilities/base';
+import { getBorderRadius } from '../../../utils/themeFunctions';
 
-const getBorderRadius = props => {
+const borderRadius = props => {
   if (props.noRadius) {
     return css`
-      border-radius: ${theme('cardImageHeader.borderRadius.noRadius')};
+      border-radius: ${getBorderRadius(props, 'cardImageHeader', 'noRadius')};
     `;
   }
 
   return css`
-    border-top-left-radius: ${theme('cardImageHeader.borderRadius.topLeftRight')};
-    border-top-right-radius: ${theme('cardImageHeader.borderRadius.topLeftRight')};
+    border-top-left-radius: ${getBorderRadius(props, 'cardImageHeader', 'topLeftRight')};
+    border-top-right-radius: ${getBorderRadius(props, 'cardImageHeader', 'topLeftRight')};
   `;
 };
 
 const CardImageHeader = styled(Img)`
   width: 100%;
-  ${props => getBorderRadius(props)}
+  ${props => borderRadius(props)}
 `;
-
-CardImageHeader.defaultProps = {
-  theme: defaultTheme,
-};
 
 export default CardImageHeader;

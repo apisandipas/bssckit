@@ -1,17 +1,16 @@
 import styled, { css } from 'styled-components';
-import { theme } from 'styled-tools';
-import defaultTheme from '../../../theme';
 import { Div } from '../../Utilities/base';
+import { getBorderRadius, getColor, getBorder } from '../../../utils/themeFunctions';
 
-const getBorderRadius = props => {
+const borderRadius = props => {
   if (props.noRadius) {
     return css`
-      border-radius: ${theme('card.borderRadius.noRadius')};
+      border-radius: ${getBorderRadius(props, 'card', 'noRadius')};
     `;
   }
 
   return css`
-    border-radius: ${theme('card.borderRadius.default')};
+    border-radius: ${getBorderRadius(props, 'card', 'default')};
   `;
 };
 
@@ -22,14 +21,10 @@ const Card = styled(Div)`
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: ${theme('card.colors.default.backgroundColor')};
+  background-color: ${props => getColor(props, 'card', 'backgroundColor')};
   background-clip: border-box;
-  border: ${theme('card.border.default')} ${theme('card.colors.default.borderColor')};
-  ${props => getBorderRadius(props)}
+  border: ${props => getBorder(props, 'card', 'default')} ${props => getColor(props, 'card', 'borderColor')};
+  ${props => borderRadius(props)}
 `;
-
-Card.defaultProps = {
-  theme: defaultTheme,
-};
 
 export default Card;

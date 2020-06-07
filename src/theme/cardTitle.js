@@ -1,9 +1,7 @@
-import palette from './palette';
-
 const cardTitle = {
   colors: {
     default: {
-      colorMuted: palette.darkLighter,
+      colorMuted: get => get('palette', 'darkLighter'),
     },
   },
   margin: {

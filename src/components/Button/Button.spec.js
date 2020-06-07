@@ -25,7 +25,7 @@ describe('Button Component', () => {
     expect(container.firstChild).toHaveStyleRule('border-radius', '0.25rem');
     expect(container.firstChild).toHaveStyleRule(
       'transition',
-      'color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out'
+      'color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out'
     );
     expect(container.firstChild).toHaveStyleRule('text-decoration', 'none', {
       modifier: '&:hover',

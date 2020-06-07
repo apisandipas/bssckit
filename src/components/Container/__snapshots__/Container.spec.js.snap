@@ -27,12 +27,6 @@ exports[`Container Component matches fluid container 1`] = `
 
 }
 
-@media screen and (max-width:1200px) {
-  .c0 {
-    max-width: 1140px;
-  }
-}
-
 <div
   class="sc-fznyAO c0"
 />
@@ -81,7 +75,7 @@ exports[`Container Component matches normal container 1`] = `
   }
 }
 
-@media screen and (max-width:1200px) {
+@media (min-width:75em) {
   .c0 {
     max-width: 1140px;
   }

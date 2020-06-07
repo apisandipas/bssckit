@@ -96,7 +96,7 @@ const palette = {
   darkerDark: '#16181b',
   darkerBoxShadow: 'rgba(0, 0, 0, 0.15)',
 
-  white: '#fff',
+  // white: '#fff',
   whiteDarker: '#f4f4f4',
   whiteDark: '#ececec',
 

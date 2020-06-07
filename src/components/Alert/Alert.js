@@ -1,8 +1,58 @@
 import styled, { css } from 'styled-components';
-import { theme, ifProp } from 'styled-tools';
 import { Div } from '../Utilities/base';
-import defaultTheme from '../../theme';
-import { themeContexts } from '../../utils/consts';
+import { getColor, getPadding, getBorder, getFontWeight, getBorderRadius } from '../../utils/themeFunctions';
+
+const alertDismissible = props =>
+  props.dismissible &&
+  css`
+    padding-right: ${getPadding(props, 'alert', 'dismissibleRight')};
+  `;
+
+const color = props =>
+  css`
+    color: ${getColor(props, 'alert', 'text')};
+  `;
+
+const backgroundColor = props =>
+  css`
+    background-color: ${getColor(props, 'alert', 'background')};
+  `;
+
+const borderColor = props =>
+  css`
+    border-color: ${getColor(props, 'alert', 'border')};
+  `;
+
+const borderTopColor = props =>
+  css`
+    & > hr {
+      border-top-color: ${getColor(props, 'alert', 'borderTop')};
+    }
+  `;
+
+const linkHoverColor = props =>
+  css`
+    & > a,
+    & > a:hover {
+      color: ${getColor(props, 'alert', 'hover')};
+    }
+  `;
+
+const borderRadius = props => {
+  if (props.noRadius) {
+    return css`
+      border-radius: ${getBorderRadius(props, 'alert', 'noRadius')};
+    `;
+  } else if (props.pill) {
+    return css`
+      border-radius: ${getBorderRadius(props, 'alert', 'pill')};
+    `;
+  }
+
+  return css`
+    border-radius: ${getBorderRadius(props, 'alert', 'default')};
+  `;
+};
 
 export const AlertDismissIcon = styled.span.attrs({
   ariaHidden: 'true',
@@ -26,19 +76,11 @@ const Alert = styled(Div).attrs({
   role: 'alert',
 })`
   position: relative;
-  padding: ${theme('alert.padding.default')};
-  margin-bottom: ${theme('alert.margin.bottom')};
-  border: ${theme('alert.border.default')};
-  border-radius: ${theme('alert.borderRadius.default')};
-  color: ${theme(`alert.colors.default.color`)};
-  background-color: ${theme(`alert.colors.default.background`)};
-  border-color: ${theme(`alert.colors.default.border`)};
-
-  & > a,
-  & > a:hover {
-    font-weight: ${theme('alert.fontWeight.default')};
-  }
-
+  padding: ${props => getPadding(props, 'alert', 'default')};
+  border: ${props => getBorder(props, 'alert', 'default')};
+  & > a {
+    font-weight: ${props => getFontWeight(props, 'alert', 'default')};
+  };
   & > h1,
   & > h2,
   & > h3,
@@ -46,61 +88,15 @@ const Alert = styled(Div).attrs({
   & > h5,
   & > h6 {
     color: inherit;
-  }
+  };
+  ${props => borderRadius(props)}
+  ${props => alertDismissible(props)}
+  ${props => color(props)}
+  ${props => backgroundColor(props)}
+  ${props => borderColor(props)}
+  ${props => borderTopColor(props)}
+  ${props => linkHoverColor(props)}
 
-  ${themeContexts.map(context => {
-    return ifProp(
-      context,
-      css`
-        color: ${theme(`alert.colors.text`)};
-        background-color: ${theme(`alert.colors.${context}.background`)};
-        border-color: ${theme(`alert.colors.${context}.border`)};
-
-        & > a,
-        & > a:hover {
-          color: ${theme(`alert.colors.${context}.text`)};
-        }
-
-        & > h1,
-        & > h2,
-        & > h3,
-        & > h4,
-        & > h5,
-        & > h6 {
-          color: ${theme(`alert.colors.${context}.text`)};
-        }
-
-        & > hr {
-          border-top-color: ${theme(`alert.colors.${context}.text`)};
-        }
-      `
-    );
-  })}
-
-  ${ifProp(
-    'noRadius',
-    css`
-      border-radius: 0;
-    `
-  )}
-
-  ${ifProp(
-    'pill',
-    css`
-      border-radius: ${theme('alert.borderRadius.pill')};
-    `
-  )}
-
-  ${ifProp(
-    'dismissible',
-    css`
-      padding-right: ${theme('alert.padding.dismissibleRight')};
-    `
-  )};
 `;
-
-Alert.defaultProps = {
-  theme: defaultTheme,
-};
 
 export default Alert;

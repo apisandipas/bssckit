@@ -1,33 +1,30 @@
-import React from 'react';
-import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
-import { theme } from 'styled-tools';
-import defaultTheme from '../../theme';
 import { Div } from '../Utilities/base';
+import { getPadding, getFontSize } from '../../utils/themeFunctions';
 
-const getSize = props => {
+const size = props => {
   if (props.lg) {
     return css`
-      padding: ${theme('buttonGroup.padding.lg')};
-      font-size: ${theme('buttonGroup.fontSize.lg')};
+      padding: ${getPadding(props, 'buttonGroup', 'lg')};
+      font-size: ${getFontSize(props, 'buttonGroup', 'lg')};
       line-height: 1.5;
     `;
   } else if (props.sm) {
     return css`
-      padding: ${theme('buttonGroup.padding.sm')};
-      font-size: ${theme('buttonGroup.fontSize.sm')};
+      padding: ${getPadding(props, 'buttonGroup', 'sm')};
+      font-size: ${getFontSize(props, 'buttonGroup', 'sm')};
       line-height: 1.5;
     `;
   }
 
   return css`
-    padding: ${theme('buttonGroup.padding.default')};
-    font-size: ${theme('buttonGroup.fontSize.default')};
+    padding: ${getPadding(props, 'buttonGroup', 'default')};
+    font-size: ${getFontSize(props, 'buttonGroup', 'default')};
     line-height: 1.5;
   `;
 };
 
-const getVertical = props => {
+const vertical = props => {
   if (props.vertical) {
     return css`
       flex-direction: column;
@@ -72,17 +69,9 @@ const ButtonGroup = styled(Div)`
     &:hover {
       z-index: 1;
     }
-    ${props => getSize(props)};
+    ${props => size(props)};
   }
-  ${props => getVertical(props)};
+  ${props => vertical(props)};
 `;
-
-ButtonGroup.propTypes = {
-  theme: PropTypes.object.isRequired,
-};
-
-ButtonGroup.defaultProps = {
-  theme: defaultTheme,
-};
 
 export default ButtonGroup;

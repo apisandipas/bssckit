@@ -1,32 +1,27 @@
 import styled, { css } from 'styled-components';
-import { theme, ifProp, ifNotProp } from 'styled-tools';
 import { Button as BaseButton, A } from '../Utilities/base';
-import defaultTheme from '../../theme';
-import { themeContexts } from '../../utils/consts';
+import {
+  getColor,
+  getPadding,
+  getMargin,
+  getFontSize,
+  getBorder,
+  getBorderRadius,
+  getBreakpointSize,
+} from '../../utils/themeFunctions';
 
-const getFontSize = props => {
-  if (props.lg) {
-    return css`
-      font-size: ${theme('button.fontSize.lg')};
-    `;
-  } else if (props.sm) {
-    return css`
-      font-size: ${theme('button.fontSize.sm')};
-    `;
-  }
-
-  return css`
-    font-size: ${theme('button.fontSize.default')};
+const boxShadow = props =>
+  css`
+    box-shadow: 0 0 0 0.2rem ${getColor(props, 'button', 'boxShadow')};
   `;
-};
 
-const getPadding = () => props => {
+const padding = props => {
   if (props.split) {
     if (props.sm) {
       return css`
         padding: 0;
-        padding-right: ${theme('button.padding.splitSmRight')};
-        padding-left: ${theme('button.padding.splitSmLeft')};
+        padding-right: ${getPadding(props, 'button', 'splitSmRight')};
+        padding-left: ${getPadding(props, 'button', 'splitSmLeft')};
         &::after {
           margin-left: 0;
         }
@@ -34,8 +29,8 @@ const getPadding = () => props => {
     } else if (props.lg) {
       return css`
         padding: 0;
-        padding-right: ${theme('button.padding.splitLgRight')};
-        padding-left: ${theme('button.padding.splitLgLeft')};
+        padding-right: ${getPadding(props, 'button', 'splitLgRight')};
+        padding-left: ${getPadding(props, 'button', 'splitLgLeft')};
         &::after {
           margin-left: 0;
         }
@@ -44,136 +39,67 @@ const getPadding = () => props => {
 
     return css`
       padding: 0;
-      padding-right: ${theme('button.padding.splitDefaultRight')};
-      padding-left: ${theme('button.padding.splitDefaultLeft')};
+      padding-right: ${getPadding(props, 'button', 'splitDefaultRight')};
+      padding-left: ${getPadding(props, 'button', 'splitDefaultLeft')};
       &::after {
         margin-left: 0;
       }
     `;
   } else if (props.lg) {
     return css`
-      padding: ${theme('button.padding.lg')};
+      padding: ${getPadding(props, 'button', 'lg')};
     `;
   } else if (props.sm) {
     return css`
-      padding: ${theme('button.padding.sm')};
+      padding: ${getPadding(props, 'button', 'sm')};
     `;
   }
 
   return css`
-    padding: ${theme('button.padding.default')};
+    padding: ${getPadding(props, 'button', 'default')};
   `;
 };
 
-const getBorderRadius = props => {
-  if (props.pill) {
+const block = props => {
+  if (props.block) {
     return css`
-      border-radius: ${theme('button.borderRadius.pill')};
-    `;
-  } else if (props.noRadius) {
-    return css`
-      border-radius: ${theme('button.borderRadius.noRadius')};
-    `;
-  } else if (props.sm) {
-    return css`
-      border-radius: ${theme('button.borderRadius.sm')};
-    `;
-  } else if (props.lg) {
-    return css`
-      border-radius: ${theme('button.borderRadius.lg')};
-    `;
-  }
-
-  return css`
-    border-radius: ${theme('button.borderRadius.default')};
-  `;
-};
-
-const getColor = (props, context) => {
-  if (props.outline) {
-    if (props.disabled) {
-      return css`
-        color: ${theme(`button.colors.${context}.colorOutline`)};
-      `;
-    }
-
-    return css`
-      color: ${theme(`button.colors.${context}.colorOutline`)};
-      &:hover {
-        color: ${theme(`button.colors.${context}.colorOutlineHover`)};
+      display: block;
+      width: 100%;
+      & + & {
+        margin-top: ${getMargin(props, 'button', 'blockTop')};
       }
     `;
   }
 
   return css`
-    color: ${theme(`button.colors.${context}.color`)};
+    display: inline-block;
   `;
 };
 
-const getBorder = (props, context) => {
-  if (props.active) {
+const fontSize = props => {
+  if (props.lg) {
     return css`
-      border: ${theme('button.border.default')} ${theme(`button.colors.${context}.borderColorActive`)};
+      font-size: ${getFontSize(props, 'button', 'lg')};
     `;
-  } else if (props.disabled) {
+  } else if (props.sm) {
     return css`
-      border: ${theme('button.border.default')} ${theme(`button.colors.${context}.borderColorDisabled`)};
+      font-size: ${getFontSize(props, 'button', 'sm')};
     `;
   }
 
   return css`
-    border: 1px solid ${theme(`button.colors.${context}.borderColor`)};
-
-    ${!props.outline &&
-      css`
-        &:focus,
-        &:hover {
-          border: 1px solid ${theme(`button.colors.${context}.borderColorHoverFocus`)};
-        }
-      `}
+    font-size: ${getFontSize(props, 'button', 'default')};
   `;
 };
 
-const getBackgroundColor = (props, context) => {
-  if (props.active) {
-    return css`
-      background-image: none;
-      background-color: ${theme(`button.colors.${context}.backgroundColorActive`)};
-    `;
-  } else if (props.outline) {
-    return css`
-      background-image: none;
-      background-color: transparent;
-      &:hover {
-        background-color: ${props.disabled
-          ? 'transparent'
-          : theme(`button.colors.${context}.backgroundColor`)};
-      }
-    `;
-  } else if (props.disabled) {
-    return css`
-      background-image: none;
-      background-color: ${theme(`button.colors.${context}.backgroundColorDisabled`)};
-    `;
-  }
-
-  return css`
-    background-color: ${theme(`button.colors.${context}.backgroundColor`)};
-    &:focus,
-    &:hover {
-      background-color: ${theme(`button.colors.${context}.backgroundColorHoverFocus`)};
-    }
-  `;
-};
-
-const getDropdownToggle = props =>
+const dropdownToggle = props =>
   props.dropdownToggle &&
   css`
     &::after {
       display: inline-block;
       width: 0;
       height: 0;
-      margin-left: ${theme('button.margin.dropdownToggleLeft')};
+      margin-left: ${getMargin(props, 'button', 'dropdownToggleLeft')};
       vertical-align: 0.255em;
       content: '';
       border-top: 0.3em solid;
@@ -189,6 +115,142 @@ const getDropdownToggle = props =>
     }
   `;
 
+const disabled = props =>
+  props.disabled &&
+  css`
+    opacity: 0.65;
+  `;
+
+const border = props => {
+  if (props.active) {
+    return css`
+      border: ${getBorder(props, 'button', 'default')} ${getColor(props, 'button', 'borderColorActive')};
+    `;
+  } else if (props.disabled) {
+    return css`
+      border: ${getBorder(props, 'button', 'default')} ${getColor(props, 'button', 'borderColorDisabled')};
+    `;
+  }
+
+  return css`
+    border: 1px solid ${getColor(props, 'button', 'borderColor')};
+    ${!props.outline &&
+      css`
+        &:focus,
+        &:hover {
+          border: 1px solid ${getColor(props, 'button', 'borderColorHoverFocus')};
+        }
+      `}
+  `;
+};
+
+const backgroundColor = props => {
+  if (props.active) {
+    return css`
+      background-image: none;
+      background-color: ${getColor(props, 'button', 'backgroundColorActive')};
+    `;
+  } else if (props.outline) {
+    return css`
+      background-image: none;
+      background-color: transparent;
+      &:hover {
+        background-color: ${props.disabled ? 'transparent' : getColor(props, 'button', 'backgroundColor')};
+      }
+    `;
+  } else if (props.disabled) {
+    return css`
+      background-image: none;
+      background-color: ${getColor(props, 'button', 'backgroundColorDisabled')};
+    `;
+  }
+
+  return css`
+    background-color: ${getColor(props, 'button', 'backgroundColor')};
+    &:focus,
+    &:hover {
+      background-color: ${getColor(props, 'button', 'backgroundColorHoverFocus')};
+    }
+  `;
+};
+
+const borderRadius = props => {
+  if (props.pill) {
+    return css`
+      border-radius: ${getBorderRadius(props, 'button', 'pill')};
+    `;
+  } else if (props.noRadius) {
+    return css`
+      border-radius: ${getBorderRadius(props, 'button', 'noRadius')};
+    `;
+  } else if (props.sm) {
+    return css`
+      border-radius: ${getBorderRadius(props, 'button', 'sm')};
+    `;
+  } else if (props.lg) {
+    return css`
+      border-radius: ${getBorderRadius(props, 'button', 'lg')};
+    `;
+  }
+
+  return css`
+    border-radius: ${getBorderRadius(props, 'button', 'default')};
+  `;
+};
+
+const buttonToggler = props =>
+  css`
+    color: ${getColor(props, 'button', 'toggle', 'color')};
+    border-color: ${getColor(props, 'button', 'toggle', 'borderColor')};
+    &:hover,
+    &:focus {
+      color: ${getColor(props, 'button', 'toggle', 'color')};
+      border-color: ${getColor(props, 'button', 'toggle', 'borderColor')};
+    }
+  `;
+
+const buttonToggleCollapse = props => {
+  if ((props.expandSm || props.expandMd || props.expandLg || props.expandXl) && props.toggleCollapse) {
+    return css`
+      display: none;
+      @media (max-width: ${getBreakpointSize(props)}) {
+        display: block;
+        font-size: ${fontSize(props).toggle};
+        ${buttonToggler};
+      }
+    `;
+  }
+
+  return '';
+};
+
+const color = props => {
+  if (props.outline) {
+    if (props.disabled) {
+      return css`
+        color: ${getColor(props, 'button', 'colorOutline')};
+      `;
+    }
+
+    return css`
+      color: ${getColor(props, 'button', 'colorOutline')};
+      &:hover {
+        color: ${getColor(props, 'button', 'colorOutlineHover')};
+      }
+    `;
+  }
+
+  return css`
+    color: ${getColor(props, 'button', 'color')};
+  `;
+};
+
+const cursor = props =>
+  !props.disabled &&
+  css`
+    cursor: pointer;
+  `;
+
 const buttonStyles = props => css`
   font-weight: 400;
   line-height: 1.5;
@@ -196,110 +258,39 @@ const buttonStyles = props => css`
   white-space: nowrap;
   vertical-align: middle;
   user-select: none;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  border: 1px solid ${theme('button.colors.default.borderColor')};
-  background: ${theme('button.colors.default.borderColor')};
-  color: ${theme('button.colors.default.color')};
-
-  &:hover {
-    text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+  &:focus {
+    outline: 0;
+    ${boxShadow};
   }
-
+  &:hover,
   &:focus {
     text-decoration: none;
-    outline: 0;
-    box-shadow: 0 0 0 0.2rem  ${theme('button.colors.default.boxShadow')};
+    ${border(props)};
+    ${backgroundColor(props)};
+    ${color(props)};
+    ${cursor(props)};
   }
-
-
-  ${ifProp(
-    'active',
-    css`
-      background-image: none;
-    `
-  )}
-
-
-  ${ifProp(
-    'disabled',
-    css`
-      opacity: 0.65;
-      background-image: none;
-      cursor: not-allowed;
-    `,
-    css`
-      cursor: pointer;
-    `
-  )}
-
-
-  ${ifProp(
-    'block',
-    css`
-      display: block;
-      width: 100%;
-      & + & {
-        margin-top: ${theme('button.margin.blockTop')};
-      }
-    `,
-    css`
-      display: inline-block;
-    `
-  )}
-
-  ${getFontSize(props)}
-  ${getPadding(props)}
-  ${getBorderRadius(props)};
-  ${getDropdownToggle(props)};
-
-  ${themeContexts.map(context => {
-    return ifProp(
-      context,
-      css`
-        &:focus {
-          outline: 0;
-          box-shadow: 0 0 0 0.2rem ${theme(`button.colors.${context}.boxShadow`)};
-        }
-
-        &:hover,
-        &:focus {
-          text-decoration: none;
-          ${getColor(props, context)};
-          ${getBorder(props, context)};
-          ${getBackgroundColor(props, context)};
-        }
-
-        ${ifProp(
-          'disabled',
-          css`
-            ${getBorder(props, context)};
-          `
-        )}
-
-        ${getColor(props, context)}
-        ${getBorder(props, context)}
-        ${getBackgroundColor(props, context)}
-      `
-    );
-  })}
+  ${border(props)};
+  ${backgroundColor(props)};
+  ${borderRadius(props)};
+  ${block(props)};
+  ${dropdownToggle(props)};
+  ${buttonToggleCollapse(props)};
+  ${disabled(props)};
+  ${fontSize(props)};
+  ${color(props)};
+  ${padding(props)};
 `;
 
 const Button = styled(BaseButton)`
   ${props => buttonStyles(props)}
 `;
 
-Button.defaultProps = {
-  theme: defaultTheme,
-};
-
 const LinkButton = styled(A)`
   text-decoration: none;
   ${props => buttonStyles(props)}
 `;
-
-LinkButton.defaultProps = {
-  theme: defaultTheme,
-};
 
 export { Button, LinkButton };

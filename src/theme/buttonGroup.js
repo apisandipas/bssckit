@@ -1,9 +1,6 @@
-import button from './button';
-import globals from './globals';
-
 const buttonGroup = {
-  padding: button.padding,
-  fontSize: globals.fontSize,
+  padding: get => get('button', 'padding'),
+  fontSize: get => get('globals', 'fontSize'),
 };
 
 export default buttonGroup;

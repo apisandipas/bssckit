@@ -11,28 +11,54 @@ exports[`Button Component matches Button 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
-  background: #6c757d;
-  color: #fff;
-  cursor: pointer;
+  background-color: #6c757d;
+  border-radius: 0.25rem;
   display: inline-block;
   font-size: 1rem;
+  color: #fff;
   padding: 0.375rem 0.75rem;
-  border-radius: 0.25rem;
-}
-
-.c0:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
 }
 
 .c0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  border: 1px solid #6c757d;
+  background-color: #6c757d;
+  color: #fff;
+  cursor: pointer;
+}
+
+.c0:hover:focus,
+.c0:focus:focus,
+.c0:hover:hover,
+.c0:focus:hover {
+  border: 1px solid #4e555b;
+}
+
+.c0:hover:focus,
+.c0:focus:focus,
+.c0:hover:hover,
+.c0:focus:hover {
+  background-color: #5a6268;
+}
+
+.c0:focus,
+.c0:hover {
+  border: 1px solid #4e555b;
+}
+
+.c0:focus,
+.c0:hover {
+  background-color: #5a6268;
 }
 
 @media (min-width:576px) {
@@ -69,29 +95,32 @@ exports[`Button Component matches Button active 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  border: 1px solid #6c757d;
-  background: #6c757d;
-  color: #fff;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  border: 1px solid #4e555b;
   background-image: none;
-  cursor: pointer;
+  background-color: #6c757d;
+  border-radius: 0.25rem;
   display: inline-block;
   font-size: 1rem;
+  color: #fff;
   padding: 0.375rem 0.75rem;
-  border-radius: 0.25rem;
-}
-
-.c0:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
 }
 
 .c0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  border: 1px solid #4e555b;
+  background-image: none;
+  background-color: #6c757d;
+  color: #fff;
+  cursor: pointer;
 }
 
 @media (min-width:576px) {
@@ -128,29 +157,55 @@ exports[`Button Component matches Button block 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
-  background: #6c757d;
-  color: #fff;
-  cursor: pointer;
+  background-color: #6c757d;
+  border-radius: 0.25rem;
   display: block;
   width: 100%;
   font-size: 1rem;
+  color: #fff;
   padding: 0.375rem 0.75rem;
-  border-radius: 0.25rem;
-}
-
-.c1:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
 }
 
 .c1:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c1:hover,
+.c1:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  border: 1px solid #6c757d;
+  background-color: #6c757d;
+  color: #fff;
+  cursor: pointer;
+}
+
+.c1:hover:focus,
+.c1:focus:focus,
+.c1:hover:hover,
+.c1:focus:hover {
+  border: 1px solid #4e555b;
+}
+
+.c1:hover:focus,
+.c1:focus:focus,
+.c1:hover:hover,
+.c1:focus:hover {
+  background-color: #5a6268;
+}
+
+.c1:focus,
+.c1:hover {
+  border: 1px solid #4e555b;
+}
+
+.c1:focus,
+.c1:hover {
+  background-color: #5a6268;
 }
 
 .c1 + .c0 {
@@ -191,31 +246,15 @@ exports[`Button Component matches Button danger 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  border: 1px solid #6c757d;
-  background: #6c757d;
-  color: #fff;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 1rem;
-  padding: 0.375rem 0.75rem;
-  border-radius: 0.25rem;
-  color: #fff;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #dc3545;
   background-color: #dc3545;
-}
-
-.c0:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+  border-radius: 0.25rem;
+  display: inline-block;
+  font-size: 1rem;
+  color: #fff;
+  padding: 0.375rem 0.75rem;
 }
 
 .c0:focus {
@@ -227,9 +266,10 @@ exports[`Button Component matches Button danger 1`] = `
 .c0:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
-  color: #fff;
   border: 1px solid #dc3545;
   background-color: #dc3545;
+  color: #fff;
+  cursor: pointer;
 }
 
 .c0:hover:focus,
@@ -290,33 +330,16 @@ exports[`Button Component matches Button danger active 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  border: 1px solid #6c757d;
-  background: #6c757d;
-  color: #fff;
-  background-image: none;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 1rem;
-  padding: 0.375rem 0.75rem;
-  border-radius: 0.25rem;
-  color: #fff;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #b21f2d;
   background-image: none;
   background-color: #b21f2d;
-}
-
-.c0:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+  border-radius: 0.25rem;
+  display: inline-block;
+  font-size: 1rem;
+  color: #fff;
+  padding: 0.375rem 0.75rem;
 }
 
 .c0:focus {
@@ -328,10 +351,11 @@ exports[`Button Component matches Button danger active 1`] = `
 .c0:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
-  color: #fff;
   border: 1px solid #b21f2d;
   background-image: none;
   background-color: #b21f2d;
+  color: #fff;
+  cursor: pointer;
 }
 
 @media (min-width:576px) {
@@ -368,35 +392,17 @@ exports[`Button Component matches Button danger disabled 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  border: 1px solid #6c757d;
-  background: #6c757d;
-  color: #fff;
-  opacity: 0.65;
-  background-image: none;
-  cursor: not-allowed;
-  display: inline-block;
-  font-size: 1rem;
-  padding: 0.375rem 0.75rem;
-  border-radius: 0.25rem;
-  border: 1px solid #dc3545;
-  color: #fff;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #dc3545;
   background-image: none;
   background-color: #dc3545;
-}
-
-.c0:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+  border-radius: 0.25rem;
+  display: inline-block;
+  opacity: 0.65;
+  font-size: 1rem;
+  color: #fff;
+  padding: 0.375rem 0.75rem;
 }
 
 .c0:focus {
@@ -408,10 +414,10 @@ exports[`Button Component matches Button danger disabled 1`] = `
 .c0:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
-  color: #fff;
   border: 1px solid #dc3545;
   background-image: none;
   background-color: #dc3545;
+  color: #fff;
 }
 
 @media (min-width:576px) {
@@ -449,32 +455,16 @@ exports[`Button Component matches Button danger outline 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  border: 1px solid #6c757d;
-  background: #6c757d;
-  color: #fff;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 1rem;
-  padding: 0.375rem 0.75rem;
-  border-radius: 0.25rem;
-  color: #dc3545;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #dc3545;
   background-image: none;
   background-color: transparent;
-}
-
-.c0:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+  border-radius: 0.25rem;
+  display: inline-block;
+  font-size: 1rem;
+  color: #dc3545;
+  padding: 0.375rem 0.75rem;
 }
 
 .c0:focus {
@@ -486,15 +476,11 @@ exports[`Button Component matches Button danger outline 1`] = `
 .c0:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
-  color: #dc3545;
   border: 1px solid #dc3545;
   background-image: none;
   background-color: transparent;
-}
-
-.c0:hover:hover,
-.c0:focus:hover {
-  color: #fff;
+  color: #dc3545;
+  cursor: pointer;
 }
 
 .c0:hover:hover,
@@ -502,12 +488,17 @@ exports[`Button Component matches Button danger outline 1`] = `
   background-color: #dc3545;
 }
 
-.c0:hover {
+.c0:hover:hover,
+.c0:focus:hover {
   color: #fff;
 }
 
 .c0:hover {
   background-color: #dc3545;
+}
+
+.c0:hover {
+  color: #fff;
 }
 
 @media (min-width:576px) {
@@ -544,35 +535,17 @@ exports[`Button Component matches Button danger outline disabled 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  border: 1px solid #6c757d;
-  background: #6c757d;
-  color: #fff;
-  opacity: 0.65;
-  background-image: none;
-  cursor: not-allowed;
-  display: inline-block;
-  font-size: 1rem;
-  padding: 0.375rem 0.75rem;
-  border-radius: 0.25rem;
-  border: 1px solid #dc3545;
-  color: #dc3545;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #dc3545;
   background-image: none;
   background-color: transparent;
-}
-
-.c0:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+  border-radius: 0.25rem;
+  display: inline-block;
+  opacity: 0.65;
+  font-size: 1rem;
+  color: #dc3545;
+  padding: 0.375rem 0.75rem;
 }
 
 .c0:focus {
@@ -584,10 +557,10 @@ exports[`Button Component matches Button danger outline disabled 1`] = `
 .c0:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
-  color: #dc3545;
   border: 1px solid #dc3545;
   background-image: none;
   background-color: transparent;
+  color: #dc3545;
 }
 
 .c0:hover:hover,
@@ -634,31 +607,15 @@ exports[`Button Component matches Button dark 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  border: 1px solid #6c757d;
-  background: #6c757d;
-  color: #fff;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 1rem;
-  padding: 0.375rem 0.75rem;
-  border-radius: 0.25rem;
-  color: #fff;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #343a40;
   background-color: #343a40;
-}
-
-.c0:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+  border-radius: 0.25rem;
+  display: inline-block;
+  font-size: 1rem;
+  color: #fff;
+  padding: 0.375rem 0.75rem;
 }
 
 .c0:focus {
@@ -670,9 +627,10 @@ exports[`Button Component matches Button dark 1`] = `
 .c0:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
-  color: #fff;
   border: 1px solid #343a40;
   background-color: #343a40;
+  color: #fff;
+  cursor: pointer;
 }
 
 .c0:hover:focus,
@@ -735,35 +693,17 @@ exports[`Button Component matches Button dark disabled 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  border: 1px solid #6c757d;
-  background: #6c757d;
-  color: #fff;
-  opacity: 0.65;
-  background-image: none;
-  cursor: not-allowed;
-  display: inline-block;
-  font-size: 1rem;
-  padding: 0.375rem 0.75rem;
-  border-radius: 0.25rem;
-  border: 1px solid #343a40;
-  color: #fff;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #343a40;
   background-image: none;
   background-color: #343a40;
-}
-
-.c0:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+  border-radius: 0.25rem;
+  display: inline-block;
+  opacity: 0.65;
+  font-size: 1rem;
+  color: #fff;
+  padding: 0.375rem 0.75rem;
 }
 
 .c0:focus {
@@ -775,10 +715,10 @@ exports[`Button Component matches Button dark disabled 1`] = `
 .c0:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
-  color: #fff;
   border: 1px solid #343a40;
   background-image: none;
   background-color: #343a40;
+  color: #fff;
 }
 
 @media (min-width:576px) {
@@ -816,32 +756,16 @@ exports[`Button Component matches Button dark outline 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  border: 1px solid #6c757d;
-  background: #6c757d;
-  color: #fff;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 1rem;
-  padding: 0.375rem 0.75rem;
-  border-radius: 0.25rem;
-  color: #343a40;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #343a40;
   background-image: none;
   background-color: transparent;
-}
-
-.c0:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+  border-radius: 0.25rem;
+  display: inline-block;
+  font-size: 1rem;
+  color: #343a40;
+  padding: 0.375rem 0.75rem;
 }
 
 .c0:focus {
@@ -853,15 +777,11 @@ exports[`Button Component matches Button dark outline 1`] = `
 .c0:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
-  color: #343a40;
   border: 1px solid #343a40;
   background-image: none;
   background-color: transparent;
-}
-
-.c0:hover:hover,
-.c0:focus:hover {
-  color: #fff;
+  color: #343a40;
+  cursor: pointer;
 }
 
 .c0:hover:hover,
@@ -869,12 +789,17 @@ exports[`Button Component matches Button dark outline 1`] = `
   background-color: #343a40;
 }
 
-.c0:hover {
+.c0:hover:hover,
+.c0:focus:hover {
   color: #fff;
 }
 
 .c0:hover {
   background-color: #343a40;
+}
+
+.c0:hover {
+  color: #fff;
 }
 
 @media (min-width:576px) {
@@ -911,35 +836,17 @@ exports[`Button Component matches Button dark outline disabled 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  border: 1px solid #6c757d;
-  background: #6c757d;
-  color: #fff;
-  opacity: 0.65;
-  background-image: none;
-  cursor: not-allowed;
-  display: inline-block;
-  font-size: 1rem;
-  padding: 0.375rem 0.75rem;
-  border-radius: 0.25rem;
-  border: 1px solid #343a40;
-  color: #343a40;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #343a40;
   background-image: none;
   background-color: transparent;
-}
-
-.c0:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+  border-radius: 0.25rem;
+  display: inline-block;
+  opacity: 0.65;
+  font-size: 1rem;
+  color: #343a40;
+  padding: 0.375rem 0.75rem;
 }
 
 .c0:focus {
@@ -951,10 +858,10 @@ exports[`Button Component matches Button dark outline disabled 1`] = `
 .c0:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
-  color: #343a40;
   border: 1px solid #343a40;
   background-image: none;
   background-color: transparent;
+  color: #343a40;
 }
 
 .c0:hover:hover,
@@ -1001,30 +908,32 @@ exports[`Button Component matches Button disabled 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
-  background: #6c757d;
-  color: #fff;
-  opacity: 0.65;
   background-image: none;
-  cursor: not-allowed;
-  display: inline-block;
-  font-size: 1rem;
-  padding: 0.375rem 0.75rem;
+  background-color: #6c757d;
   border-radius: 0.25rem;
-}
-
-.c0:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
+  display: inline-block;
+  opacity: 0.65;
+  font-size: 1rem;
+  color: #fff;
+  padding: 0.375rem 0.75rem;
 }
 
 .c0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  border: 1px solid #6c757d;
+  background-image: none;
+  background-color: #6c757d;
+  color: #fff;
 }
 
 @media (min-width:576px) {
@@ -1062,28 +971,54 @@ exports[`Button Component matches Button dropdownToggle 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
-  background: #6c757d;
-  color: #fff;
-  cursor: pointer;
+  background-color: #6c757d;
+  border-radius: 0.25rem;
   display: inline-block;
   font-size: 1rem;
+  color: #fff;
   padding: 0.375rem 0.75rem;
-  border-radius: 0.25rem;
-}
-
-.c0:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
 }
 
 .c0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  border: 1px solid #6c757d;
+  background-color: #6c757d;
+  color: #fff;
+  cursor: pointer;
+}
+
+.c0:hover:focus,
+.c0:focus:focus,
+.c0:hover:hover,
+.c0:focus:hover {
+  border: 1px solid #4e555b;
+}
+
+.c0:hover:focus,
+.c0:focus:focus,
+.c0:hover:hover,
+.c0:focus:hover {
+  background-color: #5a6268;
+}
+
+.c0:focus,
+.c0:hover {
+  border: 1px solid #4e555b;
+}
+
+.c0:focus,
+.c0:hover {
+  background-color: #5a6268;
 }
 
 .c0::after {
@@ -1140,33 +1075,16 @@ exports[`Button Component matches Button info active 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  border: 1px solid #6c757d;
-  background: #6c757d;
-  color: #fff;
-  background-image: none;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 1rem;
-  padding: 0.375rem 0.75rem;
-  border-radius: 0.25rem;
-  color: #fff;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #12707f;
   background-image: none;
   background-color: #12707f;
-}
-
-.c0:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+  border-radius: 0.25rem;
+  display: inline-block;
+  font-size: 1rem;
+  color: #fff;
+  padding: 0.375rem 0.75rem;
 }
 
 .c0:focus {
@@ -1178,10 +1096,11 @@ exports[`Button Component matches Button info active 1`] = `
 .c0:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
-  color: #fff;
   border: 1px solid #12707f;
   background-image: none;
   background-color: #12707f;
+  color: #fff;
+  cursor: pointer;
 }
 
 @media (min-width:576px) {
@@ -1218,32 +1137,16 @@ exports[`Button Component matches Button info outline 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  border: 1px solid #6c757d;
-  background: #6c757d;
-  color: #fff;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 1rem;
-  padding: 0.375rem 0.75rem;
-  border-radius: 0.25rem;
-  color: #17a2b8;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #17a2b8;
   background-image: none;
   background-color: transparent;
-}
-
-.c0:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+  border-radius: 0.25rem;
+  display: inline-block;
+  font-size: 1rem;
+  color: #17a2b8;
+  padding: 0.375rem 0.75rem;
 }
 
 .c0:focus {
@@ -1255,15 +1158,11 @@ exports[`Button Component matches Button info outline 1`] = `
 .c0:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
-  color: #17a2b8;
   border: 1px solid #17a2b8;
   background-image: none;
   background-color: transparent;
-}
-
-.c0:hover:hover,
-.c0:focus:hover {
-  color: #fff;
+  color: #17a2b8;
+  cursor: pointer;
 }
 
 .c0:hover:hover,
@@ -1271,12 +1170,17 @@ exports[`Button Component matches Button info outline 1`] = `
   background-color: #17a2b8;
 }
 
-.c0:hover {
+.c0:hover:hover,
+.c0:focus:hover {
   color: #fff;
 }
 
 .c0:hover {
   background-color: #17a2b8;
+}
+
+.c0:hover {
+  color: #fff;
 }
 
 @media (min-width:576px) {
@@ -1313,35 +1217,17 @@ exports[`Button Component matches Button info outline disabled 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  border: 1px solid #6c757d;
-  background: #6c757d;
-  color: #fff;
-  opacity: 0.65;
-  background-image: none;
-  cursor: not-allowed;
-  display: inline-block;
-  font-size: 1rem;
-  padding: 0.375rem 0.75rem;
-  border-radius: 0.25rem;
-  border: 1px solid #17a2b8;
-  color: #17a2b8;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #17a2b8;
   background-image: none;
   background-color: transparent;
-}
-
-.c0:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+  border-radius: 0.25rem;
+  display: inline-block;
+  opacity: 0.65;
+  font-size: 1rem;
+  color: #17a2b8;
+  padding: 0.375rem 0.75rem;
 }
 
 .c0:focus {
@@ -1353,10 +1239,10 @@ exports[`Button Component matches Button info outline disabled 1`] = `
 .c0:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
-  color: #17a2b8;
   border: 1px solid #17a2b8;
   background-image: none;
   background-color: transparent;
+  color: #17a2b8;
 }
 
 .c0:hover:hover,
@@ -1403,28 +1289,54 @@ exports[`Button Component matches Button large 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
-  background: #6c757d;
-  color: #fff;
-  cursor: pointer;
+  background-color: #6c757d;
+  border-radius: 0.3rem;
   display: inline-block;
   font-size: 1.25rem;
+  color: #fff;
   padding: 0.5rem 1rem;
-  border-radius: 0.3rem;
-}
-
-.c0:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
 }
 
 .c0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  border: 1px solid #6c757d;
+  background-color: #6c757d;
+  color: #fff;
+  cursor: pointer;
+}
+
+.c0:hover:focus,
+.c0:focus:focus,
+.c0:hover:hover,
+.c0:focus:hover {
+  border: 1px solid #4e555b;
+}
+
+.c0:hover:focus,
+.c0:focus:focus,
+.c0:hover:hover,
+.c0:focus:hover {
+  background-color: #5a6268;
+}
+
+.c0:focus,
+.c0:hover {
+  border: 1px solid #4e555b;
+}
+
+.c0:focus,
+.c0:hover {
+  background-color: #5a6268;
 }
 
 @media (min-width:576px) {
@@ -1461,31 +1373,15 @@ exports[`Button Component matches Button light 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  border: 1px solid #6c757d;
-  background: #6c757d;
-  color: #fff;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 1rem;
-  padding: 0.375rem 0.75rem;
-  border-radius: 0.25rem;
-  color: #212529;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #f0f0f0;
   background-color: #f0f0f0;
-}
-
-.c0:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+  border-radius: 0.25rem;
+  display: inline-block;
+  font-size: 1rem;
+  color: #212529;
+  padding: 0.375rem 0.75rem;
 }
 
 .c0:focus {
@@ -1497,9 +1393,10 @@ exports[`Button Component matches Button light 1`] = `
 .c0:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
-  color: #212529;
   border: 1px solid #f0f0f0;
   background-color: #f0f0f0;
+  color: #212529;
+  cursor: pointer;
 }
 
 .c0:hover:focus,
@@ -1560,33 +1457,16 @@ exports[`Button Component matches Button light active 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  border: 1px solid #6c757d;
-  background: #6c757d;
-  color: #fff;
-  background-image: none;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 1rem;
-  padding: 0.375rem 0.75rem;
-  border-radius: 0.25rem;
-  color: #212529;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #cccecf;
   background-image: none;
   background-color: #cccecf;
-}
-
-.c0:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+  border-radius: 0.25rem;
+  display: inline-block;
+  font-size: 1rem;
+  color: #212529;
+  padding: 0.375rem 0.75rem;
 }
 
 .c0:focus {
@@ -1598,10 +1478,11 @@ exports[`Button Component matches Button light active 1`] = `
 .c0:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
-  color: #212529;
   border: 1px solid #cccecf;
   background-image: none;
   background-color: #cccecf;
+  color: #212529;
+  cursor: pointer;
 }
 
 @media (min-width:576px) {
@@ -1638,35 +1519,17 @@ exports[`Button Component matches Button light disabled 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  border: 1px solid #6c757d;
-  background: #6c757d;
-  color: #fff;
-  opacity: 0.65;
-  background-image: none;
-  cursor: not-allowed;
-  display: inline-block;
-  font-size: 1rem;
-  padding: 0.375rem 0.75rem;
-  border-radius: 0.25rem;
-  border: 1px solid #f0f0f0;
-  color: #212529;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #f0f0f0;
   background-image: none;
   background-color: #f0f0f0;
-}
-
-.c0:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+  border-radius: 0.25rem;
+  display: inline-block;
+  opacity: 0.65;
+  font-size: 1rem;
+  color: #212529;
+  padding: 0.375rem 0.75rem;
 }
 
 .c0:focus {
@@ -1678,10 +1541,10 @@ exports[`Button Component matches Button light disabled 1`] = `
 .c0:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
-  color: #212529;
   border: 1px solid #f0f0f0;
   background-image: none;
   background-color: #f0f0f0;
+  color: #212529;
 }
 
 @media (min-width:576px) {
@@ -1719,32 +1582,16 @@ exports[`Button Component matches Button light outline 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  border: 1px solid #6c757d;
-  background: #6c757d;
-  color: #fff;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 1rem;
-  padding: 0.375rem 0.75rem;
-  border-radius: 0.25rem;
-  color: #f0f0f0;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #f0f0f0;
   background-image: none;
   background-color: transparent;
-}
-
-.c0:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+  border-radius: 0.25rem;
+  display: inline-block;
+  font-size: 1rem;
+  color: #f0f0f0;
+  padding: 0.375rem 0.75rem;
 }
 
 .c0:focus {
@@ -1756,15 +1603,11 @@ exports[`Button Component matches Button light outline 1`] = `
 .c0:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
-  color: #f0f0f0;
   border: 1px solid #f0f0f0;
   background-image: none;
   background-color: transparent;
-}
-
-.c0:hover:hover,
-.c0:focus:hover {
-  color: #212529;
+  color: #f0f0f0;
+  cursor: pointer;
 }
 
 .c0:hover:hover,
@@ -1772,12 +1615,17 @@ exports[`Button Component matches Button light outline 1`] = `
   background-color: #f0f0f0;
 }
 
-.c0:hover {
+.c0:hover:hover,
+.c0:focus:hover {
   color: #212529;
 }
 
 .c0:hover {
   background-color: #f0f0f0;
+}
+
+.c0:hover {
+  color: #212529;
 }
 
 @media (min-width:576px) {
@@ -1814,35 +1662,17 @@ exports[`Button Component matches Button light outline disabled 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  border: 1px solid #6c757d;
-  background: #6c757d;
-  color: #fff;
-  opacity: 0.65;
-  background-image: none;
-  cursor: not-allowed;
-  display: inline-block;
-  font-size: 1rem;
-  padding: 0.375rem 0.75rem;
-  border-radius: 0.25rem;
-  border: 1px solid #f0f0f0;
-  color: #f0f0f0;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #f0f0f0;
   background-image: none;
   background-color: transparent;
-}
-
-.c0:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+  border-radius: 0.25rem;
+  display: inline-block;
+  opacity: 0.65;
+  font-size: 1rem;
+  color: #f0f0f0;
+  padding: 0.375rem 0.75rem;
 }
 
 .c0:focus {
@@ -1854,10 +1684,10 @@ exports[`Button Component matches Button light outline disabled 1`] = `
 .c0:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
-  color: #f0f0f0;
   border: 1px solid #f0f0f0;
   background-image: none;
   background-color: transparent;
+  color: #f0f0f0;
 }
 
 .c0:hover:hover,
@@ -1904,28 +1734,54 @@ exports[`Button Component matches Button noRadius 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
-  background: #6c757d;
-  color: #fff;
-  cursor: pointer;
+  background-color: #6c757d;
+  border-radius: 0;
   display: inline-block;
   font-size: 1rem;
+  color: #fff;
   padding: 0.375rem 0.75rem;
-  border-radius: 0;
-}
-
-.c0:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
 }
 
 .c0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  border: 1px solid #6c757d;
+  background-color: #6c757d;
+  color: #fff;
+  cursor: pointer;
+}
+
+.c0:hover:focus,
+.c0:focus:focus,
+.c0:hover:hover,
+.c0:focus:hover {
+  border: 1px solid #4e555b;
+}
+
+.c0:hover:focus,
+.c0:focus:focus,
+.c0:hover:hover,
+.c0:focus:hover {
+  background-color: #5a6268;
+}
+
+.c0:focus,
+.c0:hover {
+  border: 1px solid #4e555b;
+}
+
+.c0:focus,
+.c0:hover {
+  background-color: #5a6268;
 }
 
 @media (min-width:576px) {
@@ -1962,28 +1818,54 @@ exports[`Button Component matches Button pill 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
-  background: #6c757d;
-  color: #fff;
-  cursor: pointer;
+  background-color: #6c757d;
+  border-radius: 10rem;
   display: inline-block;
   font-size: 1rem;
+  color: #fff;
   padding: 0.375rem 0.75rem;
-  border-radius: 10rem;
-}
-
-.c0:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
 }
 
 .c0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  border: 1px solid #6c757d;
+  background-color: #6c757d;
+  color: #fff;
+  cursor: pointer;
+}
+
+.c0:hover:focus,
+.c0:focus:focus,
+.c0:hover:hover,
+.c0:focus:hover {
+  border: 1px solid #4e555b;
+}
+
+.c0:hover:focus,
+.c0:focus:focus,
+.c0:hover:hover,
+.c0:focus:hover {
+  background-color: #5a6268;
+}
+
+.c0:focus,
+.c0:hover {
+  border: 1px solid #4e555b;
+}
+
+.c0:focus,
+.c0:hover {
+  background-color: #5a6268;
 }
 
 @media (min-width:576px) {
@@ -2020,31 +1902,15 @@ exports[`Button Component matches Button primary 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  border: 1px solid #6c757d;
-  background: #6c757d;
-  color: #fff;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 1rem;
-  padding: 0.375rem 0.75rem;
-  border-radius: 0.25rem;
-  color: #fff;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #007bff;
   background-color: #007bff;
-}
-
-.c0:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+  border-radius: 0.25rem;
+  display: inline-block;
+  font-size: 1rem;
+  color: #fff;
+  padding: 0.375rem 0.75rem;
 }
 
 .c0:focus {
@@ -2056,9 +1922,10 @@ exports[`Button Component matches Button primary 1`] = `
 .c0:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
-  color: #fff;
   border: 1px solid #007bff;
   background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
 }
 
 .c0:hover:focus,
@@ -2119,33 +1986,16 @@ exports[`Button Component matches Button primary active 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  border: 1px solid #6c757d;
-  background: #6c757d;
-  color: #fff;
-  background-image: none;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 1rem;
-  padding: 0.375rem 0.75rem;
-  border-radius: 0.25rem;
-  color: #fff;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #005cbf;
   background-image: none;
   background-color: #005cbf;
-}
-
-.c0:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+  border-radius: 0.25rem;
+  display: inline-block;
+  font-size: 1rem;
+  color: #fff;
+  padding: 0.375rem 0.75rem;
 }
 
 .c0:focus {
@@ -2157,10 +2007,11 @@ exports[`Button Component matches Button primary active 1`] = `
 .c0:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
-  color: #fff;
   border: 1px solid #005cbf;
   background-image: none;
   background-color: #005cbf;
+  color: #fff;
+  cursor: pointer;
 }
 
 @media (min-width:576px) {
@@ -2197,35 +2048,17 @@ exports[`Button Component matches Button primary disabled 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  border: 1px solid #6c757d;
-  background: #6c757d;
-  color: #fff;
-  opacity: 0.65;
-  background-image: none;
-  cursor: not-allowed;
-  display: inline-block;
-  font-size: 1rem;
-  padding: 0.375rem 0.75rem;
-  border-radius: 0.25rem;
-  border: 1px solid #007bff;
-  color: #fff;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #007bff;
   background-image: none;
   background-color: #007bff;
-}
-
-.c0:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+  border-radius: 0.25rem;
+  display: inline-block;
+  opacity: 0.65;
+  font-size: 1rem;
+  color: #fff;
+  padding: 0.375rem 0.75rem;
 }
 
 .c0:focus {
@@ -2237,10 +2070,10 @@ exports[`Button Component matches Button primary disabled 1`] = `
 .c0:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
-  color: #fff;
   border: 1px solid #007bff;
   background-image: none;
   background-color: #007bff;
+  color: #fff;
 }
 
 @media (min-width:576px) {
@@ -2278,32 +2111,16 @@ exports[`Button Component matches Button primary outline 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  border: 1px solid #6c757d;
-  background: #6c757d;
-  color: #fff;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 1rem;
-  padding: 0.375rem 0.75rem;
-  border-radius: 0.25rem;
-  color: #007bff;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #007bff;
   background-image: none;
   background-color: transparent;
-}
-
-.c0:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+  border-radius: 0.25rem;
+  display: inline-block;
+  font-size: 1rem;
+  color: #007bff;
+  padding: 0.375rem 0.75rem;
 }
 
 .c0:focus {
@@ -2315,15 +2132,11 @@ exports[`Button Component matches Button primary outline 1`] = `
 .c0:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
-  color: #007bff;
   border: 1px solid #007bff;
   background-image: none;
   background-color: transparent;
-}
-
-.c0:hover:hover,
-.c0:focus:hover {
-  color: #fff;
+  color: #007bff;
+  cursor: pointer;
 }
 
 .c0:hover:hover,
@@ -2331,12 +2144,17 @@ exports[`Button Component matches Button primary outline 1`] = `
   background-color: #007bff;
 }
 
-.c0:hover {
+.c0:hover:hover,
+.c0:focus:hover {
   color: #fff;
 }
 
 .c0:hover {
   background-color: #007bff;
+}
+
+.c0:hover {
+  color: #fff;
 }
 
 @media (min-width:576px) {
@@ -2373,35 +2191,17 @@ exports[`Button Component matches Button primary outline disabled 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  border: 1px solid #6c757d;
-  background: #6c757d;
-  color: #fff;
-  opacity: 0.65;
-  background-image: none;
-  cursor: not-allowed;
-  display: inline-block;
-  font-size: 1rem;
-  padding: 0.375rem 0.75rem;
-  border-radius: 0.25rem;
-  border: 1px solid #007bff;
-  color: #007bff;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #007bff;
   background-image: none;
   background-color: transparent;
-}
-
-.c0:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+  border-radius: 0.25rem;
+  display: inline-block;
+  opacity: 0.65;
+  font-size: 1rem;
+  color: #007bff;
+  padding: 0.375rem 0.75rem;
 }
 
 .c0:focus {
@@ -2413,10 +2213,10 @@ exports[`Button Component matches Button primary outline disabled 1`] = `
 .c0:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
-  color: #007bff;
   border: 1px solid #007bff;
   background-image: none;
   background-color: transparent;
+  color: #007bff;
 }
 
 .c0:hover:hover,
@@ -2463,31 +2263,15 @@ exports[`Button Component matches Button secondary 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  border: 1px solid #6c757d;
-  background: #6c757d;
-  color: #fff;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 1rem;
-  padding: 0.375rem 0.75rem;
-  border-radius: 0.25rem;
-  color: #fff;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
   background-color: #6c757d;
-}
-
-.c0:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+  border-radius: 0.25rem;
+  display: inline-block;
+  font-size: 1rem;
+  color: #fff;
+  padding: 0.375rem 0.75rem;
 }
 
 .c0:focus {
@@ -2499,9 +2283,10 @@ exports[`Button Component matches Button secondary 1`] = `
 .c0:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
-  color: #fff;
   border: 1px solid #6c757d;
   background-color: #6c757d;
+  color: #fff;
+  cursor: pointer;
 }
 
 .c0:hover:focus,
@@ -2562,33 +2347,16 @@ exports[`Button Component matches Button secondary active 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  border: 1px solid #6c757d;
-  background: #6c757d;
-  color: #fff;
-  background-image: none;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 1rem;
-  padding: 0.375rem 0.75rem;
-  border-radius: 0.25rem;
-  color: #fff;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #4e555b;
   background-image: none;
   background-color: #6c757d;
-}
-
-.c0:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+  border-radius: 0.25rem;
+  display: inline-block;
+  font-size: 1rem;
+  color: #fff;
+  padding: 0.375rem 0.75rem;
 }
 
 .c0:focus {
@@ -2600,10 +2368,11 @@ exports[`Button Component matches Button secondary active 1`] = `
 .c0:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
-  color: #fff;
   border: 1px solid #4e555b;
   background-image: none;
   background-color: #6c757d;
+  color: #fff;
+  cursor: pointer;
 }
 
 @media (min-width:576px) {
@@ -2640,35 +2409,17 @@ exports[`Button Component matches Button secondary disabled 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  border: 1px solid #6c757d;
-  background: #6c757d;
-  color: #fff;
-  opacity: 0.65;
-  background-image: none;
-  cursor: not-allowed;
-  display: inline-block;
-  font-size: 1rem;
-  padding: 0.375rem 0.75rem;
-  border-radius: 0.25rem;
-  border: 1px solid #6c757d;
-  color: #fff;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
   background-image: none;
   background-color: #6c757d;
-}
-
-.c0:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+  border-radius: 0.25rem;
+  display: inline-block;
+  opacity: 0.65;
+  font-size: 1rem;
+  color: #fff;
+  padding: 0.375rem 0.75rem;
 }
 
 .c0:focus {
@@ -2680,10 +2431,10 @@ exports[`Button Component matches Button secondary disabled 1`] = `
 .c0:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
-  color: #fff;
   border: 1px solid #6c757d;
   background-image: none;
   background-color: #6c757d;
+  color: #fff;
 }
 
 @media (min-width:576px) {
@@ -2721,32 +2472,16 @@ exports[`Button Component matches Button secondary outline 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  border: 1px solid #6c757d;
-  background: #6c757d;
-  color: #fff;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 1rem;
-  padding: 0.375rem 0.75rem;
-  border-radius: 0.25rem;
-  color: #6c757d;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
   background-image: none;
   background-color: transparent;
-}
-
-.c0:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+  border-radius: 0.25rem;
+  display: inline-block;
+  font-size: 1rem;
+  color: #6c757d;
+  padding: 0.375rem 0.75rem;
 }
 
 .c0:focus {
@@ -2758,15 +2493,11 @@ exports[`Button Component matches Button secondary outline 1`] = `
 .c0:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
-  color: #6c757d;
   border: 1px solid #6c757d;
   background-image: none;
   background-color: transparent;
-}
-
-.c0:hover:hover,
-.c0:focus:hover {
-  color: #fff;
+  color: #6c757d;
+  cursor: pointer;
 }
 
 .c0:hover:hover,
@@ -2774,12 +2505,17 @@ exports[`Button Component matches Button secondary outline 1`] = `
   background-color: #6c757d;
 }
 
-.c0:hover {
+.c0:hover:hover,
+.c0:focus:hover {
   color: #fff;
 }
 
 .c0:hover {
   background-color: #6c757d;
+}
+
+.c0:hover {
+  color: #fff;
 }
 
 @media (min-width:576px) {
@@ -2816,35 +2552,17 @@ exports[`Button Component matches Button secondary outline disabled 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  border: 1px solid #6c757d;
-  background: #6c757d;
-  color: #fff;
-  opacity: 0.65;
-  background-image: none;
-  cursor: not-allowed;
-  display: inline-block;
-  font-size: 1rem;
-  padding: 0.375rem 0.75rem;
-  border-radius: 0.25rem;
-  border: 1px solid #6c757d;
-  color: #6c757d;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
   background-image: none;
   background-color: transparent;
-}
-
-.c0:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+  border-radius: 0.25rem;
+  display: inline-block;
+  opacity: 0.65;
+  font-size: 1rem;
+  color: #6c757d;
+  padding: 0.375rem 0.75rem;
 }
 
 .c0:focus {
@@ -2856,10 +2574,10 @@ exports[`Button Component matches Button secondary outline disabled 1`] = `
 .c0:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
-  color: #6c757d;
   border: 1px solid #6c757d;
   background-image: none;
   background-color: transparent;
+  color: #6c757d;
 }
 
 .c0:hover:hover,
@@ -2906,28 +2624,54 @@ exports[`Button Component matches Button small 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
-  background: #6c757d;
-  color: #fff;
-  cursor: pointer;
+  background-color: #6c757d;
+  border-radius: 0.2rem;
   display: inline-block;
   font-size: 0.875rem;
+  color: #fff;
   padding: 0.25rem 0.5rem;
-  border-radius: 0.2rem;
-}
-
-.c0:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
 }
 
 .c0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  border: 1px solid #6c757d;
+  background-color: #6c757d;
+  color: #fff;
+  cursor: pointer;
+}
+
+.c0:hover:focus,
+.c0:focus:focus,
+.c0:hover:hover,
+.c0:focus:hover {
+  border: 1px solid #4e555b;
+}
+
+.c0:hover:focus,
+.c0:focus:focus,
+.c0:hover:hover,
+.c0:focus:hover {
+  background-color: #5a6268;
+}
+
+.c0:focus,
+.c0:hover {
+  border: 1px solid #4e555b;
+}
+
+.c0:focus,
+.c0:hover {
+  background-color: #5a6268;
 }
 
 @media (min-width:576px) {
@@ -2964,31 +2708,15 @@ exports[`Button Component matches Button success 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  border: 1px solid #6c757d;
-  background: #6c757d;
-  color: #fff;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 1rem;
-  padding: 0.375rem 0.75rem;
-  border-radius: 0.25rem;
-  color: #fff;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #28a745;
   background-color: #28a745;
-}
-
-.c0:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+  border-radius: 0.25rem;
+  display: inline-block;
+  font-size: 1rem;
+  color: #fff;
+  padding: 0.375rem 0.75rem;
 }
 
 .c0:focus {
@@ -3000,9 +2728,10 @@ exports[`Button Component matches Button success 1`] = `
 .c0:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
-  color: #fff;
   border: 1px solid #28a745;
   background-color: #28a745;
+  color: #fff;
+  cursor: pointer;
 }
 
 .c0:hover:focus,
@@ -3063,33 +2792,16 @@ exports[`Button Component matches Button success active 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  border: 1px solid #6c757d;
-  background: #6c757d;
-  color: #fff;
-  background-image: none;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 1rem;
-  padding: 0.375rem 0.75rem;
-  border-radius: 0.25rem;
-  color: #fff;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #1c7430;
   background-image: none;
   background-color: #1c7430;
-}
-
-.c0:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+  border-radius: 0.25rem;
+  display: inline-block;
+  font-size: 1rem;
+  color: #fff;
+  padding: 0.375rem 0.75rem;
 }
 
 .c0:focus {
@@ -3101,10 +2813,11 @@ exports[`Button Component matches Button success active 1`] = `
 .c0:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
-  color: #fff;
   border: 1px solid #1c7430;
   background-image: none;
   background-color: #1c7430;
+  color: #fff;
+  cursor: pointer;
 }
 
 @media (min-width:576px) {
@@ -3141,35 +2854,17 @@ exports[`Button Component matches Button success disabled 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  border: 1px solid #6c757d;
-  background: #6c757d;
-  color: #fff;
-  opacity: 0.65;
-  background-image: none;
-  cursor: not-allowed;
-  display: inline-block;
-  font-size: 1rem;
-  padding: 0.375rem 0.75rem;
-  border-radius: 0.25rem;
-  border: 1px solid #28a745;
-  color: #fff;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #28a745;
   background-image: none;
   background-color: #28a745;
-}
-
-.c0:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+  border-radius: 0.25rem;
+  display: inline-block;
+  opacity: 0.65;
+  font-size: 1rem;
+  color: #fff;
+  padding: 0.375rem 0.75rem;
 }
 
 .c0:focus {
@@ -3181,10 +2876,10 @@ exports[`Button Component matches Button success disabled 1`] = `
 .c0:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
-  color: #fff;
   border: 1px solid #28a745;
   background-image: none;
   background-color: #28a745;
+  color: #fff;
 }
 
 @media (min-width:576px) {
@@ -3222,32 +2917,16 @@ exports[`Button Component matches Button success outline 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  border: 1px solid #6c757d;
-  background: #6c757d;
-  color: #fff;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 1rem;
-  padding: 0.375rem 0.75rem;
-  border-radius: 0.25rem;
-  color: #28a745;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #28a745;
   background-image: none;
   background-color: transparent;
-}
-
-.c0:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+  border-radius: 0.25rem;
+  display: inline-block;
+  font-size: 1rem;
+  color: #28a745;
+  padding: 0.375rem 0.75rem;
 }
 
 .c0:focus {
@@ -3259,15 +2938,11 @@ exports[`Button Component matches Button success outline 1`] = `
 .c0:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
-  color: #28a745;
   border: 1px solid #28a745;
   background-image: none;
   background-color: transparent;
-}
-
-.c0:hover:hover,
-.c0:focus:hover {
-  color: #fff;
+  color: #28a745;
+  cursor: pointer;
 }
 
 .c0:hover:hover,
@@ -3275,12 +2950,17 @@ exports[`Button Component matches Button success outline 1`] = `
   background-color: #28a745;
 }
 
-.c0:hover {
+.c0:hover:hover,
+.c0:focus:hover {
   color: #fff;
 }
 
 .c0:hover {
   background-color: #28a745;
+}
+
+.c0:hover {
+  color: #fff;
 }
 
 @media (min-width:576px) {
@@ -3317,35 +2997,17 @@ exports[`Button Component matches Button success outline disabled 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  border: 1px solid #6c757d;
-  background: #6c757d;
-  color: #fff;
-  opacity: 0.65;
-  background-image: none;
-  cursor: not-allowed;
-  display: inline-block;
-  font-size: 1rem;
-  padding: 0.375rem 0.75rem;
-  border-radius: 0.25rem;
-  border: 1px solid #28a745;
-  color: #28a745;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #28a745;
   background-image: none;
   background-color: transparent;
-}
-
-.c0:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+  border-radius: 0.25rem;
+  display: inline-block;
+  opacity: 0.65;
+  font-size: 1rem;
+  color: #28a745;
+  padding: 0.375rem 0.75rem;
 }
 
 .c0:focus {
@@ -3357,10 +3019,10 @@ exports[`Button Component matches Button success outline disabled 1`] = `
 .c0:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
-  color: #28a745;
   border: 1px solid #28a745;
   background-image: none;
   background-color: transparent;
+  color: #28a745;
 }
 
 .c0:hover:hover,
@@ -3407,31 +3069,15 @@ exports[`Button Component matches Button warning 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  border: 1px solid #6c757d;
-  background: #6c757d;
-  color: #fff;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 1rem;
-  padding: 0.375rem 0.75rem;
-  border-radius: 0.25rem;
-  color: #212529;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #ffc107;
   background-color: #ffc107;
-}
-
-.c0:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+  border-radius: 0.25rem;
+  display: inline-block;
+  font-size: 1rem;
+  color: #212529;
+  padding: 0.375rem 0.75rem;
 }
 
 .c0:focus {
@@ -3443,9 +3089,10 @@ exports[`Button Component matches Button warning 1`] = `
 .c0:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
-  color: #212529;
   border: 1px solid #ffc107;
   background-color: #ffc107;
+  color: #212529;
+  cursor: pointer;
 }
 
 .c0:hover:focus,
@@ -3506,33 +3153,16 @@ exports[`Button Component matches Button warning active 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  border: 1px solid #6c757d;
-  background: #6c757d;
-  color: #fff;
-  background-image: none;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 1rem;
-  padding: 0.375rem 0.75rem;
-  border-radius: 0.25rem;
-  color: #212529;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #c69500;
   background-image: none;
   background-color: #c69500;
-}
-
-.c0:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+  border-radius: 0.25rem;
+  display: inline-block;
+  font-size: 1rem;
+  color: #212529;
+  padding: 0.375rem 0.75rem;
 }
 
 .c0:focus {
@@ -3544,10 +3174,11 @@ exports[`Button Component matches Button warning active 1`] = `
 .c0:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
-  color: #212529;
   border: 1px solid #c69500;
   background-image: none;
   background-color: #c69500;
+  color: #212529;
+  cursor: pointer;
 }
 
 @media (min-width:576px) {
@@ -3584,35 +3215,17 @@ exports[`Button Component matches Button warning disabled 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  border: 1px solid #6c757d;
-  background: #6c757d;
-  color: #fff;
-  opacity: 0.65;
-  background-image: none;
-  cursor: not-allowed;
-  display: inline-block;
-  font-size: 1rem;
-  padding: 0.375rem 0.75rem;
-  border-radius: 0.25rem;
-  border: 1px solid #ffc107;
-  color: #212529;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #ffc107;
   background-image: none;
   background-color: #ffc107;
-}
-
-.c0:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+  border-radius: 0.25rem;
+  display: inline-block;
+  opacity: 0.65;
+  font-size: 1rem;
+  color: #212529;
+  padding: 0.375rem 0.75rem;
 }
 
 .c0:focus {
@@ -3624,10 +3237,10 @@ exports[`Button Component matches Button warning disabled 1`] = `
 .c0:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
-  color: #212529;
   border: 1px solid #ffc107;
   background-image: none;
   background-color: #ffc107;
+  color: #212529;
 }
 
 @media (min-width:576px) {
@@ -3665,32 +3278,16 @@ exports[`Button Component matches Button warning outline 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  border: 1px solid #6c757d;
-  background: #6c757d;
-  color: #fff;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 1rem;
-  padding: 0.375rem 0.75rem;
-  border-radius: 0.25rem;
-  color: #ffc107;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #ffc107;
   background-image: none;
   background-color: transparent;
-}
-
-.c0:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+  border-radius: 0.25rem;
+  display: inline-block;
+  font-size: 1rem;
+  color: #ffc107;
+  padding: 0.375rem 0.75rem;
 }
 
 .c0:focus {
@@ -3702,15 +3299,11 @@ exports[`Button Component matches Button warning outline 1`] = `
 .c0:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
-  color: #ffc107;
   border: 1px solid #ffc107;
   background-image: none;
   background-color: transparent;
-}
-
-.c0:hover:hover,
-.c0:focus:hover {
-  color: #212529;
+  color: #ffc107;
+  cursor: pointer;
 }
 
 .c0:hover:hover,
@@ -3718,12 +3311,17 @@ exports[`Button Component matches Button warning outline 1`] = `
   background-color: #ffc107;
 }
 
-.c0:hover {
+.c0:hover:hover,
+.c0:focus:hover {
   color: #212529;
 }
 
 .c0:hover {
   background-color: #ffc107;
+}
+
+.c0:hover {
+  color: #212529;
 }
 
 @media (min-width:576px) {
@@ -3760,35 +3358,17 @@ exports[`Button Component matches Button warning outline disabled 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  border: 1px solid #6c757d;
-  background: #6c757d;
-  color: #fff;
-  opacity: 0.65;
-  background-image: none;
-  cursor: not-allowed;
-  display: inline-block;
-  font-size: 1rem;
-  padding: 0.375rem 0.75rem;
-  border-radius: 0.25rem;
-  border: 1px solid #ffc107;
-  color: #ffc107;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #ffc107;
   background-image: none;
   background-color: transparent;
-}
-
-.c0:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+  border-radius: 0.25rem;
+  display: inline-block;
+  opacity: 0.65;
+  font-size: 1rem;
+  color: #ffc107;
+  padding: 0.375rem 0.75rem;
 }
 
 .c0:focus {
@@ -3800,10 +3380,10 @@ exports[`Button Component matches Button warning outline disabled 1`] = `
 .c0:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
-  color: #ffc107;
   border: 1px solid #ffc107;
   background-image: none;
   background-color: transparent;
+  color: #ffc107;
 }
 
 .c0:hover:hover,
@@ -3852,28 +3432,54 @@ exports[`Button Component matches LinkButton 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
-  background: #6c757d;
-  color: #fff;
-  cursor: pointer;
+  background-color: #6c757d;
+  border-radius: 0.25rem;
   display: inline-block;
   font-size: 1rem;
+  color: #fff;
   padding: 0.375rem 0.75rem;
-  border-radius: 0.25rem;
-}
-
-.c0:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
 }
 
 .c0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  border: 1px solid #6c757d;
+  background-color: #6c757d;
+  color: #fff;
+  cursor: pointer;
+}
+
+.c0:hover:focus,
+.c0:focus:focus,
+.c0:hover:hover,
+.c0:focus:hover {
+  border: 1px solid #4e555b;
+}
+
+.c0:hover:focus,
+.c0:focus:focus,
+.c0:hover:hover,
+.c0:focus:hover {
+  background-color: #5a6268;
+}
+
+.c0:focus,
+.c0:hover {
+  border: 1px solid #4e555b;
+}
+
+.c0:focus,
+.c0:hover {
+  background-color: #5a6268;
 }
 
 @media (min-width:576px) {
@@ -3910,30 +3516,56 @@ exports[`Button Component matcheses Button split 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
-  background: #6c757d;
-  color: #fff;
-  cursor: pointer;
+  background-color: #6c757d;
+  border-radius: 0.25rem;
   display: inline-block;
   font-size: 1rem;
+  color: #fff;
   padding: 0;
   padding-right: 0.5625rem;
   padding-left: 0.5625rem;
-  border-radius: 0.25rem;
-}
-
-.c0:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
 }
 
 .c0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  border: 1px solid #6c757d;
+  background-color: #6c757d;
+  color: #fff;
+  cursor: pointer;
+}
+
+.c0:hover:focus,
+.c0:focus:focus,
+.c0:hover:hover,
+.c0:focus:hover {
+  border: 1px solid #4e555b;
+}
+
+.c0:hover:focus,
+.c0:focus:focus,
+.c0:hover:hover,
+.c0:focus:hover {
+  background-color: #5a6268;
+}
+
+.c0:focus,
+.c0:hover {
+  border: 1px solid #4e555b;
+}
+
+.c0:focus,
+.c0:hover {
+  background-color: #5a6268;
 }
 
 .c0::after {
@@ -3974,30 +3606,56 @@ exports[`Button Component matcheses Button split lg 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
-  background: #6c757d;
-  color: #fff;
-  cursor: pointer;
+  background-color: #6c757d;
+  border-radius: 0.3rem;
   display: inline-block;
   font-size: 1.25rem;
+  color: #fff;
   padding: 0;
   padding-right: 0.75rem;
   padding-left: 0.75rem;
-  border-radius: 0.3rem;
-}
-
-.c0:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
 }
 
 .c0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  border: 1px solid #6c757d;
+  background-color: #6c757d;
+  color: #fff;
+  cursor: pointer;
+}
+
+.c0:hover:focus,
+.c0:focus:focus,
+.c0:hover:hover,
+.c0:focus:hover {
+  border: 1px solid #4e555b;
+}
+
+.c0:hover:focus,
+.c0:focus:focus,
+.c0:hover:hover,
+.c0:focus:hover {
+  background-color: #5a6268;
+}
+
+.c0:focus,
+.c0:hover {
+  border: 1px solid #4e555b;
+}
+
+.c0:focus,
+.c0:hover {
+  background-color: #5a6268;
 }
 
 .c0::after {
@@ -4038,30 +3696,56 @@ exports[`Button Component matcheses Button split sm 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   border: 1px solid #6c757d;
-  background: #6c757d;
-  color: #fff;
-  cursor: pointer;
+  background-color: #6c757d;
+  border-radius: 0.2rem;
   display: inline-block;
   font-size: 0.875rem;
+  color: #fff;
   padding: 0;
   padding-right: 0.375rem;
   padding-left: 0.375rem;
-  border-radius: 0.2rem;
-}
-
-.c0:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
 }
 
 .c0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  border: 1px solid #6c757d;
+  background-color: #6c757d;
+  color: #fff;
+  cursor: pointer;
+}
+
+.c0:hover:focus,
+.c0:focus:focus,
+.c0:hover:hover,
+.c0:focus:hover {
+  border: 1px solid #4e555b;
+}
+
+.c0:hover:focus,
+.c0:focus:focus,
+.c0:hover:hover,
+.c0:focus:hover {
+  background-color: #5a6268;
+}
+
+.c0:focus,
+.c0:hover {
+  border: 1px solid #4e555b;
+}
+
+.c0:focus,
+.c0:hover {
+  background-color: #5a6268;
 }
 
 .c0::after {

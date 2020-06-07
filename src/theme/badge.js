@@ -1,62 +1,54 @@
-import globals from './globals';
-import palette from './palette';
-
 const badge = {
   colors: {
     primary: {
-      backgroundColor: palette.primary,
-      backgroundColorHoverFocus: palette.primaryDarker,
-      color: palette.white,
-      linkColor: palette.white,
+      backgroundColor: get => get('palette', 'primary'),
+      backgroundColorHoverFocus: get => get('palette', 'primaryDarker'),
+      color: get => get('palette', 'white'),
+      linkColor: get => get('palette', 'white'),
     },
     secondary: {
-      backgroundColor: palette.secondary,
-      backgroundColorHoverFocus: palette.secondaryDarker,
-      color: palette.white,
-      linkColor: palette.white,
+      backgroundColor: get => get('palette', 'secondary'),
+      backgroundColorHoverFocus: get => get('palette', 'secondaryDarker'),
+      color: get => get('palette', 'white'),
+      linkColor: get => get('palette', 'white'),
     },
     success: {
-      backgroundColor: palette.success,
-      backgroundColorHoverFocus: palette.successDarker,
-      color: palette.white,
-      linkColor: palette.white,
+      backgroundColor: get => get('palette', 'success'),
+      backgroundColorHoverFocus: get => get('palette', 'successDarker'),
+      color: get => get('palette', 'white'),
+      linkColor: get => get('palette', 'white'),
     },
     danger: {
-      backgroundColor: palette.danger,
-      backgroundColorHoverFocus: palette.dangerDarker,
-      color: palette.white,
-      linkColor: palette.white,
+      backgroundColor: get => get('palette', 'danger'),
+      backgroundColorHoverFocus: get => get('palette', 'dangerDarker'),
+      color: get => get('palette', 'white'),
+      linkColor: get => get('palette', 'white'),
     },
     warning: {
-      backgroundColor: palette.warning,
-      backgroundColorHoverFocus: palette.warningDarker,
-      color: palette.darker,
-      linkColor: palette.darker,
+      backgroundColor: get => get('palette', 'warning'),
+      backgroundColorHoverFocus: get => get('palette', 'warningDarker'),
+      color: get => get('palette', 'darker'),
+      linkColor: get => get('palette', 'darker'),
     },
     info: {
-      backgroundColor: palette.info,
-      backgroundColorHoverFocus: palette.infoDarker,
-      color: palette.white,
-      linkColor: palette.white,
+      backgroundColor: get => get('palette', 'info'),
+      backgroundColorHoverFocus: get => get('palette', 'infoDarker'),
+      color: get => get('palette', 'white'),
+      linkColor: get => get('palette', 'white'),
     },
     light: {
-      backgroundColor: palette.light,
-      backgroundColorHoverFocus: palette.lightDarker,
-      color: palette.darker,
-      linkColor: palette.darker,
+      backgroundColor: get => get('palette', 'light'),
+      backgroundColorHoverFocus: get => get('palette', 'lightDarker'),
+      color: get => get('palette', 'darker'),
+      linkColor: get => get('palette', 'darker'),
     },
     dark: {
-      backgroundColor: palette.dark,
-      backgroundColorHoverFocus: palette.darkDarker,
-      color: palette.white,
-      linkColor: palette.white,
+      backgroundColor: get => get('palette', 'dark'),
+      backgroundColorHoverFocus: get => get('palette', 'darkDarker'),
+      color: get => get('palette', 'white'),
+      linkColor: get => get('palette', 'white'),
     },
-    default: {
-      backgroundColor: palette.secondary,
-      backgroundColorHoverFocus: palette.secondaryDarker,
-      color: palette.white,
-      linkColor: palette.white,
-    },
+    default: get => get('badge', 'colors', 'secondary'),
   },
   padding: {
     pill: '0.25rem 0.6rem',
@@ -65,7 +57,7 @@ const badge = {
   fontWeight: {
     default: '700',
   },
-  borderRadius: globals.borderRadius,
+  borderRadius: get => get('globals', 'borderRadius'),
 };
 
 export default badge;

@@ -3,16 +3,22 @@
 exports[`Badge Component matches danger 1`] = `
 .c0 {
   display: inline-block;
-  padding: 0.25rem 0.4rem;
   font-size: 75%;
   font-weight: 700;
   line-height: 1;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
+  position: relative;
+  top: -1px;
   border-radius: 0.25rem;
+  padding: 0.25rem 0.4rem;
   color: #fff;
   background-color: #dc3545;
+}
+
+.c0:empty {
+  display: none;
 }
 
 .c0 > a {
@@ -20,10 +26,6 @@ exports[`Badge Component matches danger 1`] = `
   -webkit-text-decoration: none;
   text-decoration: none;
   background-color: #dc3545;
-}
-
-.c0:empty {
-  display: none;
 }
 
 @media (min-width:576px) {
@@ -50,16 +52,22 @@ exports[`Badge Component matches danger 1`] = `
 exports[`Badge Component matches dark 1`] = `
 .c0 {
   display: inline-block;
-  padding: 0.25rem 0.4rem;
   font-size: 75%;
   font-weight: 700;
   line-height: 1;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
+  position: relative;
+  top: -1px;
   border-radius: 0.25rem;
+  padding: 0.25rem 0.4rem;
   color: #fff;
   background-color: #343a40;
+}
+
+.c0:empty {
+  display: none;
 }
 
 .c0 > a {
@@ -67,10 +75,6 @@ exports[`Badge Component matches dark 1`] = `
   -webkit-text-decoration: none;
   text-decoration: none;
   background-color: #343a40;
-}
-
-.c0:empty {
-  display: none;
 }
 
 @media (min-width:576px) {
@@ -97,16 +101,22 @@ exports[`Badge Component matches dark 1`] = `
 exports[`Badge Component matches info 1`] = `
 .c0 {
   display: inline-block;
-  padding: 0.25rem 0.4rem;
   font-size: 75%;
   font-weight: 700;
   line-height: 1;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
+  position: relative;
+  top: -1px;
   border-radius: 0.25rem;
+  padding: 0.25rem 0.4rem;
   color: #fff;
   background-color: #17a2b8;
+}
+
+.c0:empty {
+  display: none;
 }
 
 .c0 > a {
@@ -114,10 +124,6 @@ exports[`Badge Component matches info 1`] = `
   -webkit-text-decoration: none;
   text-decoration: none;
   background-color: #17a2b8;
-}
-
-.c0:empty {
-  display: none;
 }
 
 @media (min-width:576px) {
@@ -144,16 +150,22 @@ exports[`Badge Component matches info 1`] = `
 exports[`Badge Component matches light 1`] = `
 .c0 {
   display: inline-block;
-  padding: 0.25rem 0.4rem;
   font-size: 75%;
   font-weight: 700;
   line-height: 1;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
+  position: relative;
+  top: -1px;
   border-radius: 0.25rem;
+  padding: 0.25rem 0.4rem;
   color: #2d2f31;
   background-color: #f0f0f0;
+}
+
+.c0:empty {
+  display: none;
 }
 
 .c0 > a {
@@ -161,10 +173,6 @@ exports[`Badge Component matches light 1`] = `
   -webkit-text-decoration: none;
   text-decoration: none;
   background-color: #f0f0f0;
-}
-
-.c0:empty {
-  display: none;
 }
 
 @media (min-width:576px) {
@@ -191,18 +199,29 @@ exports[`Badge Component matches light 1`] = `
 exports[`Badge Component matches plain 1`] = `
 .c0 {
   display: inline-block;
-  padding: 0.25rem 0.4rem;
   font-size: 75%;
   font-weight: 700;
   line-height: 1;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
+  position: relative;
+  top: -1px;
   border-radius: 0.25rem;
+  padding: 0.25rem 0.4rem;
+  color: #fff;
+  background-color: #6c757d;
 }
 
 .c0:empty {
   display: none;
+}
+
+.c0 > a {
+  color: #fff;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: #6c757d;
 }
 
 @media (min-width:576px) {
@@ -229,16 +248,22 @@ exports[`Badge Component matches plain 1`] = `
 exports[`Badge Component matches primary 1`] = `
 .c0 {
   display: inline-block;
-  padding: 0.25rem 0.4rem;
   font-size: 75%;
   font-weight: 700;
   line-height: 1;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
+  position: relative;
+  top: -1px;
   border-radius: 0.25rem;
+  padding: 0.25rem 0.4rem;
   color: #fff;
   background-color: #007bff;
+}
+
+.c0:empty {
+  display: none;
 }
 
 .c0 > a {
@@ -246,10 +271,6 @@ exports[`Badge Component matches primary 1`] = `
   -webkit-text-decoration: none;
   text-decoration: none;
   background-color: #007bff;
-}
-
-.c0:empty {
-  display: none;
 }
 
 @media (min-width:576px) {
@@ -276,16 +297,22 @@ exports[`Badge Component matches primary 1`] = `
 exports[`Badge Component matches secondary 1`] = `
 .c0 {
   display: inline-block;
-  padding: 0.25rem 0.4rem;
   font-size: 75%;
   font-weight: 700;
   line-height: 1;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
+  position: relative;
+  top: -1px;
   border-radius: 0.25rem;
+  padding: 0.25rem 0.4rem;
   color: #fff;
   background-color: #6c757d;
+}
+
+.c0:empty {
+  display: none;
 }
 
 .c0 > a {
@@ -293,10 +320,6 @@ exports[`Badge Component matches secondary 1`] = `
   -webkit-text-decoration: none;
   text-decoration: none;
   background-color: #6c757d;
-}
-
-.c0:empty {
-  display: none;
 }
 
 @media (min-width:576px) {
@@ -323,16 +346,22 @@ exports[`Badge Component matches secondary 1`] = `
 exports[`Badge Component matches success 1`] = `
 .c0 {
   display: inline-block;
-  padding: 0.25rem 0.4rem;
   font-size: 75%;
   font-weight: 700;
   line-height: 1;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
+  position: relative;
+  top: -1px;
   border-radius: 0.25rem;
+  padding: 0.25rem 0.4rem;
   color: #fff;
   background-color: #28a745;
+}
+
+.c0:empty {
+  display: none;
 }
 
 .c0 > a {
@@ -340,10 +369,6 @@ exports[`Badge Component matches success 1`] = `
   -webkit-text-decoration: none;
   text-decoration: none;
   background-color: #28a745;
-}
-
-.c0:empty {
-  display: none;
 }
 
 @media (min-width:576px) {
@@ -370,16 +395,22 @@ exports[`Badge Component matches success 1`] = `
 exports[`Badge Component matches warning 1`] = `
 .c0 {
   display: inline-block;
-  padding: 0.25rem 0.4rem;
   font-size: 75%;
   font-weight: 700;
   line-height: 1;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
+  position: relative;
+  top: -1px;
   border-radius: 0.25rem;
+  padding: 0.25rem 0.4rem;
   color: #2d2f31;
   background-color: #ffc107;
+}
+
+.c0:empty {
+  display: none;
 }
 
 .c0 > a {
@@ -387,10 +418,6 @@ exports[`Badge Component matches warning 1`] = `
   -webkit-text-decoration: none;
   text-decoration: none;
   background-color: #ffc107;
-}
-
-.c0:empty {
-  display: none;
 }
 
 @media (min-width:576px) {

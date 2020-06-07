@@ -1,30 +1,25 @@
 import styled, { css } from 'styled-components';
-import { theme } from 'styled-tools';
-import defaultTheme from '../../theme';
 import { Li } from '../Utilities/base';
+import { getColor, getPadding } from '../../utils/themeFunctions';
 
-const getActive = props =>
+const active = props =>
   props.active &&
   css`
-    color: ${theme('breadcrumbItem.colors.default.color')};
+    color: ${getColor(props, 'breadcrumbItem', 'color')};
   `;
 
 const BreadcrumbItem = styled(Li)`
   &:not(:first-child)::before {
     display: inline-block;
-    padding-right: ${theme('breadcrumbItem.padding.right')};
-    padding-left: ${theme('breadcrumbItem.padding.left')};
-    color: ${theme('breadcrumbItem.colors.default.color')};
+    padding-right: ${props => getPadding(props, 'breadcrumbItem', 'right')};
+    padding-left: ${props => getPadding(props, 'breadcrumbItem', 'left')};
+    color: ${props => getColor(props, 'breadcrumbItem', 'color')};
     content: '/';
   }
   & + &:hover::before {
     text-decoration: none;
   }
-  ${getActive};
+  ${active};
 `;
-
-BreadcrumbItem.defaultProps = {
-  theme: defaultTheme,
-};
 
 export default BreadcrumbItem;

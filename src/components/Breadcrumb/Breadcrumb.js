@@ -1,36 +1,31 @@
 import styled, { css } from 'styled-components';
-import { theme } from 'styled-tools';
-import defaultTheme from '../../theme';
 import { Ol } from '../Utilities/base';
+import { getBorderRadius, getPadding, getColor, getMargin } from '../../utils/themeFunctions';
 
-const getBorderRadius = props => {
+const borderRadius = props => {
   if (props.noRadius) {
     return css`
-      border-radius: ${theme('breadcrumb.borderRadius.noRadius')};
+      border-radius: ${getBorderRadius(props, 'breadcrumb', 'noRadius')};
     `;
   } else if (props.pill) {
     return css`
-      border-radius: ${theme('breadcrumb.borderRadius.pill')};
+      border-radius: ${getBorderRadius(props, 'breadcrumb', 'pill')};
     `;
   }
 
   return css`
-    border-radius: ${theme('breadcrumb.borderRadius.default')};
+    border-radius: ${getBorderRadius(props, 'breadcrumb', 'default')};
   `;
 };
 
 const Breadcrumb = styled(Ol)`
   display: flex;
   flex-wrap: wrap;
-  padding: ${theme('breadcrumb.padding.default')};
-  margin-bottom: ${theme('breadcrumb.margin.bottom')};
+  padding: ${props => getPadding(props, 'breadcrumb', 'default')};
+  margin-bottom: ${props => getMargin(props, 'breadcrumb', 'bottom')};
   list-style: none;
-  background-color: ${theme('breadcrumb.colors.default.backgroundColor')};
-  ${props => getBorderRadius(props)}
+  background-color: ${props => getColor(props, 'breadcrumb', 'backgroundColor')};
+  ${props => borderRadius(props)}
 `;
-
-Breadcrumb.defaultProps = {
-  theme: defaultTheme,
-};
 
 export default Breadcrumb;

@@ -1,32 +1,36 @@
 import styled from 'styled-components';
-import { theme } from 'styled-tools';
-import defaultTheme from '../../../theme';
+import {
+  getColor,
+  getPadding,
+  getFontSize,
+  getFontWeight,
+  getMargin,
+  getBorderRadius,
+  getBorder,
+} from '../../../utils/themeFunctions';
 import { Span } from '../../Utilities/base';
 
 const InputGroupText = styled(Span)`
   display: flex;
   align-items: center;
-  padding: ${theme('inputGroupText.padding.default')};
-  margin-bottom: ${theme('inputGroupText.margin.bottom')};
-  font-size: ${theme('inputGroupText.fontSize.default')};
-  font-weight: ${theme('inputGroupText.fonmtWeight.default')};
+  padding: ${props => getPadding(props, 'inputGroupText', 'default')};
+  margin-bottom: ${props => getMargin(props, 'inputGroupText', 'bottom')};
+  font-size: ${props => getFontSize(props, 'inputGroupText', 'default')};
+  font-weight: ${props => getFontWeight(props, 'inputGroupText', 'default')};
   line-height: 1.5;
-  color: ${theme('inputGroupText.colors.default.color')};
+  color: ${props => getColor(props, 'inputGroupText', 'color')};
   text-align: center;
   white-space: nowrap;
-  background-color: ${theme('inputGroupText.colors.default.backgroundColor')};
-  border: ${theme('inputGroupText.border.default')} ${theme('inputGroupText.colors.default.borderColor')};
-  border-radius: ${theme('inputGroupText.borderRadius.default')};
+  background-color: ${props => getColor(props, 'inputGroupText', 'backgroundColor')};
+  border: ${props => getBorder(props, 'inputGroupText', 'default')}
+    ${props => getColor(props, 'inputGroupText', 'borderColor')};
+  border-radius: ${props => getBorderRadius(props, 'inputGroupText', 'default')};
   & input[type='radio'],
   & input[type='checkbox'] {
-    margin-top: ${theme('inputGroupText.margin.radioCheckboxTop')};
-    margin-right: ${theme('inputGroupText.margin.radioCheckboxRight')};
-    margin-bottom: ${theme('inputGroupText.margin.radioCheckboxBottom')};
+    margin-top: ${props => getMargin(props, 'inputGroupText', 'radioCheckboxTop')};
+    margin-right: ${props => getMargin(props, 'inputGroupText', 'radioCheckboxRight')};
+    margin-bottom: ${props => getMargin(props, 'inputGroupText', 'radioCheckboxBottom')};
   }
 `;
-
-InputGroupText.defaultProps = {
-  theme: defaultTheme,
-};
 
 export default InputGroupText;

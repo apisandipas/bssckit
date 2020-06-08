@@ -1,21 +1,20 @@
 import styled, { css } from 'styled-components';
-import { theme } from 'styled-tools';
-import defaultTheme from '../../theme';
+import { getPadding, getMargin, getBorder, getBorderRadius } from '../../utils/themeFunctions';
 import { Ul } from '../Utilities/base';
 
-const getBorder = props =>
+const border = props =>
   props.flush &&
   css`
     & > a,
     & > li {
-      border-right: ${theme('listGroup.border.aLiFlushRight')};
-      border-left: ${theme('listGroup.border.aLiFlushLeft')};
-      border-radius: ${theme('listGroup.borderRadius.noRadius')};
+      border-right: ${getBorder(props, 'listGroup', 'aLiFlushRight')};
+      border-left: ${getBorder(props, 'listGroup', 'aLiFlushLeft')};
+      border-radius: ${getBorderRadius(props, 'listGroup', 'noRadius')};
       &:first-child {
-        border-top: ${theme('listGroup.border.aLiFlushFirstChildTop')};
+        border-top: ${getBorder(props, 'listGroup', 'aLiFlushFirstChildTop')};
       }
       &:last-child {
-        border-bottom: ${theme('listGroup.border.aLiFlushLastChildBottom')};
+        border-bottom: ${getBorder(props, 'listGroup', 'aLiFlushLastChildBottom')};
       }
     }
   `;
@@ -23,13 +22,9 @@ const getBorder = props =>
 const ListGroup = styled(Ul)`
   display: flex;
   flex-direction: column;
-  padding-left: ${theme('listGroup.padding.left')};
-  margin-bottom: ${theme('listGroup.margin.bottom')};
-  ${props => getBorder(props)};
+  padding-left: ${props => getPadding(props, 'listGroup', 'left')};
+  margin-bottom: ${props => getMargin(props, 'listGroup', 'bottom')};
+  ${props => border(props)};
 `;
-
-ListGroup.defaultProps = {
-  theme: defaultTheme,
-};
 
 export default ListGroup;

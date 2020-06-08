@@ -1,12 +1,9 @@
-import globals from './globals';
-import palette from './palette';
-
 const inputGroupText = {
   colors: {
     default: {
-      color: palette.dark,
-      backgroundColor: palette.lightDarker,
-      borderColor: palette.lightDark,
+      color: get => get('palette', 'dark'),
+      backgroundColor: get => get('palette', 'lightDarker'),
+      borderColor: get => get('palette', 'lightDark'),
     },
   },
   margin: {
@@ -21,9 +18,9 @@ const inputGroupText = {
   fontWeight: {
     default: '400',
   },
-  fontSize: globals.fontSize,
-  borderRadius: globals.borderRadius,
-  border: globals.border,
+  fontSize: get => get('globals', 'fontSize'),
+  borderRadius: get => get('globals', 'borderRadius'),
+  border: get => get('globals', 'border'),
 };
 
 export default inputGroupText;

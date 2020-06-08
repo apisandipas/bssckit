@@ -1,5 +1,3 @@
-import globals from '../theme/globals';
-
 const listGroup = {
   padding: {
     left: '0',
@@ -13,7 +11,7 @@ const listGroup = {
     aLiFlushFirstChildTop: '0',
     aLiFlushLastChildBottom: '0',
   },
-  borderRadius: globals.borderRadius,
+  borderRadius: get => get('globals', 'borderRadius'),
 };
 
 export default listGroup;

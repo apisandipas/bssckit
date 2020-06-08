@@ -6,7 +6,7 @@ import { Div } from '../../Utilities/base';
 const formGroupFormInline = props =>
   props.formInline &&
   css`
-    ${up('sm')} ) {
+    ${up('sm')} {
       display: flex;
       flex: 0 0 auto;
       flex-flow: row wrap;

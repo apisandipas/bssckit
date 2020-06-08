@@ -27,10 +27,6 @@ exports[`FormGroup Component matches FormGroup formInline 1`] = `
   font-size: 1rem;
 }
 
-.c0 > label {
-  width: 100%;
-}
-
 @media (min-width:576px) {
 
 }

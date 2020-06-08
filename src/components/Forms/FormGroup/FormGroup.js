@@ -1,72 +1,83 @@
 import styled, { css } from 'styled-components';
-import { theme } from 'styled-tools';
 import { up } from 'styled-breakpoints';
-import defaultTheme from '../../../theme';
+import { getMargin, getPadding, getBorderRadius, getFontSize } from '../../../utils/themeFunctions';
 import { Div } from '../../Utilities/base';
 
-const getDisplay = props =>
+const formGroupFormInline = props =>
+  props.formInline &&
+  css`
+    ${up('sm')} ) {
+      display: flex;
+      flex: 0 0 auto;
+      flex-flow: row wrap;
+      align-items: center;
+      margin-bottom: ${getMargin(props, 'formGroup', 'inlineBottom')};
+    }
+  `;
+
+const display = props =>
   props.row &&
   css`
     display: flex;
   `;
 
-const getFlexWrap = props =>
+const flexWrap = props =>
   props.row &&
   css`
     flex-wrap: wrap;
   `;
 
-const getMargin = props => {
+const margin = props => {
   if (props.nomb && !props.row) {
     return css`
-      margin-bottom: ${theme('formGroup.margin.nombNoRow')};
+      margin-bottom: ${getMargin(props, 'formGroup', 'nombNoRow')};
     `;
   }
   if (props.nomb && props.row) {
     return css`
-      margin-right: ${theme('formGroup.margin.nombRowRight')};
-      margin-left: ${theme('formGroup.margin.nombRowLeft')};
+      margin-right: ${getMargin(props, 'formGroup', 'nombRowRight')};
+      margin-left: ${getMargin(props, 'formGroup', 'nombRowLeft')};
       & > div > label {
-        margin-bottom: ${theme('formGroup.margin.nombRowDivLabelBottom')};
+        margin-bottom: ${getMargin(props, 'formGroup', 'nombRowDivLabelBottom')};
       }
-      margin-bottom: ${theme('formGroup.margin.nombRowBottom')};
+      margin-bottom: ${getMargin(props, 'formGroup', 'nombRowBottom')};
     `;
   } else if (props.row) {
     return css`
-      margin-right: ${theme('formGroup.margin.rowRight')};
-      margin-left: ${theme('formGroup.margin.rowLeft')};
+      margin-right: ${getMargin(props, 'formGroup', 'rowRight')};
+      margin-left: ${getMargin(props, 'formGroup', 'rowLeft')};
       & > div > label {
-        margin-bottom: ${theme('formGroup.margin.rowDivLabel')};
+        margin-bottom: ${getMargin(props, 'formGroup', 'rowDivLabel')};
       }
-      margin-bottom: ${theme('formGroup.margin.bottom')};
+      margin-bottom: ${getMargin(props, 'formGroup', 'bottom')};
     `;
   }
 
   return css`
-    margin-bottom: ${theme('formGroup.margin.bottom')};
+    margin-bottom: ${getMargin(props, 'formGroup', 'bottom')};
   `;
 };
 
-const getJustifyContent = props =>
+const justifyContent = props =>
   props.justify &&
   css`
     justify-content: center;
   `;
 
-const getAlignItems = props =>
+const alignItems = props =>
   props.justify &&
   css`
     align-items: center;
   `;
 
-const getBorderRadius = props => {
+const borderRadius = props => {
   if (props.noRadius) {
     return css`
       & > input,
       & > div > input,
       & > :not(input[type='file']),
       & > div > :not(input[type='file']) {
-        border-radius: ${theme('formGroup.borderRadius.noRadius')};
+        border-radius: ${getBorderRadius(props, 'formGroup', 'noRadius')};
       }
     `;
   }
@@ -76,7 +87,7 @@ const getBorderRadius = props => {
       & > div > input,
       & > :not(input[type='file']),
       & > div > :not(input[type='file']) {
-        border-radius: ${theme('formGroup.borderRadius.lg')};
+        border-radius: ${getBorderRadius(props, 'formGroup', 'lg')};
       }
     `;
   } else if (props.sm) {
@@ -85,7 +96,7 @@ const getBorderRadius = props => {
       & > div > input,
       & > :not(input[type='file']),
       & > div > :not(input[type='file']) {
-        border-radius: ${theme('formGroup.borderRadius.sm')};
+        border-radius: ${getBorderRadius(props, 'formGroup', 'sm')};
       }
     `;
   }
@@ -95,12 +106,12 @@ const getBorderRadius = props => {
     & > div > input,
     & > :not(input[type='file']),
     & > div > :not(input[type='file']) {
-      border-radius: ${theme('formGroup.borderRadius.default')};
+      border-radius: ${getBorderRadius(props, 'formGroup', 'default')};
     }
   `;
 };
 
-const getLineHeight = () =>
+const lineHeight = () =>
   css`
     & > input,
     & > div > input,
@@ -110,14 +121,14 @@ const getLineHeight = () =>
     }
   `;
 
-const getFontSize = props => {
+const fontSize = props => {
   if (props.lg) {
     return css`
       & > input,
       & > div > input,
       & > label,
       & > div > label {
-        font-size: ${theme('formGroup.fontSize.lg')};
+        font-size: ${getFontSize(props, 'formGroup', 'lg')};
       }
     `;
   } else if (props.sm) {
@@ -126,7 +137,7 @@ const getFontSize = props => {
       & > div > input,
       & > label,
       & > div > label {
-        font-size: ${theme('formGroup.fontSize.sm')};
+        font-size: ${getFontSize(props, 'formGroup', 'sm')};
       }
     `;
   }
@@ -136,34 +147,38 @@ const getFontSize = props => {
     & > div > input,
     & > label,
     & > div > label {
-      font-size: ${theme('formGroup.fontSize.default')};
+      font-size: ${getFontSize(props, 'formGroup', 'default')};
     }
   `;
 };
 
-const getPadding = props => {
+const padding = props => {
   if (props.lg) {
     return css`
       & > label,
       & > div > label {
-        padding-top: ${theme('formGroup.padding.labelTopLg')};
-        padding-bottom: ${theme('formGroup.padding.labelBottomLg')};
+        padding-top: ${getPadding(props, 'formGroup', 'labelTopLg')};
+        padding-bottom: ${getPadding(props, 'formGroup', 'labelBottomLg')};
       }
       & > input,
       & > div > input {
-        padding: ${theme('formGroup.padding.inputLg')};
+        padding-right: ${getPadding(props, 'formGroup', 'inputRightLg')};
+        padding-left: ${getPadding(props, 'formGroup', 'inputLeftLg')};
+        padding: ${getPadding(props, 'formGroup', 'inputLg')};
       }
     `;
   } else if (props.sm) {
     return css`
       & > label,
       & > div > label {
-        padding-top: ${theme('formGroup.padding.labelTopSm')};
-        padding-bottom: ${theme('formGroup.padding.labelBottomSm')};
+        padding-top: ${getPadding(props, 'formGroup', 'labelTopSm')};
+        padding-bottom: ${getPadding(props, 'formGroup', 'labelBottomSm')};
       }
       & > input,
       & > div > input {
-        padding: ${theme('formGroup.padding.inputSm')};
+        padding-right: ${getPadding(props, 'formGroup', 'inputRightSm')};
+        padding-left: ${getPadding(props, 'formGroup', 'inputLeftSm')};
+        padding: ${getPadding(props, 'formGroup', 'inputSm')};
       }
     `;
   }
@@ -171,39 +186,18 @@ const getPadding = props => {
   return '';
 };
 
-const formGroupFormInline = props =>
-  props.formInline &&
-  css`
-    ${up('sm')} {
-      display: flex;
-      flex: 0 0 auto;
-      flex-flow: row wrap;
-      align-items: center;
-      margin-bottom: ${theme('formGroup.margin.inlineBottom')};
-    }
-  `;
-
 const FormGroup = styled(Div)`
   box-sizing: border-box;
-  ${props => getDisplay(props)}
-  ${props => getFlexWrap(props)}
-  ${props => getMargin(props)}
-  ${props => getJustifyContent(props)}
-  ${props => getAlignItems(props)}
-  ${props => getBorderRadius(props)}
-  ${props => getLineHeight(props)}
-  ${props => getFontSize(props)}
-  ${props => getPadding(props)}
+  ${props => display(props)}
+  ${props => flexWrap(props)}
+  ${props => margin(props)}
+  ${props => justifyContent(props)}
+  ${props => alignItems(props)}
+  ${props => borderRadius(props)}
+  ${props => lineHeight(props)}
+  ${props => fontSize(props)}
+  ${props => padding(props)}
   ${props => formGroupFormInline(props)}
-
-  > label {
-    width: 100%;
-  }
-
 `;
-
-FormGroup.defaultProps = {
-  theme: defaultTheme,
-};
 
 export default FormGroup;

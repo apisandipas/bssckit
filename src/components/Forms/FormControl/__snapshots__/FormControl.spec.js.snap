@@ -25,6 +25,7 @@ exports[`FormControl component matches FormControl 1`] = `
 .c0:focus {
   color: #343a40;
   outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,0,0,0.15);
 }
 
 .c0::-webkit-input-placeholder {
@@ -56,7 +57,7 @@ exports[`FormControl component matches FormControl 1`] = `
 }
 
 .c0:focus {
-  box-shadow: 0 0 0 0.2rem rgba(0,0,0,0.15);
+  box-shadow: 0;
 }
 
 @media (min-width:576px) {
@@ -106,6 +107,7 @@ exports[`FormControl component matches FormControl 2`] = `
 .c0:focus {
   color: #343a40;
   outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,0,0,0.15);
 }
 
 .c0::-webkit-input-placeholder {
@@ -137,7 +139,7 @@ exports[`FormControl component matches FormControl 2`] = `
 }
 
 .c0:focus {
-  box-shadow: 0 0 0 0.2rem rgba(0,0,0,0.15);
+  box-shadow: 0;
 }
 
 .c0:focus {
@@ -191,6 +193,7 @@ exports[`FormControl component matches FormControl formInline 1`] = `
 .c0:focus {
   color: #343a40;
   outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,0,0,0.15);
 }
 
 .c0::-webkit-input-placeholder {
@@ -222,7 +225,7 @@ exports[`FormControl component matches FormControl formInline 1`] = `
 }
 
 .c0:focus {
-  box-shadow: 0 0 0 0.2rem rgba(0,0,0,0.15);
+  box-shadow: 0;
 }
 
 @media (min-width:576px) {
@@ -279,6 +282,7 @@ exports[`FormControl component matches FormControl invalid 1`] = `
 .c0:focus {
   color: #343a40;
   outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,0,0,0.15);
 }
 
 .c0::-webkit-input-placeholder {
@@ -346,6 +350,8 @@ exports[`FormControl component matches FormControl large 1`] = `
   box-sizing: border-box;
   background-color: #fff;
   border: 1px solid #abaeb1;
+  padding-right: 0;
+  padding-left: 0;
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   border-radius: 0.3rem;
@@ -359,6 +365,7 @@ exports[`FormControl component matches FormControl large 1`] = `
 .c0:focus {
   color: #343a40;
   outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,0,0,0.15);
 }
 
 .c0::-webkit-input-placeholder {
@@ -390,7 +397,7 @@ exports[`FormControl component matches FormControl large 1`] = `
 }
 
 .c0:focus {
-  box-shadow: 0 0 0 0.2rem rgba(0,0,0,0.15);
+  box-shadow: 0;
 }
 
 @media (min-width:576px) {
@@ -426,6 +433,8 @@ exports[`FormControl component matches FormControl large select 1`] = `
   box-sizing: border-box;
   background-color: #fff;
   border: 1px solid #abaeb1;
+  padding-right: 0;
+  padding-left: 0;
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   border-radius: 0.3rem;
@@ -440,6 +449,7 @@ exports[`FormControl component matches FormControl large select 1`] = `
 .c0:focus {
   color: #343a40;
   outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,0,0,0.15);
 }
 
 .c0::-webkit-input-placeholder {
@@ -471,7 +481,7 @@ exports[`FormControl component matches FormControl large select 1`] = `
 }
 
 .c0:focus {
-  box-shadow: 0 0 0 0.2rem rgba(0,0,0,0.15);
+  box-shadow: 0;
 }
 
 .c0:focus::-ms-value {
@@ -525,6 +535,7 @@ exports[`FormControl component matches FormControl noRadius 1`] = `
 .c0:focus {
   color: #343a40;
   outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,0,0,0.15);
 }
 
 .c0::-webkit-input-placeholder {
@@ -556,7 +567,7 @@ exports[`FormControl component matches FormControl noRadius 1`] = `
 }
 
 .c0:focus {
-  box-shadow: 0 0 0 0.2rem rgba(0,0,0,0.15);
+  box-shadow: 0;
 }
 
 @media (min-width:576px) {
@@ -605,6 +616,7 @@ exports[`FormControl component matches FormControl pill 1`] = `
 .c0:focus {
   color: #343a40;
   outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,0,0,0.15);
 }
 
 .c0::-webkit-input-placeholder {
@@ -636,7 +648,7 @@ exports[`FormControl component matches FormControl pill 1`] = `
 }
 
 .c0:focus {
-  box-shadow: 0 0 0 0.2rem rgba(0,0,0,0.15);
+  box-shadow: 0;
 }
 
 @media (min-width:576px) {
@@ -686,6 +698,7 @@ exports[`FormControl component matches FormControl select 1`] = `
 .c0:focus {
   color: #343a40;
   outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,0,0,0.15);
 }
 
 .c0::-webkit-input-placeholder {
@@ -717,7 +730,7 @@ exports[`FormControl component matches FormControl select 1`] = `
 }
 
 .c0:focus {
-  box-shadow: 0 0 0 0.2rem rgba(0,0,0,0.15);
+  box-shadow: 0;
 }
 
 .c0:focus::-ms-value {
@@ -758,6 +771,8 @@ exports[`FormControl component matches FormControl small 1`] = `
   box-sizing: border-box;
   background-color: #fff;
   border: 1px solid #abaeb1;
+  padding-right: 0;
+  padding-left: 0;
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
   border-radius: 0.2rem;
@@ -771,6 +786,7 @@ exports[`FormControl component matches FormControl small 1`] = `
 .c0:focus {
   color: #343a40;
   outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,0,0,0.15);
 }
 
 .c0::-webkit-input-placeholder {
@@ -802,7 +818,7 @@ exports[`FormControl component matches FormControl small 1`] = `
 }
 
 .c0:focus {
-  box-shadow: 0 0 0 0.2rem rgba(0,0,0,0.15);
+  box-shadow: 0;
 }
 
 @media (min-width:576px) {
@@ -838,6 +854,8 @@ exports[`FormControl component matches FormControl small select 1`] = `
   box-sizing: border-box;
   background-color: #fff;
   border: 1px solid #abaeb1;
+  padding-right: 0;
+  padding-left: 0;
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
   border-radius: 0.2rem;
@@ -852,6 +870,7 @@ exports[`FormControl component matches FormControl small select 1`] = `
 .c0:focus {
   color: #343a40;
   outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,0,0,0.15);
 }
 
 .c0::-webkit-input-placeholder {
@@ -883,7 +902,7 @@ exports[`FormControl component matches FormControl small select 1`] = `
 }
 
 .c0:focus {
-  box-shadow: 0 0 0 0.2rem rgba(0,0,0,0.15);
+  box-shadow: 0;
 }
 
 .c0:focus::-ms-value {
@@ -937,6 +956,7 @@ exports[`FormControl component matches FormControl textarea 1`] = `
 .c0:focus {
   color: #343a40;
   outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,0,0,0.15);
 }
 
 .c0::-webkit-input-placeholder {
@@ -968,7 +988,7 @@ exports[`FormControl component matches FormControl textarea 1`] = `
 }
 
 .c0:focus {
-  box-shadow: 0 0 0 0.2rem rgba(0,0,0,0.15);
+  box-shadow: 0;
 }
 
 @media (min-width:576px) {
@@ -1017,6 +1037,7 @@ exports[`FormControl component matches FormControl valid 1`] = `
 .c0:focus {
   color: #343a40;
   outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,0,0,0.15);
 }
 
 .c0::-webkit-input-placeholder {

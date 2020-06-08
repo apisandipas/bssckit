@@ -1,25 +1,21 @@
-import globals from './globals';
-import palette from './palette';
-
 const formControl = {
-  borderRadius: globals.borderRadius,
-  fontSize: globals.fontSize,
-  border: globals.border,
   colors: {
     default: {
-      color: palette.dark,
-      background: palette.white,
-      border: palette.darkLighter,
-      borderFocus: palette.darkLight,
-      boxShadowFocus: palette.darkerBoxShadow,
-      placeholder: palette.secondary,
-      backgroundColorDisabledReadonly: palette.whiteDark,
-      borderValid: palette.success,
-      formControlBoxShadowValid: palette.successBoxShadow,
-      borderInvalid: palette.danger,
-      formControlBoxShadowInvalid: palette.dangerBoxShadow,
+      color: get => get('palette', 'dark'),
+      background: get => get('palette', 'white'),
+      border: get => get('palette', 'darkLighter'),
+      borderFocus: get => get('palette', 'darkLight'),
+      boxShadowFocus: get => get('palette', 'darkerBoxShadow'),
+      placeholder: get => get('palette', 'secondary'),
+      backgroundColorDisabledReadonly: get => get('palette', 'whiteDark'),
+      borderValid: get => get('palette', 'success'),
+      formControlBoxShadowValid: get => get('palette', 'successBoxShadow'),
+      borderInvalid: get => get('palette', 'danger'),
+      formControlBoxShadowInvalid: get => get('palette', 'dangerBoxShadow'),
     },
   },
+  borderRadius: get => get('globals', 'borderRadius'),
+  border: get => get('globals', 'border'),
   boxShadow: {
     default: '0 0 0 0.2rem',
   },
@@ -32,27 +28,15 @@ const formControl = {
     lgPadding: '0.5rem 1rem',
     defaultPadding: '0.375rem 0.75rem',
   },
+  fontSize: {
+    sm: '0.875rem',
+    lg: '1.25rem',
+    default: '1rem',
+  },
   height: {
     select: 'calc(2.25rem + 2px)',
     selectLg: 'calc(2.875rem + 2px)',
     selectSm: 'calc(1.8125rem + 2px)',
-  },
-  plainText: {
-    colors: {
-      default: {
-        backgroundColor: palette.transparent,
-        borderColor: palette.transparent,
-      },
-    },
-    padding: {
-      top: '0.375rem',
-      bottom: '0.375rem',
-      smRight: '0',
-      smLeft: '0',
-    },
-    margin: {
-      bottom: '0',
-    },
   },
 };
 

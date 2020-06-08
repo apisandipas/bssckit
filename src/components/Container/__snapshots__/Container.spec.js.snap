@@ -5,10 +5,8 @@ exports[`Container Component matches fluid container 1`] = `
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 15px;
   padding-left: 15px;
-  max-width: 100%;
-  width: 100%;
+  padding-right: 15px;
 }
 
 @media (min-width:576px) {
@@ -27,6 +25,30 @@ exports[`Container Component matches fluid container 1`] = `
 
 }
 
+@media (min-width:36em) {
+  .c0 {
+    max-width: 100%;
+  }
+}
+
+@media (min-width:48em) {
+  .c0 {
+    max-width: 100%;
+  }
+}
+
+@media (min-width:62em) {
+  .c0 {
+    max-width: 100%;
+  }
+}
+
+@media (min-width:75em) {
+  .c0 {
+    max-width: 100%;
+  }
+}
+
 <div
   class="sc-fznyAO c0"
 />
@@ -37,8 +59,8 @@ exports[`Container Component matches normal container 1`] = `
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 15px;
   padding-left: 15px;
+  padding-right: 15px;
 }
 
 @media (min-width:576px) {

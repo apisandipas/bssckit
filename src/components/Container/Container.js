@@ -1,67 +1,34 @@
-import styled, { css } from 'styled-components';
-import { theme, ifProp, ifNotProp, withProp } from 'styled-tools';
+import styled from 'styled-components';
 import { up } from 'styled-breakpoints';
 import { Div } from '../Utilities/base';
-import defaultTheme from '../../theme';
+import { getWidth } from '../../utils/themeFunctions';
 
 const Container = styled(Div)`
-  width: ${theme('container.width.default')};
+  width: ${props => getWidth(props, 'container', 'default')};
   margin-right: auto;
   margin-left: auto;
-  padding-right: ${withProp('theme.grid.gutterWidth', gutterWidth => `${gutterWidth / 2}px`)};
-  padding-left:  ${withProp('theme.grid.gutterWidth', gutterWidth => `${gutterWidth / 2}px`)};
+  padding-left: 15px;
+  padding-right: 15px;
 
-  ${ifNotProp(
-    'fluid',
-    css`
-      ${up('sm')} {
-        max-width: ${theme('container.width.sizes.sm')};
-      }
-    `
-  )}
+  ${up('sm')} {
+    max-width: ${props =>
+      props.fluid ? getWidth(props, 'container', 'default') : getWidth(props, 'container', 'fluid', 'sm')};
+  }
 
-  ${ifNotProp(
-    'fluid',
-    css`
-      ${up('md')} {
-        max-width: ${theme('container.width.sizes.md')};
-      }
-    `
-  )}
+  ${up('md')} {
+    max-width: ${props =>
+      props.fluid ? getWidth(props, 'container', 'default') : getWidth(props, 'container', 'fluid', 'md')};
+  }
 
-  ${ifNotProp(
-    'fluid',
-    css`
-      ${up('lg')} {
-        max-width: ${theme('container.width.sizes.lg')};
-      }
-    `
-  )}
+  ${up('lg')} {
+    max-width: ${props =>
+      props.fluid ? getWidth(props, 'container', 'default') : getWidth(props, 'container', 'fluid', 'lg')};
+  }
 
-
-${ifNotProp(
-  'fluid',
-  css`
-    ${up('xl')} {
-      max-width: ${theme('container.width.sizes.xl')};
-    }
-  `
-)}
- 
- 
-
-
-  ${ifProp(
-    'fluid',
-    css`
-      max-width: 100%;
-      width: 100%;
-    `
-  )}
+  ${up('xl')} {
+    max-width: ${props =>
+      props.fluid ? getWidth(props, 'container', 'default') : getWidth(props, 'container', 'fluid', 'xl')};
+  }
 `;
-
-Container.defaultProps = {
-  theme: defaultTheme,
-};
 
 export default Container;

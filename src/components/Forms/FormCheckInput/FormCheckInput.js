@@ -1,25 +1,20 @@
 import styled, { css } from 'styled-components';
-import { theme } from 'styled-tools';
-import defaultTheme from '../../../theme';
 import { Input } from '../../Utilities/base';
+import { getColor, getMargin } from '../../../utils/themeFunctions';
 
-const getColor = props =>
+const color = props =>
   props.disabled &&
   css`
-    color: ${theme('formCheckInput.colors.default.colorDisabled')};
+    color: ${getColor(props, 'formCheckInput', 'colorDisabled')};
     & + label {
-      color: ${theme('formCheckInput.colors.default.colorDisabledLabel')};
+      color: ${getColor(props, 'formCheckInput', 'colorDisabledLabel')};
     }
   `;
 
 const FormCheckInput = styled(Input)`
-  margin-top: ${props => theme('formCheckInput.margin.top')};
-  margin-left: ${props => theme('formCheckInput.margin.left')};
-  ${props => getColor(props)};
+  margin-top: ${props => getMargin(props, 'formCheckInput', 'top')};
+  margin-left: ${props => getMargin(props, 'formCheckInput', 'left')};
+  ${props => color(props)};
 `;
-
-FormCheckInput.defaultProps = {
-  theme: defaultTheme,
-};
 
 export default FormCheckInput;

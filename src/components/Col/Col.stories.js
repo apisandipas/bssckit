@@ -1,7 +1,6 @@
 import React from 'react';
 import { Col } from '.';
 import { Row } from '../Row';
-import { Container } from '../Container';
 
 export default {
   title: 'Grid',

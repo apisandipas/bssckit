@@ -107,10 +107,6 @@ exports[`FormGroup Component matches FormGroup justify 1`] = `
   font-size: 1rem;
 }
 
-.c0 > label {
-  width: 100%;
-}
-
 @media (min-width:576px) {
 
 }
@@ -167,11 +163,9 @@ exports[`FormGroup Component matches FormGroup large 1`] = `
 
 .c0 > input,
 .c0 > div > input {
+  padding-right: 0;
+  padding-left: 0;
   padding: 0.5rem 1rem;
-}
-
-.c0 > label {
-  width: 100%;
 }
 
 @media (min-width:576px) {
@@ -222,10 +216,6 @@ exports[`FormGroup Component matches FormGroup noRadius 1`] = `
   font-size: 1rem;
 }
 
-.c0 > label {
-  width: 100%;
-}
-
 @media (min-width:576px) {
 
 }
@@ -272,10 +262,6 @@ exports[`FormGroup Component matches FormGroup nomb 1`] = `
 .c0 > label,
 .c0 > div > label {
   font-size: 1rem;
-}
-
-.c0 > label {
-  width: 100%;
 }
 
 @media (min-width:576px) {
@@ -339,10 +325,6 @@ exports[`FormGroup Component matches FormGroup nomb row 1`] = `
   font-size: 1rem;
 }
 
-.c0 > label {
-  width: 100%;
-}
-
 @media (min-width:576px) {
 
 }
@@ -404,10 +386,6 @@ exports[`FormGroup Component matches FormGroup row 1`] = `
   font-size: 1rem;
 }
 
-.c0 > label {
-  width: 100%;
-}
-
 @media (min-width:576px) {
 
 }
@@ -464,11 +442,9 @@ exports[`FormGroup Component matches FormGroup small 1`] = `
 
 .c0 > input,
 .c0 > div > input {
+  padding-right: 0;
+  padding-left: 0;
   padding: 0.25rem 0.5rem;
-}
-
-.c0 > label {
-  width: 100%;
 }
 
 @media (min-width:576px) {
@@ -519,10 +495,6 @@ exports[`FormGroup Component matches normal FormGroup 1`] = `
   font-size: 1rem;
 }
 
-.c0 > label {
-  width: 100%;
-}
-
 @media (min-width:576px) {
 
 }
@@ -546,6 +518,6 @@ exports[`FormGroup Component matches normal FormGroup 1`] = `
 
 exports[`FormGroup Component matches normal FormGroup 2`] = `
 <div
-  class="sc-fznyAO sc-fznJRM kthamo"
+  class="sc-fznyAO sc-fznJRM hiQHND"
 />
 `;

@@ -1,10 +1,8 @@
-import React from 'react';
 import styled, { css } from 'styled-components';
-import { theme } from 'styled-tools';
-import defaultTheme from '../../../theme';
+import { getColor, getPadding, getMargin } from '../../../utils/themeFunctions';
 import { Input } from '../../Utilities/base';
 
-const getDisplay = props => {
+const display = props => {
   if (props.inline) {
     return css`
       display: inline-block;
@@ -16,31 +14,25 @@ const getDisplay = props => {
   `;
 };
 
-const getPadding = props =>
+const padding = props =>
   (props.sm || props.lg) &&
   css`
-    padding-right: ${theme('formControl.plainText.smRight')};
-    padding-left: ${theme('formControl.plainText.smLeft')};
+    padding-right: ${getPadding(props, 'formControlPlainText', 'smRight')};
+    padding-left: ${getPadding(props, 'formControlPlainText', 'smLeft')};
   `;
 
-const FormControlPlainText = styled(Input).attrs({
-  readOnly: true,
-})`
+const FormControlPlainText = styled(Input)`
   width: 100%;
-  padding-top: ${theme('formControl.plainText.top')};
-  padding-bottom: ${theme('formControl.plainText.bottom')};
-  margin-bottom: ${theme('formControl.plainText.bottom')};
+  padding-top: ${props => getPadding(props, 'formControlPlainText', 'top')};
+  padding-bottom: ${props => getPadding(props, 'formControlPlainText', 'bottom')};
+  margin-bottom: ${props => getMargin(props, 'formControlPlainText', 'bottom')};
   line-height: 1.5;
-  background-color: ${theme('formControl.plainText.colors.default.backgroundColor')};
-  border: solid ${theme('formControl.plainText.colors.default.borderColor')};
+  background-color: ${props => getColor(props, 'formControlPlainText', 'backgroundColor')};
+  border: solid ${props => getColor(props, 'formControlPlainText', 'borderColor')};
   border-width: 1px 0;
   box-sizing: border-box;
-  ${props => getDisplay(props)};
-  ${props => getPadding(props)};
+  ${props => display(props)};
+  ${props => padding(props)};
 `;
-
-FormControlPlainText.defaultProps = {
-  theme: defaultTheme,
-};
 
 export default FormControlPlainText;

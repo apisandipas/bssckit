@@ -1,5 +1,3 @@
-import globals from './globals';
-
 const formGroup = {
   margin: {
     inlineBottom: '0',
@@ -16,13 +14,17 @@ const formGroup = {
   padding: {
     labelTopLg: 'calc(0.5rem + 1px)',
     labelBottomLg: 'calc(0.5rem + 1px)',
+    inputRightLg: '0',
+    inputLeftLg: '0',
     inputLg: '0.5rem 1rem',
     labelTopSm: 'calc(0.25rem + 1px)',
     labelBottomSm: 'calc(0.25rem + 1px)',
+    inputRightSm: '0',
+    inputLeftSm: '0',
     inputSm: '0.25rem 0.5rem',
   },
-  borderRadius: globals.borderRadius,
-  fontSize: globals.fontSize,
+  borderRadius: get => get('globals', 'borderRadius'),
+  fontSize: get => get('globals', 'fontSize'),
 };
 
 export default formGroup;

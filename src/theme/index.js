@@ -15,6 +15,7 @@ import cardImageHeader from './cardImageHeader';
 import cardText from './cardText';
 import container from './container';
 import formControl from './formControl';
+import formControlPlainText from './formControlPlainText';
 import formGroup from './formGroup';
 import formCheck from './formCheck';
 import formCheckInput from './formCheckInput';
@@ -43,6 +44,7 @@ export default {
   container,
   grid,
   formControl,
+  formControlPlainText,
   formGroup,
   formCheck,
   formCheckInput,

@@ -1,7 +1,7 @@
 const container = {
   width: {
     default: '100%',
-    sizes: {
+    fluid: {
       sm: '540px',
       md: '720px',
       lg: '960px',

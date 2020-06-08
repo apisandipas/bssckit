@@ -26,7 +26,7 @@ This project is still very much a work in progress, but is starting to take shap
 - [x] Forms
 - [x] Grid
 - [x] Input group
-- [ ] Jumbotron
+- [x] Jumbotron
 - [x] List Groups
 - [ ] Media Object
 - [ ] Modal

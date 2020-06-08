@@ -22,6 +22,7 @@ import formCheckInput from './formCheckInput';
 import grid from './grid';
 import inputGroup from './inputGroup';
 import inputGroupText from './inputGroupText';
+import jumbotron from './jumbotron';
 import listGroup from './listGroup';
 import listGroupItem from './listGroupItem';
 
@@ -50,6 +51,7 @@ export default {
   formCheckInput,
   inputGroup,
   inputGroupText,
+  jumbotron,
   listGroup,
   listGroupItem,
 };

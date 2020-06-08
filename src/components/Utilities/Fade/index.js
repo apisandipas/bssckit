@@ -6,15 +6,7 @@ import { TransitionPropTypeKeys, TransitionTimeouts, tagPropType } from '../cons
 import { pick, omit } from '../functions';
 
 const Fade = props => {
-  const {
-    tag: Tag,
-    baseClass,
-    baseClassActive,
-    className,
-    children,
-    innerRef,
-    ...otherProps
-  } = props;
+  const { tag: Tag, baseClass, baseClassActive, className, children, innerRef, ...otherProps } = props;
 
   const transitionProps = pick(otherProps, TransitionPropTypeKeys);
   const childProps = omit(otherProps, TransitionPropTypeKeys);

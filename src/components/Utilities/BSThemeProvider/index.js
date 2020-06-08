@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled, { ThemeProvider } from 'styled-components';
+import { ThemeProvider } from 'styled-components';
 import merge from 'lodash.merge';
-import defaultTheme from '../../theme';
+import defaultTheme from '../../../theme';
 
 const propTypes = {
   theme: PropTypes.object.isRequired,

@@ -14,6 +14,9 @@ import cardHeader from './cardHeader';
 import cardImageHeader from './cardImageHeader';
 import cardText from './cardText';
 import container from './container';
+import dropdownDivider from './dropdownDivider';
+import dropdownItem from './dropdownItem';
+import dropdownMenu from './dropdownMenu';
 import formControl from './formControl';
 import formControlPlainText from './formControlPlainText';
 import formGroup from './formGroup';
@@ -43,6 +46,9 @@ export default {
   cardImageHeader,
   cardText,
   container,
+  dropdownDivider,
+  dropdownItem,
+  dropdownMenu,
   grid,
   formControl,
   formControlPlainText,

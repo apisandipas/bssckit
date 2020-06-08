@@ -1,5 +1,6 @@
 import { css } from 'styled-components';
-import { getConcreteBreakpointSize, capitalize } from '../../utils/functions';
+import { capitalize } from '../../utils/functions';
+import { getConcreteBreakpointSize } from '../../utils/themeFunctions';
 import { themeContexts } from '../../utils/consts';
 
 // Add transparent to the themeContexts list
@@ -625,5 +626,5 @@ export const Utilities = css`
       }
     `
   )};
-  /* ${hidden()}; */
+  ${hidden()};
 `;

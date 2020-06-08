@@ -995,6 +995,10 @@ exports[`Utility Props API matches Divs with width/height 4`] = `undefined`;
 exports[`Utility Props API matches Divs with width/height 5`] = `undefined`;
 
 exports[`Utility Props API matches hidden Div 1`] = `
+.c0 {
+  display: none;
+}
+
 @media (min-width:576px) {
 
 }
@@ -1012,7 +1016,7 @@ exports[`Utility Props API matches hidden Div 1`] = `
 }
 
 <div
-  class=""
+  class="c0"
   hidden=""
 />
 `;

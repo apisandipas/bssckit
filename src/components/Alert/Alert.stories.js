@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Alert, AlertDismissIcon, DismissableAlert } from './';
 import { Story } from '../../utils/functions';
-import BSThemeProvider from '../../utils/BSThemeProvider';
+import BSThemeProvider from '../Utilities/BSThemeProvider';
 
 export default {
   title: 'Alert',

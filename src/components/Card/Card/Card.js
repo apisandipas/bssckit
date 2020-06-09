@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components';
+import defaultTheme from '../../../theme';
 import { Div } from '../../Utilities/base';
 import { getBorderRadius, getColor, getBorder } from '../../../utils/themeFunctions';
 
@@ -26,5 +27,9 @@ const Card = styled(Div)`
   border: ${props => getBorder(props, 'card', 'default')} ${props => getColor(props, 'card', 'borderColor')};
   ${props => borderRadius(props)}
 `;
+
+Card.defaultProps = {
+  theme: defaultTheme,
+};
 
 export default Card;

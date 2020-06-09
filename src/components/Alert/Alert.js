@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components';
+import defaultTheme from '../../theme';
 import { Div } from '../Utilities/base';
 import { getColor, getPadding, getBorder, getFontWeight, getBorderRadius } from '../../utils/themeFunctions';
 
@@ -98,5 +99,9 @@ const Alert = styled(Div).attrs({
   ${props => linkHoverColor(props)}
 
 `;
+
+Alert.defaultProps = {
+  theme: defaultTheme,
+};
 
 export default Alert;

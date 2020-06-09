@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components';
+import defaultTheme from '../../theme';
 import { Ol } from '../Utilities/base';
 import { getBorderRadius, getPadding, getColor, getMargin } from '../../utils/themeFunctions';
 
@@ -27,5 +28,9 @@ const Breadcrumb = styled(Ol)`
   background-color: ${props => getColor(props, 'breadcrumb', 'backgroundColor')};
   ${props => borderRadius(props)}
 `;
+
+Breadcrumb.defaultProps = {
+  theme: defaultTheme,
+};
 
 export default Breadcrumb;

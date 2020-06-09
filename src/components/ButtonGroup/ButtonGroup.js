@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components';
+import defaultTheme from '../../theme';
 import { Div } from '../Utilities/base';
 import { getPadding, getFontSize } from '../../utils/themeFunctions';
 
@@ -73,5 +74,9 @@ const ButtonGroup = styled(Div)`
   }
   ${props => vertical(props)};
 `;
+
+ButtonGroup.defaultProps = {
+  theme: defaultTheme,
+};
 
 export default ButtonGroup;

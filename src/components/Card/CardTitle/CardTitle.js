@@ -1,4 +1,5 @@
 import React from 'react';
+import defaultTheme from '../../../theme';
 import styled, { css } from 'styled-components';
 import { H1, H2, H3, H4, H5, H6 } from '../../Utilities/base';
 import { getColor, getMargin } from '../../../utils/themeFunctions';
@@ -62,6 +63,10 @@ const CardTitle = props => {
   }
 
   return <CardTitleH4 {...props} />;
+};
+
+CardTitle.defaultProps = {
+  theme: defaultTheme,
 };
 
 export default CardTitle;

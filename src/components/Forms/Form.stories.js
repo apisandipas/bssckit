@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col } from '../Col';
+import { Col } from '../Grid';
 import { Button } from '../Button';
 import { FormControl } from './FormControl';
 import { FormGroup } from './FormGroup';

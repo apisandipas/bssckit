@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import Alert, { AlertDismissIcon } from './Alert';
 import { tagPropType } from '../../utils/consts';
-import Fade from '../../utils/Fade';
+import Fade from '../Utilities/Fade';
 
 const DismissButton = styled.button`
   padding: 0;

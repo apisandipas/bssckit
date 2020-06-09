@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components';
+import defaultTheme from '../../theme';
 import { Button as BaseButton, A } from '../Utilities/base';
 import {
   getColor,
@@ -288,9 +289,17 @@ const Button = styled(BaseButton)`
   ${props => buttonStyles(props)}
 `;
 
+Button.defaultProps = {
+  theme: defaultTheme,
+};
+
 const LinkButton = styled(A)`
   text-decoration: none;
   ${props => buttonStyles(props)}
 `;
+
+LinkButton.defaultProps = {
+  theme: defaultTheme,
+};
 
 export { Button, LinkButton };

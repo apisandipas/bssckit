@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components';
-import { ifProp, theme } from 'styled-tools';
-import defaultTheme from '../../theme';
-import { Div } from '../Utilities/base';
+import { ifProp } from 'styled-tools';
+import defaultTheme from '../../../theme';
+import { Div } from '../../Utilities/base';
 import { Col } from '../Col';
 
 const Row = styled(Div)`

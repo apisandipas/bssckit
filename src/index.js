@@ -4,17 +4,40 @@ export { Badge } from './components/Badge';
 export { Button, LinkButton } from './components/Button';
 export { ButtonGroup } from './components/ButtonGroup';
 export { Card, CardBody, CardFooter, CardHeader, CardImageHeader, CardText } from './components/Card';
-export { Col } from './components/Col';
-export { Container } from './components/Container';
+export { Col, Container, Row } from './components/Grid';
 export { Dropdown, DropdownItem, DropdownMenu, DropdownDivider } from './components/Dropdown';
 export { FormControl, FormGroup, FormInline, FormCheck, FormCheckInput } from './components/Forms';
 export { InputGroup, InputGroupAppend, InputGroupPrepend, InputGroupText } from './components/InputGroup';
 export { Jumbotron } from './components/Jumbotron';
 export { ListGroup, ListGroupItem } from './components/ListGroup';
-export { Row } from './components/Row';
 
 // Expose Base Components
-export { Div, Span, BaseButton, A } from './components/Utilities/base';
+export {
+  Div,
+  Span,
+  Button as BaseButton,
+  A,
+  P,
+  H1,
+  H2,
+  H3,
+  H4,
+  H5,
+  H6,
+  Ul,
+  Li,
+  Ol,
+  Tr,
+  Td,
+  Nav,
+  Img,
+  Input,
+  Form,
+  Small,
+  Table,
+  Select,
+  Textarea,
+} from './components/Utilities/base';
 
 //  Expose  Utilities
 export { default as BaseCss } from './components/Utilities/BaseCss';

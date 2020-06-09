@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-
+import defaultTheme from '../../../theme';
 import { Form } from '../../Utilities/base';
 
 const FormInline = styled(Form)`
@@ -8,5 +8,9 @@ const FormInline = styled(Form)`
   align-items: center;
   box-sizing: border-box;
 `;
+
+FormInline.defaultProps = {
+  theme: defaultTheme,
+};
 
 export default FormInline;

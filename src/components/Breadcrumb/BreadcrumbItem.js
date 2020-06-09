@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components';
+import defaultTheme from '../../theme';
 import { Li } from '../Utilities/base';
 import { getColor, getPadding } from '../../utils/themeFunctions';
 
@@ -21,5 +22,9 @@ const BreadcrumbItem = styled(Li)`
   }
   ${active};
 `;
+
+BreadcrumbItem.defaultProps = {
+  theme: defaultTheme,
+};
 
 export default BreadcrumbItem;

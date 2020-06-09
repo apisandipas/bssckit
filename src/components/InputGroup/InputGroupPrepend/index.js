@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import defaultTheme from '../../../theme';
 import { Div } from '../../Utilities/base';
 
 const InputGroupPrepend = styled(Div)`
@@ -19,5 +20,9 @@ const InputGroupPrepend = styled(Div)`
     }
   }
 `;
+
+InputGroupPrepend.defaultProps = {
+  theme: defaultTheme,
+};
 
 export default InputGroupPrepend;

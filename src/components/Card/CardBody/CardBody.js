@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import defaultTheme from '../../../theme';
 import { Div } from '../../Utilities/base';
 import { getPadding, getMargin } from '../../../utils/themeFunctions';
 
@@ -14,5 +15,9 @@ const CardBody = styled(Div)`
     }
   }
 `;
+
+CardBody.defaultProps = {
+  theme: defaultTheme,
+};
 
 export default CardBody;

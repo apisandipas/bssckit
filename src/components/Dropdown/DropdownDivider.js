@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import defaultTheme from '../../theme';
 import { getColor, getPadding, getMargin, getBorder } from '../../utils/themeFunctions';
 import { Div } from '../Utilities/base';
 
@@ -9,5 +10,9 @@ const DropdownDivider = styled(Div)`
   border-top: ${props => getBorder(props, 'dropdownDivider', 'default')}
     ${props => getColor(props, 'dropdownDivider', 'borderTop')};
 `;
+
+DropdownDivider.defaultProps = {
+  theme: defaultTheme,
+};
 
 export default DropdownDivider;

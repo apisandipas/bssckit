@@ -1,6 +1,7 @@
 import React from 'react';
 import styled, { css } from 'styled-components';
 import { up } from 'styled-breakpoints';
+import defaultTheme from '../../../theme';
 import {
   getColor,
   getBorder,
@@ -249,6 +250,10 @@ const FormControl = props => {
   }
 
   return <FormControlInput {...props} />;
+};
+
+FormControl.defaultProps = {
+  theme: defaultTheme,
 };
 
 export default FormControl;

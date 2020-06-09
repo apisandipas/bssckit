@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components';
+import defaultTheme from '../../../theme';
 import { Img } from '../../Utilities/base';
 import { getBorderRadius } from '../../../utils/themeFunctions';
 
@@ -19,5 +20,9 @@ const CardImageHeader = styled(Img)`
   width: 100%;
   ${props => borderRadius(props)}
 `;
+
+CardImageHeader.defaultProps = {
+  theme: defaultTheme,
+};
 
 export default CardImageHeader;

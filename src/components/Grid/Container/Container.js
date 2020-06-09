@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 import { up } from 'styled-breakpoints';
-import { Div } from '../Utilities/base';
-import { getWidth } from '../../utils/themeFunctions';
+import defaultTheme from '../../../theme';
+import { Div } from '../../Utilities/base';
+import { getWidth } from '../../../utils/themeFunctions';
 
 const Container = styled(Div)`
   width: ${props => getWidth(props, 'container', 'default')};
@@ -30,5 +31,9 @@ const Container = styled(Div)`
       props.fluid ? getWidth(props, 'container', 'default') : getWidth(props, 'container', 'fluid', 'xl')};
   }
 `;
+
+Container.defaultProps = {
+  theme: defaultTheme,
+};
 
 export default Container;

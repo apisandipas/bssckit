@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components';
+import defaultTheme from '../../theme';
 import { getPadding, getMargin, getBorder, getBorderRadius } from '../../utils/themeFunctions';
 import { Ul } from '../Utilities/base';
 
@@ -26,5 +27,9 @@ const ListGroup = styled(Ul)`
   margin-bottom: ${props => getMargin(props, 'listGroup', 'bottom')};
   ${props => border(props)};
 `;
+
+ListGroup.defaultProps = {
+  theme: defaultTheme,
+};
 
 export default ListGroup;

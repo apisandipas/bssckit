@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
+import defaultTheme from '../../theme';
 import {
   getColor,
   getBorderRadius,
@@ -140,6 +141,7 @@ DropdownMenu.defaultProps = {
   alwaysVisible: false,
   hidden: false,
   toggle: () => {},
+  theme: defaultTheme,
 };
 
 export default DropdownMenu;

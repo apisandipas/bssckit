@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components';
+import defaultTheme from '../../theme';
 import { Span } from '../Utilities/base';
 import { getFontWeight, getBorderRadius, getPadding, getColor } from '../../utils/themeFunctions';
 
@@ -92,5 +93,9 @@ const Badge = styled(Span)`
   ${props => backgroundColor(props)}
   ${props => badgeLink(props)}
 `;
+
+Badge.defaultProps = {
+  theme: defaultTheme,
+};
 
 export default Badge;

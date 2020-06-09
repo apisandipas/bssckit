@@ -1,5 +1,6 @@
 import styled, { css } from 'styled-components';
 import { up, down } from 'styled-breakpoints';
+import defaultTheme from '../../theme';
 import { getColor, getPadding, getBorderRadius } from '../../utils/themeFunctions';
 import { Div } from '../Utilities/base';
 
@@ -61,5 +62,9 @@ const Jumbotron = styled(Div)`
   ${props => padding(props)};
   ${props => borderRadius(props)};
 `;
+
+Jumbotron.defaultProps = {
+  theme: defaultTheme,
+};
 
 export default Jumbotron;

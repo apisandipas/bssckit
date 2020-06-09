@@ -2,8 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import cx from 'classnames';
 import { Transition } from 'react-transition-group';
-import { TransitionPropTypeKeys, TransitionTimeouts, tagPropType } from '../consts';
-import { pick, omit } from '../functions';
+import { TransitionPropTypeKeys, TransitionTimeouts, tagPropType } from '../../../utils/consts';
+import { pick, omit } from '../../../utils/functions';
 
 const Fade = props => {
   const { tag: Tag, baseClass, baseClassActive, className, children, innerRef, ...otherProps } = props;

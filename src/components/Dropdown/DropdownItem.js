@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components';
+import defaultTheme from '../../theme';
 import { getColor, getPadding, getFontWeight } from '../../utils/themeFunctions';
 import { Div } from '../Utilities/base';
 
@@ -35,5 +36,9 @@ const DropdownItem = styled(Div)`
   ${props => dropdownItemActive(props)};
   ${props => dropdownItemDisabled(props)};
 `;
+
+DropdownItem.defaultProps = {
+  theme: defaultTheme,
+};
 
 export default DropdownItem;

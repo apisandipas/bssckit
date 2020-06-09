@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import defaultTheme from '../../../theme';
 import {
   getColor,
   getPadding,
@@ -32,5 +33,9 @@ const InputGroupText = styled(Span)`
     margin-bottom: ${props => getMargin(props, 'inputGroupText', 'radioCheckboxBottom')};
   }
 `;
+
+InputGroupText.defaultProps = {
+  theme: defaultTheme,
+};
 
 export default InputGroupText;

@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components';
+import defaultTheme from '../../theme';
 import { getColor, getPadding, getBorder, getBorderRadius } from '../../utils/themeFunctions';
 import { Li } from '../Utilities/base';
 
@@ -135,5 +136,9 @@ const ListGroupItem = styled(Li)`
   ${props => zIndex(props)}
   ${props => cursor(props)}
 `;
+
+ListGroupItem.defaultProp = {
+  theme: defaultTheme,
+};
 
 export default ListGroupItem;

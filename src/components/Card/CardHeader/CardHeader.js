@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components';
+import defaultTheme from '../../../theme';
 import { Div } from '../../Utilities/base';
 import { getColor, getPadding, getBorderRadius } from '../../../utils/themeFunctions';
 
@@ -24,5 +25,9 @@ const CardHeader = styled(Div)`
   justify-content: center;
   ${props => borderRadius(props)}
 `;
+
+CardHeader.defaultProps = {
+  theme: defaultTheme,
+};
 
 export default CardHeader;

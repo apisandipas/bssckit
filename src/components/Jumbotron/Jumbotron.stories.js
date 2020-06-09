@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container } from '../Container';
+import { Container } from '../Grid';
 import { Button } from '../Button';
 import Jumbotron from './Jumbotron';
 

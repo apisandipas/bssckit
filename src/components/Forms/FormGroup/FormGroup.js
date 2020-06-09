@@ -1,5 +1,6 @@
 import styled, { css } from 'styled-components';
 import { up } from 'styled-breakpoints';
+import defaultTheme from '../../../theme';
 import { getMargin, getPadding, getBorderRadius, getFontSize } from '../../../utils/themeFunctions';
 import { Div } from '../../Utilities/base';
 
@@ -199,5 +200,9 @@ const FormGroup = styled(Div)`
   ${props => padding(props)}
   ${props => formGroupFormInline(props)}
 `;
+
+FormGroup.defaultProps = {
+  theme: defaultTheme,
+};
 
 export default FormGroup;

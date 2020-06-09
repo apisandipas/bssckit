@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
-import { ifProp, theme, withProp } from 'styled-tools';
+import { ifProp, theme } from 'styled-tools';
 import { up } from 'styled-breakpoints';
-import { Div } from '../Utilities/base';
-import defaultTheme from '../../theme';
-import { withinRange } from '../../utils/functions';
+import { Div } from '../../Utilities/base';
+import defaultTheme from '../../../theme';
+import { withinRange } from '../../../utils/functions';
 
 const getSizeStyles = size => css`
   flex: 0 0 ${props => (size / props.theme.grid.columns) * 100}%;

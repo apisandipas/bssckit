@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components';
+import defaultTheme from '../../../theme';
 import { Div } from '../../Utilities/base';
 import { getColor, getPadding, getBorder, getBorderRadius } from '../../../utils/themeFunctions';
 
@@ -27,5 +28,9 @@ const CardFooter = styled(Div)`
     ${props => borderRadius(props)}
   }
 `;
+
+CardFooter.defaultProps = {
+  theme: defaultTheme,
+};
 
 export default CardFooter;

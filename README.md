@@ -22,7 +22,7 @@ This project is still very much a work in progress, but is starting to take shap
 - [x] Card
 - [ ] Carousel
 - [ ] Collapse
-- [ ] Dropdowns
+- [x] Dropdowns
 - [x] Forms
 - [x] Grid
 - [x] Input group

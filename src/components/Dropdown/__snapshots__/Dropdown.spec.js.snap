@@ -1,0 +1,356 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown Component matches Dropdown 1`] = `
+.c0 {
+  position: relative;
+  display: inline-block;
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<div
+  class="sc-fznyAO c0"
+/>
+`;
+
+exports[`DropdownDivider Component matches DropdownDivider 1`] = `
+.c0 {
+  height: 0;
+  padding-top: 0.5rem;
+  margin-top: 0.6rem;
+  border-top: 1px solid #e2e6ea;
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<div
+  class="sc-fznyAO c0"
+/>
+`;
+
+exports[`DropdownItem Component matches DropdownItem 1`] = `
+.c0 {
+  padding: 0.25rem 1.5rem;
+  clear: both;
+  font-weight: 400;
+  color: #2d2f31;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
+
+.c0:hover,
+.c0:focus {
+  color: #212529;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: #f0f0f0;
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<div
+  class="sc-fznyAO c0"
+/>
+`;
+
+exports[`DropdownItem Component matches DropdownItem active 1`] = `
+.c0 {
+  padding: 0.25rem 1.5rem;
+  clear: both;
+  font-weight: 400;
+  color: #2d2f31;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #16181b;
+  background-color: #007bff;
+}
+
+.c0:hover,
+.c0:focus {
+  color: #212529;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: #f0f0f0;
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<div
+  class="sc-fznyAO c0"
+/>
+`;
+
+exports[`DropdownItem Component matches DropdownItem disabled 1`] = `
+.c0 {
+  padding: 0.25rem 1.5rem;
+  clear: both;
+  font-weight: 400;
+  color: #2d2f31;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+  color: #e2e6ea;
+  background-color: transparent;
+}
+
+.c0:hover,
+.c0:focus {
+  color: #212529;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: #f0f0f0;
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<div
+  class="sc-fznyAO c0"
+  disabled=""
+/>
+`;
+
+exports[`DropdownMenu Component matches DropdownMenu 1`] = `
+.c0 {
+  position: absolute;
+  top: 100%;
+  z-index: 1000;
+  float: left;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0.125rem 0 0;
+  font-size: 1rem;
+  color: #2d2f31;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,0.15);
+  border-radius: 0.25rem;
+  display: block;
+  left: 0;
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<div
+  class="sc-fznyAO c0"
+/>
+`;
+
+exports[`DropdownMenu Component matches DropdownMenu fullWidth 1`] = `
+.c0 {
+  position: absolute;
+  top: 100%;
+  z-index: 1000;
+  float: left;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0.125rem 0 0;
+  font-size: 1rem;
+  color: #2d2f31;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,0.15);
+  border-radius: 0.25rem;
+  display: block;
+  left: 0;
+  min-width: 100%;
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<div
+  class="sc-fznyAO c0"
+/>
+`;
+
+exports[`DropdownMenu Component matches DropdownMenu noRadius 1`] = `
+.c0 {
+  position: absolute;
+  top: 100%;
+  z-index: 1000;
+  float: left;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0.125rem 0 0;
+  font-size: 1rem;
+  color: #2d2f31;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,0.15);
+  border-radius: 0;
+  display: block;
+  left: 0;
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<div
+  class="sc-fznyAO c0"
+/>
+`;
+
+exports[`DropdownMenu Component matches DropdownMenu right 1`] = `
+.c0 {
+  position: absolute;
+  top: 100%;
+  z-index: 1000;
+  float: left;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0.125rem 0 0;
+  font-size: 1rem;
+  color: #2d2f31;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,0.15);
+  border-radius: 0.25rem;
+  display: block;
+  right: 0;
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<div
+  class="sc-fznyAO c0"
+/>
+`;

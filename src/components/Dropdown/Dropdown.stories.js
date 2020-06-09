@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Story } from '../../utils/functions';
+import { Transition } from '../Utilities/Transition';
 import { Button } from '../Button';
 import { ButtonGroup } from '../ButtonGroup';
 import { Dropdown, DropdownItem, DropdownMenu, DropdownDivider } from './';

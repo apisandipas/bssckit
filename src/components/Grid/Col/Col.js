@@ -13,7 +13,7 @@ const getSizeStyles = size => css`
 `;
 
 const getOffsetStyles = size => css`
-  margin-left: ${size / (theme('grid.columns') * 100)}%;
+  margin-left: ${props => (size / props.theme.grid.columns) * 100}%;
 `;
 
 const hasSize = props => props.xs || props.sm || props.md || props.lg || props.xl;

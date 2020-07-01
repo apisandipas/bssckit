@@ -131,7 +131,7 @@ class DropdownMenu extends React.Component {
 }
 
 DropdownMenu.propTypes = {
-  children: PropTypes.element,
+  children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node]).isRequired,
   alwaysVisible: PropTypes.bool,
   hidden: PropTypes.bool.isRequired,
   toggle: PropTypes.func,

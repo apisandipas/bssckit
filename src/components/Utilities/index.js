@@ -295,6 +295,7 @@ const backgroundColors = size => css`
 `;
 
 /* Borders ---------------------------------------------------------------- */
+
 const normalizeBorderValue = value => {
   if (value === '0') {
     return '0';

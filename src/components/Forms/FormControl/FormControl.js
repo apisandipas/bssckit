@@ -236,6 +236,9 @@ const FormControlFile = styled(Input).attrs({
   display: block;
   width: 100%;
   box-sizing: border-box;
+  &:focus {
+    outline: none;
+  }
 `;
 
 const FormControl = props => {

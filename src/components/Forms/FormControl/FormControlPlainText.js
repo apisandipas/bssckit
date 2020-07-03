@@ -33,6 +33,12 @@ const FormControlPlainText = styled(Input)`
   box-sizing: border-box;
   ${props => display(props)};
   ${props => padding(props)};
+
+  &:focus {
+    color: ${props => getColor(props, 'formControl', 'color')};
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem ${props => getColor(props, 'formControl', 'boxShadowFocus')};
+  }
 `;
 
 export default FormControlPlainText;

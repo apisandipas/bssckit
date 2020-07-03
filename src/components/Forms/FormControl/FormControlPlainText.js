@@ -28,8 +28,7 @@ const FormControlPlainText = styled(Input)`
   margin-bottom: ${props => getMargin(props, 'formControlPlainText', 'bottom')};
   line-height: 1.5;
   background-color: ${props => getColor(props, 'formControlPlainText', 'backgroundColor')};
-  border: solid ${props => getColor(props, 'formControlPlainText', 'borderColor')};
-  border-width: 1px 0;
+  border: 1px solid ${props => getColor(props, 'formControlPlainText', 'borderColor')};
   box-sizing: border-box;
   ${props => display(props)};
   ${props => padding(props)};

@@ -2,7 +2,7 @@
 export { Alert, AlertDismissIcon, DismissableAlert } from './components/Alert';
 export { Badge } from './components/Badge';
 export { Button, LinkButton } from './components/Button';
-export { ButtonGroup } from './components/ButtonGroup';
+export { ButtonGroup, ButtonToolbar } from './components/ButtonGroup';
 export { Card, CardBody, CardFooter, CardHeader, CardImageHeader, CardText } from './components/Card';
 export { Col, Container, Row } from './components/Grid';
 export { Dropdown, DropdownItem, DropdownMenu, DropdownDivider } from './components/Dropdown';

@@ -10,6 +10,17 @@ export { FormControl, FormGroup, FormInline, FormCheck, FormCheckInput } from '.
 export { InputGroup, InputGroupAppend, InputGroupPrepend, InputGroupText } from './components/InputGroup';
 export { Jumbotron } from './components/Jumbotron';
 export { ListGroup, ListGroupItem } from './components/ListGroup';
+export {
+  Modal,
+  ModalWrapper,
+  ModalBody,
+  ModalContent,
+  ModalDialog,
+  ModalFooter,
+  ModalHeader,
+  ModalTitle,
+  ModalDialog,
+} from './components/Modal';
 
 // Expose Base Components
 export {

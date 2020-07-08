@@ -8,8 +8,7 @@ const ModalHeader = styled(Div).attrs({ className: 'ModalHeader' })`
   align-items: flex-start;
   justify-content: space-between;
   padding: ${props => getPadding(props, 'modalHeader', 'default')};
-  border-bottom: ${props => getBorder(props, 'modalHeader', 'default')}
-    ${props => getColor(props, 'modalHeader', 'default')};
+  border-bottom: ${props => getBorder(props, 'modalHeader', 'default')} rgba(0, 0, 0, 0.2);
   border-top-left-radius: ${props => getBorderRadius(props, 'modalHeader', 'lg')};
   border-top-right-radius: ${props => getBorderRadius(props, 'modalHeader', 'lg')};
 `;

@@ -29,7 +29,7 @@ This project is still very much a work in progress, but is starting to take shap
 - [x] Jumbotron
 - [x] List Groups
 - [ ] Media Object
-- [ ] Modal
+- [x] Modal
 - [ ] Navs
 - [ ] Navbar
 - [ ] Pagination
@@ -39,5 +39,4 @@ This project is still very much a work in progress, but is starting to take shap
 - [ ] Spinners
 - [ ] Toasts
 - [ ] Tooltips
-- [ ] Portal
 - [x] Utilities

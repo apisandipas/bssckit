@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
+import { Portal } from 'react-portal';
 import { Transition } from '../Utilities/Transition';
 import defaultTheme from '../../theme';
 import ModalContent from './ModalContent';
@@ -105,30 +106,40 @@ const Modal = props => {
   } = props;
 
   return (
-    <TransitionComponent hidden={isHidden} ref={refTransition} {...rest} {...transitionProps}>
-      <ModalWrapperComponent
-        theme={props.theme}
-        onMouseDown={handleBackdropMouseDown}
-        onClick={handleBackdropClick}
-        ref={refModal}
-        {...wrapperProps}
+    <Portal>
+      <TransitionComponent
+        data-testid='ModalTransition'
+        hidden={isHidden}
+        ref={refTransition}
+        {...rest}
+        {...transitionProps}
       >
-        <ModalDialogComponent
+        <ModalWrapperComponent
           theme={props.theme}
-          lg={lg}
-          sm={sm}
-          centered={centered}
-          noRadius={noRadius}
-          {...dialogProps}
+          onMouseDown={handleBackdropMouseDown}
+          onClick={handleBackdropClick}
+          ref={refModal}
+          {...wrapperProps}
         >
-          <ModalContentComponent theme={props.theme} {...contentProps}>
-            {children}
-          </ModalContentComponent>
-        </ModalDialogComponent>
-      </ModalWrapperComponent>
+          <ModalDialogComponent
+            theme={props.theme}
+            tabIndex='-1'
+            role='dialog'
+            lg={lg}
+            sm={sm}
+            centered={centered}
+            noRadius={noRadius}
+            {...dialogProps}
+          >
+            <ModalContentComponent theme={props.theme} {...contentProps}>
+              {children}
+            </ModalContentComponent>
+          </ModalDialogComponent>
+        </ModalWrapperComponent>
 
-      {!!backdrop && <ModalBackdropComponent theme={props.theme} backdrop={backdrop} {...backdropProps} />}
-    </TransitionComponent>
+        {!!backdrop && <ModalBackdropComponent theme={props.theme} backdrop={backdrop} {...backdropProps} />}
+      </TransitionComponent>
+    </Portal>
   );
 };
 

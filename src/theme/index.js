@@ -28,6 +28,10 @@ import inputGroupText from './inputGroupText';
 import jumbotron from './jumbotron';
 import listGroup from './listGroup';
 import listGroupItem from './listGroupItem';
+import modalBody from './modalBody';
+import modalContent from './modalContent';
+import modalFooter from './modalFooter';
+import modalHeader from './modalHeader';
 
 export default {
   globals,
@@ -60,4 +64,8 @@ export default {
   jumbotron,
   listGroup,
   listGroupItem,
+  modalBody,
+  modalContent,
+  modalFooter,
+  modalHeader,
 };

@@ -2,11 +2,11 @@ import React from 'react';
 import 'jest-styled-components';
 import { render } from '@testing-library/react';
 
-import Modal from '../Modal';
+import Modal from './Modal';
 
 describe('Modal component', () => {
   it('matches visible Modal', () => {
-    const { getByTestId } = render(<Modal />);
+    const { getByTestId } = render(<Modal hidden={false} />);
     const modalTransition = getByTestId('ModalTransition');
     expect(modalTransition).toMatchSnapshot();
     expect(modalTransition).toHaveStyleRule('visibility', 'visible');

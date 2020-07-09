@@ -31,7 +31,7 @@ This project is still very much a work in progress, but is starting to take shap
 - [ ] Media Object
 - [x] Modal
 - [x] Navs
-- [ ] Navbar
+- [x] Navbar
 - [ ] Pagination
 - [ ] Popovers
 - [ ] Progress

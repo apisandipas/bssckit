@@ -21,6 +21,8 @@ export {
   ModalTitle,
   ModalDialog,
 } from './components/Modal';
+export { Nav, NavLink } from './components/Nav';
+export { Navbar, NavbarLink } from './components/Navbar';
 
 // Expose Base Components
 export {

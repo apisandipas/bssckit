@@ -1,0 +1,345 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavbarLink component matches NavbarLink brand 1`] = `
+.c0 {
+  display: block;
+  padding: 0.5rem;
+  border: 1px solid transparent;
+  color: #007bff;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  color: rgba(0,0,0,0.5);
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:hover,
+.c0:focus {
+  color: #0069d9;
+}
+
+.c0:hover,
+.c0:focus {
+  color: rgba(0,0,0,0.75);
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<a
+  class="sc-AxirZ sc-fznWqX c0"
+/>
+`;
+
+exports[`NavbarLink component matches NavbarLink dark 1`] = `
+.c0 {
+  display: block;
+  padding: 0.5rem;
+  border: 1px solid transparent;
+  color: #007bff;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  color: rgba(255,255,255,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:hover,
+.c0:focus {
+  color: #0069d9;
+}
+
+.c0:hover,
+.c0:focus {
+  color: rgba(255,255,255,0.75);
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<a
+  class="sc-AxirZ sc-fznWqX c0"
+/>
+`;
+
+exports[`NavbarLink component matches NavbarLink dark active 1`] = `
+.c0 {
+  display: block;
+  padding: 0.5rem;
+  border: 1px solid transparent;
+  color: #007bff;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  color: rgba(255,255,255,0.9);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:hover,
+.c0:focus {
+  color: #0069d9;
+}
+
+.c0:hover,
+.c0:focus {
+  color: rgba(255,255,255,0.9);
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<a
+  class="sc-AxirZ sc-fznWqX c0"
+/>
+`;
+
+exports[`NavbarLink component matches NavbarLink dark disabled 1`] = `
+.c0 {
+  display: block;
+  padding: 0.5rem;
+  border: 1px solid transparent;
+  color: #abaeb1;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  color: rgba(255,255,255,0.25);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:hover,
+.c0:focus {
+  color: #abaeb1;
+}
+
+.c0:hover,
+.c0:focus {
+  color: rgba(255,255,255,0.25);
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<a
+  class="sc-AxirZ sc-fznWqX c0"
+  disabled=""
+/>
+`;
+
+exports[`NavbarLink component matches NavbarLink light 1`] = `
+.c0 {
+  display: block;
+  padding: 0.5rem;
+  border: 1px solid transparent;
+  color: #007bff;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  color: rgba(0,0,0,0.5);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:hover,
+.c0:focus {
+  color: #0069d9;
+}
+
+.c0:hover,
+.c0:focus {
+  color: rgba(0,0,0,0.75);
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<a
+  class="sc-AxirZ sc-fznWqX c0"
+/>
+`;
+
+exports[`NavbarLink component matches NavbarLink light active 1`] = `
+.c0 {
+  display: block;
+  padding: 0.5rem;
+  border: 1px solid transparent;
+  color: #007bff;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  color: rgba(0,0,0,0.9);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:hover,
+.c0:focus {
+  color: #0069d9;
+}
+
+.c0:hover,
+.c0:focus {
+  color: rgba(0,0,0,0.9);
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<a
+  class="sc-AxirZ sc-fznWqX c0"
+/>
+`;
+
+exports[`NavbarLink component matches NavbarLink light disabled 1`] = `
+.c0 {
+  display: block;
+  padding: 0.5rem;
+  border: 1px solid transparent;
+  color: #abaeb1;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  color: rgba(0,0,0,0.25);
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:hover,
+.c0:focus {
+  color: #abaeb1;
+}
+
+.c0:hover,
+.c0:focus {
+  color: rgba(0,0,0,0.25);
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<a
+  class="sc-AxirZ sc-fznWqX c0"
+  disabled=""
+/>
+`;

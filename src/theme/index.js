@@ -34,6 +34,8 @@ import modalFooter from './modalFooter';
 import modalHeader from './modalHeader';
 import nav from './nav';
 import navLink from './navLink';
+import navbar from './navbar';
+import navbarLink from './navbarLink';
 
 export default {
   globals,
@@ -72,4 +74,6 @@ export default {
   modalHeader,
   nav,
   navLink,
+  navbar,
+  navbarLink,
 };

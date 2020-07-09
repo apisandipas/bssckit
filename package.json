@@ -1,6 +1,6 @@
 {
   "name": "@apisandipas/bssckit",
-  "version": "0.0.20",
+  "version": "0.0.21",
   "description": "A port of Bootstrap to Styled Components 💅",
   "repository": {
     "type": "git",
@@ -43,7 +43,7 @@
     "styled-components": "^5.1.1"
   },
   "scripts": {
-    "build": "rm -rf ./lib && babel src --out-dir lib --ignore src/**/*.spec.js,src/**/*.stories.js",
+    "build": "rm -rf ./lib && babel src/ --out-dir lib --ignore src/**/*.spec.js,src/**/*.stories.js",
     "test": "jest --coverage",
     "storybook": "start-storybook -p 6006",
     "build_storybook": "build-storybook -o ./docs"

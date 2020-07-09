@@ -42,7 +42,7 @@ export {
   Ol,
   Tr,
   Td,
-  Nav,
+  Nav as BaseNav,
   Img,
   Input,
   Form,

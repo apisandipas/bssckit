@@ -20,23 +20,23 @@ This project is still very much a work in progress, but is starting to take shap
 - [x] Buttons
 - [x] Button Group
 - [x] Card
-- [ ] Carousel
-- [ ] Collapse
+- [ ] Carousel*
+- [ ] Collapse*
 - [x] Dropdowns
 - [x] Forms
 - [x] Grid
 - [x] Input group
 - [x] Jumbotron
 - [x] List Groups
-- [ ] Media Object
+- [ ] Media Object*
 - [x] Modal
 - [x] Navs
 - [x] Navbar
-- [ ] Pagination
+- [x] Pagination
 - [ ] Popovers
-- [ ] Progress
-- [ ] Scrollspy
-- [ ] Spinners
-- [ ] Toasts
+- [ ] Progress*
+- [ ] Scrollspy*
+- [ ] Spinners*
+- [ ] Toasts*
 - [ ] Tooltips
 - [x] Utilities

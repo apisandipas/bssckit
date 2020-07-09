@@ -36,6 +36,7 @@ import nav from './nav';
 import navLink from './navLink';
 import navbar from './navbar';
 import navbarLink from './navbarLink';
+import paginationLink from './paginationLink';
 
 export default {
   globals,
@@ -76,4 +77,5 @@ export default {
   navLink,
   navbar,
   navbarLink,
+  paginationLink,
 };

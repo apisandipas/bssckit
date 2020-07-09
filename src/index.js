@@ -23,6 +23,7 @@ export {
 } from './components/Modal';
 export { Nav, NavLink } from './components/Nav';
 export { Navbar, NavbarLink } from './components/Navbar';
+export { Pagination, PaginationItem, PaginationLink } from './components/Pagination';
 
 // Expose Base Components
 export {

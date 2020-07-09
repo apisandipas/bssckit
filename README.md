@@ -30,7 +30,7 @@ This project is still very much a work in progress, but is starting to take shap
 - [x] List Groups
 - [ ] Media Object
 - [x] Modal
-- [ ] Navs
+- [x] Navs
 - [ ] Navbar
 - [ ] Pagination
 - [ ] Popovers

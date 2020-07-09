@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageItem component matches PageItem styles 1`] = `
+.c0:not(:first-child) {
+  margin-left: -;
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<li
+  class="sc-AxhCb c0"
+/>
+`;
+
+exports[`PageLink component matches PageLink styles 1`] = `
+.c0 {
+  position: relative;
+  display: block;
+  color: #007bff !important;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+}
+
+.c0:hover {
+  z-index: 2;
+  color: #005cbf;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  background-color: #e9ecef;
+}
+
+.c0:focus {
+  z-index: 3;
+  outline: 0;
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<a
+  class="c0"
+/>
+`;
+
+exports[`Pagination component Matches Pagination styles 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 0;
+  list-style: none;
+}
+
+.c0 a {
+  padding: 0.375rem 0.75rem;
+}
+
+.c0 .sc-fznWqX:first-child a {
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.c0 .sc-fznWqX:last-child a {
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<ul
+  class="sc-AxiKw c0"
+/>
+`;

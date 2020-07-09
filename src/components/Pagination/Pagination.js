@@ -8,28 +8,19 @@ import PageLink from './PageLink';
 const padding = props => {
   if (props.lg) {
     return css`
-      ${PageItem} {
-      }
-
-      ${PageLink} {
+      a {
         padding: ${getPadding(props, 'paginationLink', 'lg')};
       }
     `;
   } else if (props.sm) {
     return css`
-      ${PageItem} {
-      }
-
-      ${PageLink} {
+      a {
         padding: ${getPadding(props, 'paginationLink', 'sm')};
       }
     `;
   } else {
     return css`
-      ${PageItem} {
-      }
-
-      ${PageLink} {
+      a {
         padding: ${getPadding(props, 'paginationLink', 'default')};
       }
     `;

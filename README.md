@@ -37,6 +37,7 @@ This project is still very much a work in progress, but is starting to take shap
 - [ ] Progress*
 - [ ] Scrollspy*
 - [ ] Spinners*
+- [ ] Tables
 - [ ] Toasts*
 - [ ] Tooltips
 - [x] Utilities

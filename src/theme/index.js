@@ -37,6 +37,8 @@ import navLink from './navLink';
 import navbar from './navbar';
 import navbarLink from './navbarLink';
 import paginationLink from './paginationLink';
+import table from './table';
+import tr from './tr';
 
 export default {
   globals,
@@ -78,4 +80,6 @@ export default {
   navbar,
   navbarLink,
   paginationLink,
+  table,
+  tr,
 };

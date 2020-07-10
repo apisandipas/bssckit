@@ -23,6 +23,7 @@ export {
 export { Nav, NavLink } from './components/Nav';
 export { Navbar, NavbarLink } from './components/Navbar';
 export { Pagination, PageItem, PageLink } from './components/Pagination';
+export { Table, Tr } from './components/Table';
 
 // Expose Base Components
 export {
@@ -40,14 +41,14 @@ export {
   Ul,
   Li,
   Ol,
-  Tr,
+  Tr as BaseTr,
   Td,
   Nav as BaseNav,
   Img,
   Input,
   Form,
   Small,
-  Table,
+  Table as BaseTable,
   Select,
   Textarea,
 } from './components/Utilities/base';

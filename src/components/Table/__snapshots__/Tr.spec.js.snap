@@ -1,0 +1,311 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tr component matches Tr active hover 1`] = `
+.c0 > th,
+.c0 > td,
+.c0 tbody tr:hover,
+.c0 tbody tr:hover > th,
+.c0 tbody tr:hover > td {
+  background-color: rgba(0,0,0,0.1);
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<tr
+  class="sc-fzpans c0"
+/>
+`;
+
+exports[`Tr component matches Tr danger hover 1`] = `
+.c0 > th,
+.c0 > td {
+  background-color: #f5b4bb;
+}
+
+.hover .c0:hover > th,
+.hover .c0:hover > td,
+.hover .c0 tbody tr:hover,
+.hover .c0 tbody tr:hover > th,
+.hover .c0 tbody tr:hover > td {
+  background-color: #dc3545;
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<tr
+  class="sc-fzpans c0"
+/>
+`;
+
+exports[`Tr component matches Tr dark hover 1`] = `
+.c0 > th,
+.c0 > td {
+  background-color: #abaeb1;
+}
+
+.hover .c0:hover > th,
+.hover .c0:hover > td,
+.hover .c0 tbody tr:hover,
+.hover .c0 tbody tr:hover > th,
+.hover .c0 tbody tr:hover > td {
+  background-color: #343a40;
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<tr
+  class="sc-fzpans c0"
+/>
+`;
+
+exports[`Tr component matches Tr info hover 1`] = `
+.c0 > th,
+.c0 > td {
+  background-color: #a3d6de;
+}
+
+.hover .c0:hover > th,
+.hover .c0:hover > td,
+.hover .c0 tbody tr:hover,
+.hover .c0 tbody tr:hover > th,
+.hover .c0 tbody tr:hover > td {
+  background-color: #17a2b8;
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<tr
+  class="sc-fzpans c0"
+/>
+`;
+
+exports[`Tr component matches Tr light hover 1`] = `
+.c0 > th,
+.c0 > td {
+  background-color: #fdfdfe;
+}
+
+.hover .c0:hover > th,
+.hover .c0:hover > td,
+.hover .c0 tbody tr:hover,
+.hover .c0 tbody tr:hover > th,
+.hover .c0 tbody tr:hover > td {
+  background-color: #cccecf;
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<tr
+  class="sc-fzpans c0"
+/>
+`;
+
+exports[`Tr component matches Tr primary hover 1`] = `
+.c0 > th,
+.c0 > td {
+  background-color: #9cc9fb;
+}
+
+.hover .c0:hover > th,
+.hover .c0:hover > td,
+.hover .c0 tbody tr:hover,
+.hover .c0 tbody tr:hover > th,
+.hover .c0 tbody tr:hover > td {
+  background-color: #007bff;
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<tr
+  class="sc-fzpans c0"
+/>
+`;
+
+exports[`Tr component matches Tr secondary hover 1`] = `
+.c0 > th,
+.c0 > td {
+  background-color: #b4b5b7;
+}
+
+.hover .c0:hover > th,
+.hover .c0:hover > td,
+.hover .c0 tbody tr:hover,
+.hover .c0 tbody tr:hover > th,
+.hover .c0 tbody tr:hover > td {
+  background-color: #6c757d;
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<tr
+  class="sc-fzpans c0"
+/>
+`;
+
+exports[`Tr component matches Tr success hover 1`] = `
+.c0 > th,
+.c0 > td {
+  background-color: #72d889;
+}
+
+.hover .c0:hover > th,
+.hover .c0:hover > td,
+.hover .c0 tbody tr:hover,
+.hover .c0 tbody tr:hover > th,
+.hover .c0 tbody tr:hover > td {
+  background-color: #28a745;
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<tr
+  class="sc-fzpans c0"
+/>
+`;
+
+exports[`Tr component matches Tr warning hover 1`] = `
+.c0 > th,
+.c0 > td {
+  background-color: #f3da8d;
+}
+
+.hover .c0:hover > th,
+.hover .c0:hover > td,
+.hover .c0 tbody tr:hover,
+.hover .c0 tbody tr:hover > th,
+.hover .c0 tbody tr:hover > td {
+  background-color: #ffc107;
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+<tr
+  class="sc-fzpans c0"
+/>
+`;

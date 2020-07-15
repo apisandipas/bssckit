@@ -39,6 +39,9 @@ import navbarLink from './navbarLink';
 import paginationLink from './paginationLink';
 import table from './table';
 import tr from './tr';
+import tooltip from './tooltip';
+import tooltipArrow from './tooltipArrow';
+import tooltipInner from './tooltipInner';
 
 export default {
   globals,
@@ -82,4 +85,7 @@ export default {
   paginationLink,
   table,
   tr,
+  tooltip,
+  tooltipInner,
+  tooltipArrow,
 };

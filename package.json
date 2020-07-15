@@ -59,9 +59,12 @@
     "styled-components"
   ],
   "dependencies": {
+    "@popperjs/core": "^2.4.4",
     "classnames": "^2.2.6",
+    "deepmerge": "^4.2.2",
     "lodash.merge": "^4.6.2",
     "prop-types": "^15.7.2",
+    "react-popper": "^2.2.3",
     "react-portal": "^4.2.1",
     "react-transition-group": "^4.3.0",
     "styled-breakpoints": "^8.0.1",

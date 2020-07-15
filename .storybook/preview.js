@@ -6,6 +6,7 @@ import BaseCss from '../src/components/Utilities/BaseCss';
 
 const PreviewContainer = styled.div`
   padding: 1rem;
+  height: 100vh;
 `;
 
 // Wrap with a container and our base styles/reset

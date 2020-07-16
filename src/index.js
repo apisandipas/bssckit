@@ -25,6 +25,9 @@ export { Navbar, NavbarLink } from './components/Navbar';
 export { Pagination, PageItem, PageLink } from './components/Pagination';
 export { Table, Tr } from './components/Table';
 
+// export custom hooks
+export { useTooltip } from './utils/hooks';
+
 // Expose Base Components
 export {
   Div,
